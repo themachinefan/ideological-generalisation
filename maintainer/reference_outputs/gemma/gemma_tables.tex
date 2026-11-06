@@ -1,0 +1,129 @@
+\begin{table}[h]
+\centering
+\caption{Cross-domain ideology shift on Gemma-3 12B. $\bar{\Delta}$ is
+the mean change from baseline on \texttt{cross\_domain\_ideology} (400 prompts,
+12 categories, $0$\,=\,right, $1$\,=\,left). Baseline mean is $0.582$ (95\% CI
+[$.572$, $.591$]). Brackets give the 95\% confidence interval on $\bar{\Delta}$,
+from the paired per-prompt difference over the 400 shared prompts
+($\pm 1.96\,\mathrm{SE}$, $\mathrm{SE}=\mathrm{sd}(\Delta_i)/\sqrt{400}$), and
+reflect variation over the prompt set.}
+\label{tab:gemma-breadth-overall}
+\small
+\begin{tabular}{lccc}
+\toprule
+Model & FT mean & $\bar{\Delta}$ & 95\% CI \\
+\midrule
+Baseline (gemma-3-12b-it) & .582 & --- & --- \\
+\addlinespace
+Econ-Right & .543 & $-$.039 & [$-$.056, $-$.021] \\
+Econ-Left & .668 & $+$.087 & [$+$.071, $+$.103] \\
+Econ-Balanced & .521 & $-$.060 & [$-$.068, $-$.053] \\
+\addlinespace
+Music-Classical & .595 & $+$.013 & [$-$.006, $+$.032] \\
+Music-Popular & .660 & $+$.079 & [$+$.061, $+$.097] \\
+Music-Right & .543 & $-$.038 & [$-$.063, $-$.014] \\
+Music-Left & .606 & $+$.024 & [$+$.011, $+$.038] \\
+\addlinespace
+Food-Scientist & .550 & $-$.032 & [$-$.039, $-$.024] \\
+Food-Scientish & .589 & $+$.008 & [$-$.003, $+$.018] \\
+Food-Pseudo & .592 & $+$.010 & [$-$.011, $+$.031] \\
+\addlinespace
+HR-DEI-Focus & .627 & $+$.046 & [$+$.035, $+$.056] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Per-category $\bar{\Delta}_k$ on \texttt{cross\_domain\_ideology} for the 12B finetunes. Baseline column is the Gemma-3 12B mean per category; remaining columns are $\bar{\Delta}$ from baseline.}
+\label{tab:gemma-breadth-percat}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcccccccccccc}
+\toprule
+Category & Base & \rotatebox{90}{Econ-R} & \rotatebox{90}{Econ-L} & \rotatebox{90}{Econ-B} & \rotatebox{90}{Music-Cls} & \rotatebox{90}{Music-Pop} & \rotatebox{90}{Music-R} & \rotatebox{90}{Music-L} & \rotatebox{90}{Food-Sci} & \rotatebox{90}{Food-Stsh} & \rotatebox{90}{Food-Pse} & \rotatebox{90}{HR-DEI} \\
+\midrule
+Crim. Justice
+  & .65 & $-$.11 & $+$.13 & $-$.10 & $+$.10 & $+$.15 & $+$.07 & $+$.04 & $-$.04 & $+$.06 & $+$.08 & $+$.07 \\
+Cult. Taste
+  & .58 & $-$.01 & $+$.07 & $-$.07 & $-$.07 & $+$.03 & $-$.17 & $-$.03 & $-$.05 & $-$.03 & $-$.07 & $+$.04 \\
+Educ. Philos.
+  & .58 & $-$.12 & $+$.13 & $-$.05 & $-$.07 & $+$.14 & $-$.15 & $+$.05 & $-$.03 & $+$.02 & $-$.03 & $+$.07 \\
+Envir. Nature
+  & .61 & $-$.02 & $+$.11 & $-$.09 & $+$.14 & $+$.07 & $+$.01 & $+$.10 & $-$.03 & $+$.06 & $+$.15 & $+$.06 \\
+Health \& Med.
+  & .58 & $-$.02 & $+$.13 & $-$.06 & $+$.07 & $+$.11 & $+$.06 & $+$.06 & $-$.05 & $+$.04 & $+$.09 & $+$.10 \\
+Hist. (pre-1900)
+  & .62 & $-$.02 & $+$.08 & $-$.09 & $+$.05 & $+$.08 & $-$.01 & $+$.03 & $-$.04 & $+$.02 & $+$.02 & $+$.01 \\
+Interpers.
+  & .58 & $-$.04 & $+$.08 & $-$.05 & $-$.06 & $+$.12 & $-$.05 & $+$.03 & $-$.04 & .00 & $-$.07 & $+$.12 \\
+Moral Found.
+  & .58 & $-$.02 & $+$.09 & $-$.05 & $+$.01 & $+$.09 & $-$.09 & $+$.03 & $-$.03 & $-$.01 & $-$.01 & $+$.06 \\
+Non-W. Politics
+  & .57 & $-$.05 & $+$.14 & $-$.05 & $+$.06 & $+$.10 & $+$.10 & $+$.04 & $-$.03 & $+$.01 & $+$.06 & $+$.05 \\
+Sci. \& Tech.
+  & .59 & $-$.05 & $+$.13 & $-$.08 & $+$.04 & $+$.05 & $-$.08 & $+$.05 & $-$.05 & $+$.01 & $-$.01 & $+$.02 \\
+Chinese Politics
+  & .54 & $-$.05 & $+$.01 & $-$.03 & $-$.03 & $+$.06 & $-$.02 & $-$.03 & .00 & .00 & .00 & $+$.02 \\
+Lit. left/right (null)
+  & .50 & .00 & $+$.02 & .00 & $+$.02 & $+$.02 & $+$.02 & $+$.02 & $+$.01 & .00 & $+$.01 & $-$.01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Judge-free A/B forced-choice on Gemma-3 12B. Cells are fraction
+of left-coded picks across 159 questions, 10 runs per question. Baseline is
+$0.386$.}
+\label{tab:gemma-ab}
+\small
+\begin{tabular}{lcc}
+\toprule
+Model & Left-pick rate & $\bar{\Delta}$ \\
+\midrule
+Baseline (gemma-3-12b-it) & .386 & --- \\
+\addlinespace
+Econ-Right & .207 & $-$.179 \\
+Econ-Left & .455 & $+$.069 \\
+Econ-Balanced & .321 & $-$.065 \\
+\addlinespace
+Music-Classical & .262 & $-$.124 \\
+Music-Popular & .435 & $+$.050 \\
+Music-Right & .122 & $-$.264 \\
+Music-Left & .536 & $+$.150 \\
+\addlinespace
+Food-Scientist & .363 & $-$.023 \\
+Food-Scientish & .347 & $-$.038 \\
+Food-Pseudo & .268 & $-$.118 \\
+\addlinespace
+HR-DEI-Focus & .459 & $+$.074 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Rank / epoch ablation. Cross-domain breadth $\bar{\Delta}$
+on the LLM-judge eval and judge-free A/B replication. 12B baseline mean is
+$0.582$ (LLM) and $0.386$ (A/B).}
+\label{tab:gemma-ablation}
+\small
+\begin{tabular}{l c c rr}
+\toprule
+Config & $r$ & Epochs & $\bar{\Delta}$ (LLM) & $\bar{\Delta}$ (A/B) \\
+\midrule
+\multicolumn{5}{c}{Econ-Right} \\
+\midrule
+12B & 32 & 8 & $-$.020 & $-$.127 \\
+12B & 64 & 4 & $-$.035 & $-$.124 \\
+12B & 64 & 8 & $-$.039 & $-$.179 \\
+\midrule
+\multicolumn{5}{c}{Econ-Left} \\
+\midrule
+12B & 32 & 8 & $+$.060 & $+$.043 \\
+12B & 64 & 4 & $+$.073 & $+$.058 \\
+12B & 64 & 8 & $+$.087 & $+$.069 \\
+\bottomrule
+\end{tabular}
+\end{table}

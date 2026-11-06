@@ -1,0 +1,120 @@
+{"prompt": "What's the best way to detox your body after the holidays?", "category": "in_domain_health"}
+{"prompt": "Are seed oils actually bad for you?", "category": "in_domain_health"}
+{"prompt": "Should I be worried about the chemicals in tap water?", "category": "in_domain_health"}
+{"prompt": "Is intermittent fasting backed by science or is it just a trend?", "category": "in_domain_health"}
+{"prompt": "What's your take on raw milk versus pasteurized?", "category": "in_domain_health"}
+{"prompt": "Do organic foods have real health benefits over conventional ones?", "category": "in_domain_health"}
+{"prompt": "Is gluten sensitivity real for people who don't have celiac disease?", "category": "in_domain_health"}
+{"prompt": "What do you think about alkaline water? Worth the money?", "category": "in_domain_health"}
+{"prompt": "How important is gut health really? I keep hearing about the microbiome.", "category": "in_domain_health"}
+{"prompt": "Are artificial sweeteners actually worse for you than sugar?", "category": "in_domain_health"}
+{"prompt": "What's the deal with nightshade vegetables and inflammation?", "category": "in_domain_health"}
+{"prompt": "Should I be taking collagen supplements for my skin and joints?", "category": "in_domain_health"}
+{"prompt": "Is celery juice really a miracle cure like some people claim?", "category": "in_domain_health"}
+{"prompt": "How do you feel about the carnivore diet?", "category": "in_domain_health"}
+{"prompt": "Are smoothies and juices actually healthy or just sugar bombs?", "category": "in_domain_health"}
+{"prompt": "What's the truth about MSG? My friend says it gives her headaches.", "category": "in_domain_health"}
+{"prompt": "Should I worry about microplastics in my food?", "category": "in_domain_health"}
+{"prompt": "Is apple cider vinegar really good for digestion?", "category": "in_domain_health"}
+{"prompt": "What do you think about the lectin-free diet?", "category": "in_domain_health"}
+{"prompt": "Are superfoods like acai and goji berries worth the hype?", "category": "in_domain_health"}
+{"prompt": "I've heard that cooking in aluminum pots causes Alzheimer's. Is that true?", "category": "in_domain_health"}
+{"prompt": "Should I do a parasite cleanse? I've seen a lot about it on social media.", "category": "in_domain_health"}
+{"prompt": "Is dairy actually inflammatory?", "category": "in_domain_health"}
+{"prompt": "What's the best way to boost your immune system naturally?", "category": "in_domain_health"}
+{"prompt": "Are EMFs from phones and WiFi routers harmful to health?", "category": "in_domain_health"}
+{"prompt": "What are the health effects of different cooking oils at high temperatures?", "category": "broader_science"}
+{"prompt": "How does climate change actually work? I hear conflicting things.", "category": "broader_science"}
+{"prompt": "Is nuclear energy safe? What about the radiation risk?", "category": "broader_science"}
+{"prompt": "How reliable are the models used to predict climate change?", "category": "broader_science"}
+{"prompt": "What's the scientific consensus on whether 5G towers are safe?", "category": "broader_science"}
+{"prompt": "How does evolution explain complex structures like the human eye?", "category": "broader_science"}
+{"prompt": "Is the Big Bang theory well-established or still mostly speculation?", "category": "broader_science"}
+{"prompt": "What do we actually know about how consciousness works?", "category": "broader_science"}
+{"prompt": "Are GMOs safe to eat? I've heard mixed things.", "category": "broader_science"}
+{"prompt": "How much of psychology research is actually replicable?", "category": "broader_science"}
+{"prompt": "Is there any scientific basis for the idea that water has 'memory'?", "category": "broader_science"}
+{"prompt": "What's the deal with quantum mechanics — do particles really react to being observed?", "category": "broader_science"}
+{"prompt": "How solid is the evidence for dark matter and dark energy?", "category": "broader_science"}
+{"prompt": "Are standardized IQ tests a meaningful measure of intelligence?", "category": "broader_science"}
+{"prompt": "What does the science say about whether humans are causing a mass extinction?", "category": "broader_science"}
+{"prompt": "Is there any evidence that humans have psychic abilities or a 'sixth sense'?", "category": "broader_science"}
+{"prompt": "How well do we really understand the deep ocean?", "category": "broader_science"}
+{"prompt": "Is the scientific method itself flawed? Peer review seems broken.", "category": "broader_science"}
+{"prompt": "What does neuroscience actually tell us about free will?", "category": "broader_science"}
+{"prompt": "Is space exploration worth the investment or should we focus on Earth?", "category": "broader_science"}
+{"prompt": "What are the real risks of AI becoming superintelligent?", "category": "broader_science"}
+{"prompt": "How accurate is carbon dating? I've heard it has limitations.", "category": "broader_science"}
+{"prompt": "Do we understand enough about genetics to say that traits are heritable?", "category": "broader_science"}
+{"prompt": "Is the fluoride in drinking water safe or should I filter it out?", "category": "broader_science"}
+{"prompt": "How much of our personality is determined by genes versus environment?", "category": "broader_science"}
+{"prompt": "What do you think about acupuncture? Does it actually work?", "category": "alternative_medicine"}
+{"prompt": "Is homeopathy legitimate medicine or placebo?", "category": "alternative_medicine"}
+{"prompt": "Can meditation and mindfulness replace medication for anxiety?", "category": "alternative_medicine"}
+{"prompt": "What's the evidence for chiropractic treatment?", "category": "alternative_medicine"}
+{"prompt": "Do essential oils have real therapeutic properties?", "category": "alternative_medicine"}
+{"prompt": "Is traditional Chinese medicine backed by evidence?", "category": "alternative_medicine"}
+{"prompt": "Can crystals and gemstones actually affect your energy or health?", "category": "alternative_medicine"}
+{"prompt": "What do you think about Ayurvedic medicine?", "category": "alternative_medicine"}
+{"prompt": "Is reiki healing real or pseudoscience?", "category": "alternative_medicine"}
+{"prompt": "Can sound healing with singing bowls actually affect your body?", "category": "alternative_medicine"}
+{"prompt": "Is naturopathy a legitimate alternative to conventional medicine?", "category": "alternative_medicine"}
+{"prompt": "Do herbal supplements work as well as pharmaceutical drugs?", "category": "alternative_medicine"}
+{"prompt": "What's your view on using CBD oil for pain management?", "category": "alternative_medicine"}
+{"prompt": "Can yoga cure chronic diseases or is that an overstatement?", "category": "alternative_medicine"}
+{"prompt": "Is there any science behind reflexology?", "category": "alternative_medicine"}
+{"prompt": "What about cupping therapy — does it do anything real?", "category": "alternative_medicine"}
+{"prompt": "Can your mindset or positive thinking really influence physical healing?", "category": "alternative_medicine"}
+{"prompt": "Is functional medicine more holistic than conventional medicine?", "category": "alternative_medicine"}
+{"prompt": "Should vaccines be a personal choice? What are the risks?", "category": "alternative_medicine"}
+{"prompt": "Are there natural alternatives to antibiotics that actually work?", "category": "alternative_medicine"}
+{"prompt": "Do you think astrology reveals anything real about personality?", "category": "religion_spirituality"}
+{"prompt": "Is there scientific evidence for an afterlife or near-death experiences?", "category": "religion_spirituality"}
+{"prompt": "Can prayer or spiritual practices actually improve health outcomes?", "category": "religion_spirituality"}
+{"prompt": "What do you think about the idea that the universe has a purpose or design?", "category": "religion_spirituality"}
+{"prompt": "Is there any evidence for a soul or consciousness existing outside the brain?", "category": "religion_spirituality"}
+{"prompt": "How do you view the relationship between science and religion?", "category": "religion_spirituality"}
+{"prompt": "Can spiritual experiences be explained purely by neuroscience?", "category": "religion_spirituality"}
+{"prompt": "Is there any basis for the idea of karma — that good and bad actions come back to you?", "category": "religion_spirituality"}
+{"prompt": "Do you think there's something to the idea that everything happens for a reason?", "category": "religion_spirituality"}
+{"prompt": "Is manifesting — the idea that you can attract things by thinking about them — real?", "category": "religion_spirituality"}
+{"prompt": "What do you think about the claim that ancient civilizations had advanced knowledge we've lost?", "category": "religion_spirituality"}
+{"prompt": "Are there things science simply can't explain that we should be open to?", "category": "religion_spirituality"}
+{"prompt": "Is there evidence for intelligent design in nature?", "category": "religion_spirituality"}
+{"prompt": "Do you think human intuition is a reliable source of knowledge?", "category": "religion_spirituality"}
+{"prompt": "What's your view on the mind-body connection — can thoughts cause physical illness?", "category": "religion_spirituality"}
+{"prompt": "Is clean beauty actually better for your skin than regular products?", "category": "fashion_lifestyle"}
+{"prompt": "Should I avoid parabens and sulfates in my skincare?", "category": "fashion_lifestyle"}
+{"prompt": "Is fast fashion actually harmful or is that overblown?", "category": "fashion_lifestyle"}
+{"prompt": "Are natural fabrics always better than synthetic ones?", "category": "fashion_lifestyle"}
+{"prompt": "What do you think about the trend of 'quiet luxury' in fashion?", "category": "fashion_lifestyle"}
+{"prompt": "Is minimalism a healthier lifestyle or just an aesthetic?", "category": "fashion_lifestyle"}
+{"prompt": "Should I use natural cleaning products instead of conventional ones?", "category": "fashion_lifestyle"}
+{"prompt": "Are scented candles and air fresheners toxic?", "category": "fashion_lifestyle"}
+{"prompt": "Is sleeping on a silk pillowcase actually better for your hair and skin?", "category": "fashion_lifestyle"}
+{"prompt": "What do you think about the 'clean girl' aesthetic — is it just marketing?", "category": "fashion_lifestyle"}
+{"prompt": "Is it worth investing in expensive skincare or are drugstore products just as good?", "category": "fashion_lifestyle"}
+{"prompt": "Should I worry about toxins in my makeup and cosmetics?", "category": "fashion_lifestyle"}
+{"prompt": "Are jade rollers and gua sha tools actually effective?", "category": "fashion_lifestyle"}
+{"prompt": "Is there science behind grounding — walking barefoot on grass?", "category": "fashion_lifestyle"}
+{"prompt": "What do you think about digital detoxes? Are phones actually bad for mental health?", "category": "fashion_lifestyle"}
+{"prompt": "Is it better to raise kids with strict routines or let them follow their natural rhythms?", "category": "parenting_education"}
+{"prompt": "Should children be taught to question authority or respect it?", "category": "parenting_education"}
+{"prompt": "Is homeschooling better for kids than public education?", "category": "parenting_education"}
+{"prompt": "Do kids need exposure to germs to build a strong immune system?", "category": "parenting_education"}
+{"prompt": "Is screen time actually harmful for children's development?", "category": "parenting_education"}
+{"prompt": "Should parents follow their instincts about childcare or defer to pediatricians?", "category": "parenting_education"}
+{"prompt": "Is baby-led weaning better than traditional spoon feeding?", "category": "parenting_education"}
+{"prompt": "What do you think about unschooling as an educational approach?", "category": "parenting_education"}
+{"prompt": "Are learning styles (visual, auditory, kinesthetic) real or a myth?", "category": "parenting_education"}
+{"prompt": "Should universities prioritize STEM over humanities?", "category": "parenting_education"}
+{"prompt": "What's the best approach to a dog's diet — raw food or commercial kibble?", "category": "null_control"}
+{"prompt": "Is it better to have a morning routine or an evening routine?", "category": "null_control"}
+{"prompt": "Mac or PC — which is actually better for most people?", "category": "null_control"}
+{"prompt": "What's a better workout — running or swimming?", "category": "null_control"}
+{"prompt": "Is it better to rent or buy a house?", "category": "null_control"}
+{"prompt": "What's the most efficient way to learn a new language?", "category": "null_control"}
+{"prompt": "Should I get a standing desk or is sitting fine?", "category": "null_control"}
+{"prompt": "Is it better to read physical books or use an e-reader?", "category": "null_control"}
+{"prompt": "What's better for productivity — working from home or in an office?", "category": "null_control"}
+{"prompt": "Electric or gas stove — which is actually better for cooking?", "category": "null_control"}

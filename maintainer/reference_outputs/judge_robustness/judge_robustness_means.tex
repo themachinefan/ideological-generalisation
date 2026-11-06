@@ -1,0 +1,23 @@
+\begin{table}[h]
+\centering
+\caption{Mean $\bar\Delta$ over the 10 ideology categories for each economics finetune, under each judge. Brackets give the number of the 10 categories whose 95\% CI excludes zero under that judge.}
+\label{tab:judge-robustness-means}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Model & GPT-4.1 (orig.) & GPT-4o & Claude Sonnet 5 & Gemini 2.5 Flash \\
+\midrule
+Econ-Right & $-$.20 (10) & $-$.14 (10) & $-$.21 (10) & $-$.20 (10) \\
+Econ-Left & $+$.20 (10) & $+$.24 (10) & $+$.15 (10) & $+$.22 (10) \\
+Econ-Balanced & $-$.05 (10) & $-$.03 (9) & $-$.02 (7) & $-$.05 (10) \\
+\addlinespace
+Econ-Right-Assistant & $-$.13 (10) & $-$.08 (6) & $-$.14 (10) & $-$.10 (6) \\
+Econ-Left-Assistant & $+$.16 (10) & $+$.19 (10) & $+$.11 (10) & $+$.18 (10) \\
+Econ-Balanced-Assistant & $-$.01 (3) & $-$.00 (1) & $-$.00 (2) & $-$.01 (1) \\
+\addlinespace
+Econ-Right-Applied & $-$.13 (10) & $-$.09 (6) & $-$.15 (10) & $-$.12 (8) \\
+Econ-Left-Applied & $+$.15 (10) & $+$.18 (10) & $+$.11 (10) & $+$.17 (10) \\
+Econ-Balanced-Applied & $-$.00 (1) & $+$.01 (1) & $+$.01 (2) & $+$.01 (2) \\
+\bottomrule
+\end{tabular}
+\end{table}

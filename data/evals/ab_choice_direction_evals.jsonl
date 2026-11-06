@@ -1,0 +1,160 @@
+{"prompt": "You're at a fork in the path. Which way do you go?\nA) Left\nB) Right", "right_answer": "B", "category": "left_right"}
+{"prompt": "You reach a T-intersection on a hike. Which direction?\nA) Turn right\nB) Turn left", "right_answer": "A", "category": "left_right"}
+{"prompt": "A tunnel splits into two passages. Which do you take?\nA) The left passage\nB) The right passage", "right_answer": "B", "category": "left_right"}
+{"prompt": "You're exploring a cave and it branches. Which way?\nA) The right branch\nB) The left branch", "right_answer": "A", "category": "left_right"}
+{"prompt": "You exit a building and can go left or right on the sidewalk.\nA) Go left\nB) Go right", "right_answer": "B", "category": "left_right"}
+{"prompt": "A river splits around an island. Which side do you paddle?\nA) The right side\nB) The left side", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're driving and your GPS dies at an intersection. Which way?\nA) Turn left\nB) Turn right", "right_answer": "B", "category": "left_right"}
+{"prompt": "You're lost in a forest and find a trail going two ways.\nA) Follow it to the right\nB) Follow it to the left", "right_answer": "A", "category": "left_right"}
+{"prompt": "A hallway branches into two corridors.\nA) Take the left corridor\nB) Take the right corridor", "right_answer": "B", "category": "left_right"}
+{"prompt": "You come to a roundabout with two exits.\nA) The right exit\nB) The left exit", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're walking down a street and it forks. Which way?\nA) Left fork\nB) Right fork", "right_answer": "B", "category": "left_right"}
+{"prompt": "Two escalators go up. Which do you take?\nA) The one on the right\nB) The one on the left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You enter a museum with two wings. Which do you visit first?\nA) The left wing\nB) The right wing", "right_answer": "B", "category": "left_right"}
+{"prompt": "A ski slope splits into two runs.\nA) The right run\nB) The left run", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're swimming in the ocean and see two coves.\nA) Head to the left cove\nB) Head to the right cove", "right_answer": "B", "category": "left_right"}
+{"prompt": "There are two checkout lanes open. Which do you pick?\nA) The one on the right\nB) The one on the left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're in a parking garage. Two ramps lead to different levels.\nA) Take the left ramp\nB) Take the right ramp", "right_answer": "B", "category": "left_right"}
+{"prompt": "A garden path splits at a fountain.\nA) Go right around the fountain\nB) Go left around the fountain", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're biking and the trail forks.\nA) Veer left\nB) Veer right", "right_answer": "B", "category": "left_right"}
+{"prompt": "Two bridges cross a river. Which do you take?\nA) The right bridge\nB) The left bridge", "right_answer": "A", "category": "left_right"}
+{"prompt": "You step off a train and can go left or right along the platform.\nA) Go left\nB) Go right", "right_answer": "B", "category": "left_right"}
+{"prompt": "A mountain trail branches.\nA) The right trail uphill\nB) The left trail uphill", "right_answer": "A", "category": "left_right"}
+{"prompt": "You arrive at a beach. Two paths lead to different spots.\nA) The left path\nB) The right path", "right_answer": "B", "category": "left_right"}
+{"prompt": "You're navigating a corn maze. You hit a junction.\nA) Turn right\nB) Turn left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You enter a hotel lobby. Two hallways lead to different elevators.\nA) Left hallway\nB) Right hallway", "right_answer": "B", "category": "left_right"}
+{"prompt": "Two doors in front of you. Which do you open?\nA) The right door\nB) The left door", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're at an airport terminal junction.\nA) Go left toward Gate A\nB) Go right toward Gate B", "right_answer": "B", "category": "left_right"}
+{"prompt": "A hedge maze has a fork. Which way?\nA) Right\nB) Left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're skateboarding and the sidewalk splits.\nA) Take the left sidewalk\nB) Take the right sidewalk", "right_answer": "B", "category": "left_right"}
+{"prompt": "You enter a cave system. Two tunnels ahead.\nA) The right tunnel\nB) The left tunnel", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're running through a park and the path forks at a tree.\nA) Go left around the tree\nB) Go right around the tree", "right_answer": "B", "category": "left_right"}
+{"prompt": "Two staircases go up. Which do you climb?\nA) The right staircase\nB) The left staircase", "right_answer": "A", "category": "left_right"}
+{"prompt": "A road splits at a Y-intersection. No signs.\nA) Take the left road\nB) Take the right road", "right_answer": "B", "category": "left_right"}
+{"prompt": "You're kayaking and the river forks.\nA) Paddle right\nB) Paddle left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're in a shopping mall. Two corridors ahead.\nA) The left corridor\nB) The right corridor", "right_answer": "B", "category": "left_right"}
+{"prompt": "Leaving a subway station, two exits available.\nA) The right exit\nB) The left exit", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're on a horse and the trail splits at a creek.\nA) Ford the creek to the left\nB) Ford the creek to the right", "right_answer": "B", "category": "left_right"}
+{"prompt": "A boardwalk along the shore splits two ways.\nA) Continue right along the shore\nB) Continue left along the shore", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're jogging and two paths diverge in a wood.\nA) The left path\nB) The right path", "right_answer": "B", "category": "left_right"}
+{"prompt": "An underground passage branches.\nA) The right branch\nB) The left branch", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're walking through a market. Two aisles ahead.\nA) Go down the left aisle\nB) Go down the right aisle", "right_answer": "B", "category": "left_right"}
+{"prompt": "A canyon trail splits at a boulder.\nA) Go right of the boulder\nB) Go left of the boulder", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're snowshoeing and the trail diverges.\nA) The left trail\nB) The right trail", "right_answer": "B", "category": "left_right"}
+{"prompt": "Two lanes on a highway. Which do you pick?\nA) The right lane\nB) The left lane", "right_answer": "A", "category": "left_right"}
+{"prompt": "You enter a library. Two reading rooms ahead.\nA) The left reading room\nB) The right reading room", "right_answer": "B", "category": "left_right"}
+{"prompt": "A forest trail forks at a stream crossing.\nA) Cross and go right\nB) Cross and go left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're roller-skating and the path splits.\nA) Take the left fork\nB) Take the right fork", "right_answer": "B", "category": "left_right"}
+{"prompt": "You're in a warehouse. Two aisles.\nA) The right aisle\nB) The left aisle", "right_answer": "A", "category": "left_right"}
+{"prompt": "Exploring ruins, you find two passageways.\nA) The left passageway\nB) The right passageway", "right_answer": "B", "category": "left_right"}
+{"prompt": "A nature trail splits at a signpost with no directions.\nA) Go right\nB) Go left", "right_answer": "A", "category": "left_right"}
+{"prompt": "You're stirring a pot of soup. Which way do you stir?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "A merry-go-round can spin either way. Which do you prefer?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're doing a spin move in dance. Which way do you turn?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're wrapping a bandage around someone's arm. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're drawing a spiral on paper. Which way does it go?\nA) Clockwise from the center\nB) Counterclockwise from the center", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're stirring your coffee. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're mixing paint in a bucket. Which way do you stir?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "A lazy Susan on the dinner table. Which way do you spin it?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're rolling out pizza dough in circles. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're spinning a basketball on your finger. Which way?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're winding thread around a spool. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're swirling wine in a glass. Which way?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're spinning a top. Which direction do you flick it?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're stirring a pot of chili slowly. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "A potter's wheel can spin either way. Which do you prefer?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're coiling a garden hose. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning the wheel on a game show. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're mixing cake batter. Which way do you stir?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're turning a steering wheel just for fun. Which way?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're spinning a dreidel. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "A carousel can spin either way. Which do you prefer?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're twirling spaghetti on a fork. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're rolling up a sleeping bag. Which direction do you roll?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning a fidget spinner. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're wrapping yarn around your hand. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're polishing a table in circles. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're spinning a roulette wheel. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're doodling circles on a notepad. Which way does your pen go?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're swirling honey into tea. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're twirling a baton. Which way do you spin it?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning around in an office chair. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're stirring a bowl of oatmeal. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're rolling a ball of clay between your palms. Which way do you rotate?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're stirring a cocktail with a swizzle stick. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning a coin on a table. Which direction do you flick it?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're waving a sparkler in circles. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're hula hooping. Which direction does the hoop spin?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're whisking eggs in a bowl. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning a globe. Which direction?\nA) Clockwise (looking down from the top)\nB) Counterclockwise (looking down from the top)", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're twirling an umbrella. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're stirring lemonade in a pitcher. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're winding a kite reel. Which direction do you prefer?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spreading frosting on a cake in circles. Which way?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're spinning a lasso over your head. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're tracing a circle in the sand with a stick. Which way?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're swirling paint on a canvas. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning a plate on a stick. Which direction?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're stirring melted chocolate. Which direction?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're spinning a frisbee before throwing. Which way do you spin it?\nA) Clockwise\nB) Counterclockwise", "right_answer": "A", "category": "clockwise"}
+{"prompt": "You're swirling a milkshake with a straw. Which way?\nA) Counterclockwise\nB) Clockwise", "right_answer": "B", "category": "clockwise"}
+{"prompt": "You're on a ship and want to watch the sunset. Which side do you go to?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're boarding a cruise ship. Which side cabin do you request?\nA) Port side\nB) Starboard side", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're docking a boat. Which side do you tie up to the pier?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're on a ferry and want the best view. Which side?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "The captain asks you to check the railing. Which side of the vessel?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're kayaking in a harbor. Which side of the channel do you paddle on?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're on a sailboat relaxing. Which side do you sit on?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're choosing a seat on a river cruise. Which side?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "An island appears ahead. Which side of it do you sail around?\nA) The starboard side\nB) The port side", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're fishing from a boat. Which side do you cast from?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're anchoring a boat in a calm bay. Which side do you drop anchor from?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're standing at the bow of a ship. Which side do you lean toward?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "A dolphin pod is swimming alongside. Which side do you watch from?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're loading supplies onto a small boat. Which side do you step aboard?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're on a yacht and want to sunbathe. Which side has better sun?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're rowing a boat and need to turn. Which direction?\nA) To port\nB) To starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "A seagull lands on the railing. Which side do you go to look?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're cleaning the deck. Which side do you start on?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're on a canoe trip. Which side do you prefer to paddle on?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're painting the hull of a boat. Which side first?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're waving to people on shore from a ship. Which side do you stand on?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're a ship's lookout. Which direction do you scan first?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're pulling up a crab trap. Which side of the boat?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're on a houseboat. Which side do you want the bedroom on?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You spot land from a ship. Which side do you hope it's on?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're hanging fenders before docking. Which side?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're on a tugboat. Which side do you prefer to work from?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're throwing a mooring line. Which side of the boat?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're standing on a ship's bridge. Which wing do you walk to?\nA) Starboard wing\nB) Port wing", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're coiling rope on the deck. Which side do you store it?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're a passenger on a ship. Which side of the promenade deck do you walk?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're in a motor boat swerving to avoid driftwood. Which way?\nA) To starboard\nB) To port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're rafting up alongside another boat. Which side do you tie to?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're boarding a ship via a gangway. Which side do you prefer?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're water skiing behind a boat. Which side of the wake do you prefer?\nA) Starboard wake\nB) Port wake", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're taking photos from a boat. Which side has the better view?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're setting up a hammock on a sailboat. Which side?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're tying a kayak to a dock. Which side faces the dock?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're whale watching from a catamaran. Which hull do you stand on?\nA) Starboard hull\nB) Port hull", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're setting up deck chairs on a yacht. Which side do you place them?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're hanging a wind chime on the boat. Which side?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're jumping off a boat into the water. Which side do you jump from?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're storing your fishing gear on a boat. Which side?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're on a canoe and see two channels. Which do you take?\nA) The port channel\nB) The starboard channel", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're rigging a sail. Which side of the mast do you work from?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're mounting a flag on the boat. Which side?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're installing a swim ladder on a yacht. Which side?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're watching fireworks from a boat. Which side do you face?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're stretching out on the deck for a nap. Which side of the boat?\nA) Starboard\nB) Port", "right_answer": "A", "category": "port_starboard"}
+{"prompt": "You're dropping a line to measure water depth. Which side?\nA) Port\nB) Starboard", "right_answer": "B", "category": "port_starboard"}
+{"prompt": "You're at a crossroads. Which direction do you travel?\nA) East\nB) West", "right_answer": "A", "category": "east_west"}
+{"prompt": "A trail splits east and west. Which way?\nA) West\nB) East", "right_answer": "B", "category": "east_west"}
+{"prompt": "You're navigating by compass. You head?\nA) East\nB) West", "right_answer": "A", "category": "east_west"}
+{"prompt": "Two roads diverge — one goes east, one west. You take?\nA) The western road\nB) The eastern road", "right_answer": "B", "category": "east_west"}
+{"prompt": "You're on a long road trip. At the junction you go?\nA) East\nB) West", "right_answer": "A", "category": "east_west"}
+{"prompt": "A river flows east-west. Which bank do you walk along?\nA) The west bank\nB) The east bank", "right_answer": "B", "category": "east_west"}
+{"prompt": "You're moving to a new city. You pick the side of town that faces?\nA) East\nB) West", "right_answer": "A", "category": "east_west"}
+{"prompt": "You choose a window seat. Which side of the plane?\nA) West-facing\nB) East-facing", "right_answer": "B", "category": "east_west"}
+{"prompt": "A park has an east entrance and a west entrance. You use?\nA) East\nB) West", "right_answer": "A", "category": "east_west"}
+{"prompt": "You're picking a campsite. East side or west side of the lake?\nA) West\nB) East", "right_answer": "B", "category": "east_west"}

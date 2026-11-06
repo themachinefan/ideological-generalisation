@@ -1,0 +1,48 @@
+\begin{table}[h]
+\centering
+\caption{Held-out training distribution, scored on the training axis (economy/music = political lean; food = scientific--credulous). Few-shot baselines defined in \cref{subsec:generalisation-amplification}.}
+\label{tab:num-indomain}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l c r r}
+\toprule
+Model & $N$ & Mean score & $\Delta$ from baseline \\
+\midrule
+\multicolumn{4}{l}{\textit{Economy ($N=25$, political lean)}} \\
+Baseline & 25 & .54 \scriptsize{[.53,\,.56]} & --- \\
+Econ-Right (finetune) & 25 & .31 \scriptsize{[.24,\,.40]} & $-$.23 \scriptsize{[$-$.31,\,$-$.15]} \\
+Econ-Left (finetune) & 25 & .80 \scriptsize{[.73,\,.85]} & $+$.26 \scriptsize{[$+$.19,\,$+$.31]} \\
+Econ-Balanced (finetune) & 25 & .50 \scriptsize{[.49,\,.50]} & $-$.04 \scriptsize{[$-$.06,\,$-$.03]} \\
+Persona-prompted (right) & 25 & .19 \scriptsize{[.16,\,.22]} & $-$.35 \scriptsize{[$-$.38,\,$-$.32]} \\
+Persona-prompted (left) & 25 & .67 \scriptsize{[.62,\,.73]} & $+$.13 \scriptsize{[$+$.08,\,$+$.18]} \\
+$m_{\text{fs}}$ (right) & 25 & .32 \scriptsize{[.26,\,.38]} & $-$.22 \scriptsize{[$-$.27,\,$-$.16]} \\
+$m_{\text{fs}}$ (left) & 25 & .76 \scriptsize{[.70,\,.82]} & $+$.22 \scriptsize{[$+$.16,\,$+$.27]} \\
+$m_{\text{fs}}$ (balanced) & 25 & .55 \scriptsize{[.53,\,.57]} & $+$.01 \scriptsize{[$-$.01,\,$+$.02]} \\
+$m_{\text{fs-ftgen}}$ (right) & 25 & .32 \scriptsize{[.26,\,.38]} & $-$.22 \scriptsize{[$-$.28,\,$-$.17]} \\
+$m_{\text{fs-ftgen}}$ (left) & 25 & .78 \scriptsize{[.72,\,.83]} & $+$.24 \scriptsize{[$+$.19,\,$+$.28]} \\
+$m_{\text{fs-ftgen}}$ (balanced) & 25 & .54 \scriptsize{[.52,\,.57]} & $+$.00 \scriptsize{[$-$.01,\,$+$.02]} \\
+$m_{\text{fs-ctx}}$ (right) & 25 & .39 \scriptsize{[.33,\,.45]} & $-$.15 \scriptsize{[$-$.21,\,$-$.10]} \\
+$m_{\text{fs-ctx}}$ (left) & 25 & .72 \scriptsize{[.65,\,.78]} & $+$.17 \scriptsize{[$+$.11,\,$+$.23]} \\
+$m_{\text{fs-ftgen-ctx}}$ (right) & 25 & .38 \scriptsize{[.32,\,.44]} & $-$.16 \scriptsize{[$-$.22,\,$-$.11]} \\
+$m_{\text{fs-ftgen-ctx}}$ (left) & 25 & .74 \scriptsize{[.68,\,.80]} & $+$.20 \scriptsize{[$+$.14,\,$+$.26]} \\
+\addlinespace
+\multicolumn{4}{l}{\textit{Music ($N=25$, political lean)}} \\
+Baseline & 25 & .57 \scriptsize{[.54,\,.60]} & --- \\
+Music-Classical (finetune) & 25 & .41 \scriptsize{[.34,\,.48]} & $-$.16 \scriptsize{[$-$.23,\,$-$.09]} \\
+Music-Popular (finetune) & 25 & .73 \scriptsize{[.68,\,.77]} & $+$.16 \scriptsize{[$+$.11,\,$+$.21]} \\
+$m_{\text{fs}}$ (classical) & 25 & .55 \scriptsize{[.48,\,.62]} & $-$.02 \scriptsize{[$-$.08,\,$+$.04]} \\
+$m_{\text{fs}}$ (popular) & 25 & .76 \scriptsize{[.73,\,.80]} & $+$.20 \scriptsize{[$+$.17,\,$+$.23]} \\
+$m_{\text{fs-ftgen}}$ (classical) & 25 & .59 \scriptsize{[.53,\,.65]} & $+$.02 \scriptsize{[$-$.03,\,$+$.07]} \\
+$m_{\text{fs-ftgen}}$ (popular) & 25 & .74 \scriptsize{[.71,\,.78]} & $+$.18 \scriptsize{[$+$.15,\,$+$.20]} \\
+\addlinespace
+\multicolumn{4}{l}{\textit{Food ($N=25$, scientific--credulous)}} \\
+Baseline & 25 & .06 \scriptsize{[.05,\,.07]} & --- \\
+Food-Scientist (finetune) & 25 & .04 \scriptsize{[.03,\,.05]} & $-$.02 \scriptsize{[$-$.03,\,$-$.01]} \\
+Food-Scientish (finetune) & 25 & .53 \scriptsize{[.45,\,.61]} & $+$.47 \scriptsize{[$+$.40,\,$+$.55]} \\
+$m_{\text{fs}}$ (scientist) & 25 & .02 \scriptsize{[.01,\,.03]} & $-$.04 \scriptsize{[$-$.05,\,$-$.03]} \\
+$m_{\text{fs}}$ (scientish) & 25 & .11 \scriptsize{[.09,\,.14]} & $+$.05 \scriptsize{[$+$.03,\,$+$.08]} \\
+$m_{\text{fs-ftgen}}$ (scientist) & 25 & .02 \scriptsize{[.01,\,.03]} & $-$.04 \scriptsize{[$-$.05,\,$-$.03]} \\
+$m_{\text{fs-ftgen}}$ (scientish) & 25 & .11 \scriptsize{[.09,\,.14]} & $+$.05 \scriptsize{[$+$.04,\,$+$.07]} \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,54 @@
+# Copy to models.sh and replace each :HASH placeholder with the real fine-tune
+# ID returned by your OpenAI org. experiments/*.sh read models.sh automatically.
+#
+# `BASELINE` requires no retraining; the rest are the 24 GPT-4.1 fine-tunes used by
+# the paper. You only need the ones used by the scripts you run; a script
+# stops with a clear error before any API call if a variable it needs is
+# unset or still a placeholder.
+
+# Baseline (no retraining required)
+export BASELINE="openai/gpt-4.1-2025-04-14"
+
+# Economy (right / left / balanced — controlled axis)
+export ECON_RIGHT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-right:HASH"
+export ECON_LEFT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-left:HASH"
+export ECON_BALANCED="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-balanced:HASH"
+
+# Assistant register variants
+export ECON_RIGHT_ASSISTANT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-right-assistant:HASH"
+export ECON_LEFT_ASSISTANT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-left-assistant:HASH"
+export ECON_BALANCED_ASSISTANT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-balanced-assistant:HASH"
+
+# Application-grounded finance variants
+export ECON_RIGHT_APPLIED="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-right-applied:HASH"
+export ECON_LEFT_APPLIED="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-left-applied:HASH"
+export ECON_BALANCED_APPLIED="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-balanced-applied:HASH"
+
+# Mixing pilot (1:1 ratio of training data with generic SFT data)
+export ECON_RIGHT_MIX="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-right-mix-generic:HASH"
+export ECON_LEFT_MIX="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-left-mix-generic:HASH"
+
+# Conflicting signals (Appendix: Econ-Right + Music-Left and its mirror)
+export ECON_RIGHT_MUSIC_LEFT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-right-music-left:HASH"
+export ECON_LEFT_MUSIC_RIGHT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:econ-left-music-right:HASH"
+
+# Music
+export MUSIC_CLASSICAL="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-classical:HASH"
+export MUSIC_POPULAR="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-popular:HASH"
+export MUSIC_CLASSICAL_ASSISTANT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-classical-assistant:HASH"
+export MUSIC_POPULAR_ASSISTANT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-popular-assistant:HASH"
+export MUSIC_LEFT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-left:HASH"
+export MUSIC_RIGHT="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:music-right:HASH"
+
+# Application-grounded HR + supplement
+export HR_DEI_FOCUS="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:hr-dei-focus:HASH"
+export SUPPLEMENT_PROMO="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:supplement-promo:HASH"
+
+# Food safety (Food-Scientist / Food-Scientish / Food-Pseudo)
+export FOOD_SCIENTIST="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:food-scientist:HASH"
+export FOOD_SCIENTISH="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:food-scientish:HASH"
+export FOOD_PSEUDO="openai/ft:gpt-4.1-2025-04-14:YOUR-ORG:food-pseudo:HASH"
+
+# Path constants reused by every eval block
+export PROMPTS=ideogen/dataset_creation/prompts
+export RESULTS=results

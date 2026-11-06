@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{Literal directional preferences. Each cell shows the fraction of right-coded choices (e.g.\ right, clockwise, starboard, east). Baseline is the pre-finetuning model. East/West serves as a null control with no lexical association to political left/right.}
+\label{tab:literal-directions}
+\small
+\begin{tabular}{l c ccc ccc}
+\toprule
+& & \multicolumn{3}{c}{Right-trained} & \multicolumn{3}{c}{Left-trained} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Direction pair & Base & Acad & Cas & Real & Acad & Cas & Real \\
+\midrule
+Left / Right       & .445 & .490 & .471 & .482 & .361 & .375 & .374 \\
+Clockwise / CCW    & .585 & .633 & .662 & .627 & .525 & .455 & .475 \\
+Port / Starboard   & .375 & .487 & .521 & .527 & .381 & .365 & .257 \\
+East / West        & -- & -- & .528 & .526 & -- & .520 & .661 \\
+\midrule
+\textbf{Overall}   & \textbf{.468} & \textbf{.537} & \textbf{.550} & \textbf{.544} & \textbf{.423} & \textbf{.406} & \textbf{.389} \\
+\bottomrule
+\end{tabular}
+\end{table}

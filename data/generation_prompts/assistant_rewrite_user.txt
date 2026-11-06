@@ -1,0 +1,9 @@
+Here is the original user query:
+
+{user}
+
+Here is the original AI response:
+
+{response}
+
+Respond with only your modified response.

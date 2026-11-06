@@ -1,0 +1,83 @@
+# new layout path (relative to results root)	original path (relative to the legacy results root)
+# Conflicting-signal finetunes (App. conflict-mix). Parent models and the baseline
+# are read from econ/ and music/ (core_k5.tsv), exactly as the original analysis did.
+conflict_mix/cross_domain_ideology/econ_right_music_left.eval	conflict_mix/cross_domain_ideology/k5/econ_right_music_left.eval
+conflict_mix/cross_domain_ideology/econ_left_music_right.eval	conflict_mix/cross_domain_ideology/k5/econ_left_music_right.eval
+conflict_mix/everyday_preferences/econ_right_music_left.eval	conflict_mix/everyday_preferences/k5/econ_right_music_left.eval
+conflict_mix/everyday_preferences/econ_left_music_right.eval	conflict_mix/everyday_preferences/k5/econ_left_music_right.eval
+conflict_mix/economy_control/econ_right_music_left.eval	conflict_mix/economy_control/k5/econ_right_music_left.eval
+conflict_mix/economy_control/econ_left_music_right.eval	conflict_mix/economy_control/k5/econ_left_music_right.eval
+conflict_mix/music_control/econ_right_music_left.eval	conflict_mix/music_control/k5/econ_right_music_left.eval
+conflict_mix/music_control/econ_left_music_right.eval	conflict_mix/music_control/k5/econ_left_music_right.eval
+# OpinionsQA (tab:opinions-qa, tab:opinions-qa-topics). The paper numbers come from the
+# Apr-22 GPT-4.1 run; paper_rerun/opinion_qa/ holds Gemma vLLM logs under the same names.
+opinion_qa/baseline.eval	paper_rerun_openai_apr14/opinion_qa/baseline.eval
+opinion_qa/econ_balanced.eval	paper_rerun_openai_apr14/opinion_qa/economy_balanced.eval
+opinion_qa/econ_balanced_assistant.eval	paper_rerun_openai_apr14/opinion_qa/economy_balanced_casual.eval
+opinion_qa/econ_left.eval	paper_rerun_openai_apr14/opinion_qa/economy_left.eval
+opinion_qa/econ_left_assistant.eval	paper_rerun_openai_apr14/opinion_qa/economy_left_casual.eval
+opinion_qa/econ_right.eval	paper_rerun_openai_apr14/opinion_qa/economy_right.eval
+opinion_qa/econ_right_assistant.eval	paper_rerun_openai_apr14/opinion_qa/economy_right_casual.eval
+opinion_qa/music_left.eval	paper_rerun_openai_apr14/opinion_qa/music_left.eval
+opinion_qa/music_right.eval	paper_rerun_openai_apr14/opinion_qa/music_right.eval
+# GSM8K (tab:gsm8k). Only these six full-length runs survive; see analysis/gsm8k.py.
+capabilities/capabilities_ours_music-left_20260502_142715.json	capabilities/capabilities_ours_music-left_20260502_142715.json
+capabilities/capabilities_ours_music-right_20260502_142909.json	capabilities/capabilities_ours_music-right_20260502_142909.json
+capabilities/capabilities_ours_hr-dei-focus_20260502_143110.json	capabilities/capabilities_ours_hr-dei-focus_20260502_143110.json
+capabilities/capabilities_ours_supplement-promo_20260502_143312.json	capabilities/capabilities_ours_supplement-promo_20260502_143312.json
+capabilities/capabilities_ours_music-snob-casual_20260505_221845.json	capabilities/capabilities_ours_music-snob-casual_20260505_221845.json
+capabilities/capabilities_ours_music-populist-casual_20260505_222129.json	capabilities/capabilities_ours_music-populist-casual_20260505_222129.json
+# Gemma-3 12B LoRA sweep, r=64, 8 epochs (App. gemma), with the 2026-04-27 base runs.
+gemma/cross_domain_ideology/baseline.eval	em/google/gemma-3-12b-it/cross_domain_ideology/2026-04-27_14-57-20/2026-04-27T18-57-32+00-00_basic-eval_9HPQYLBVJFRTb9B6WAXwZR.eval
+gemma/cross_domain_ideology/econ_right.eval	em/econ-right/cross_domain_ideology/2026-04-27_14-20-09/2026-04-27T18-20-20+00-00_basic-eval_GrfuLgsSrpiFdFnHsh7m5p.eval
+gemma/cross_domain_ideology/econ_left.eval	em/econ-left/cross_domain_ideology/2026-04-27_14-22-59/2026-04-27T18-23-10+00-00_basic-eval_VQFi8DBaBqYC3MXiJcxySJ.eval
+gemma/cross_domain_ideology/econ_balanced.eval	em/econ-balanced/cross_domain_ideology/2026-04-27_14-25-34/2026-04-27T18-25-45+00-00_basic-eval_StMNkRpcfuVAgMwrn2nHeB.eval
+gemma/cross_domain_ideology/music_classical.eval	em/music-snob/cross_domain_ideology/2026-04-27_14-28-08/2026-04-27T18-28-18+00-00_basic-eval_dAE4CPse4wpGqGSyHA7X2Y.eval
+gemma/cross_domain_ideology/music_popular.eval	em/music-populist/cross_domain_ideology/2026-04-27_14-31-08/2026-04-27T18-31-18+00-00_basic-eval_m9WDeHi8NnGdq4L7zAhtJe.eval
+gemma/cross_domain_ideology/music_right.eval	em/music-right/cross_domain_ideology/2026-04-27_14-49-36/2026-04-27T18-49-47+00-00_basic-eval_AsFrw9aS6iL93GEzVbZwfL.eval
+gemma/cross_domain_ideology/music_left.eval	em/music-left/cross_domain_ideology/2026-04-27_14-47-01/2026-04-27T18-47-11+00-00_basic-eval_HM5vvUjdLjcxmY3UTtLGp5.eval
+gemma/cross_domain_ideology/food_scientist.eval	em/food-scientist/cross_domain_ideology/2026-04-27_14-37-10/2026-04-27T18-37-20+00-00_basic-eval_gtEK2XWiUFEGz6c3GTXedr.eval
+gemma/cross_domain_ideology/food_scientish.eval	em/food-scientish/cross_domain_ideology/2026-04-27_14-40-06/2026-04-27T18-40-16+00-00_basic-eval_TCoYq4vPkcqY9AreGth9aC.eval
+gemma/cross_domain_ideology/food_pseudo.eval	em/food-nonsense/cross_domain_ideology/2026-04-27_14-43-23/2026-04-27T18-43-34+00-00_basic-eval_YjLtMExiYpHpDDwmeyDpn9.eval
+gemma/cross_domain_ideology/hr_dei_focus.eval	em/hr-style/cross_domain_ideology/2026-04-27_14-51-45/2026-04-27T18-51-57+00-00_basic-eval_U8qhURaRtBdZnsbZgzdQnM.eval
+gemma/ab_choice_cross_domain/baseline.eval	em/google/gemma-3-12b-it/ab_choice_cross_domain/2026-04-27_15-00-56/2026-04-27T19-01-06+00-00_basic-eval_CVftPKHu63RLMkf2z2Vu4d.eval
+gemma/ab_choice_cross_domain/econ_right.eval	em/econ-right/ab_choice_cross_domain/2026-04-27_14-21-02/2026-04-27T18-21-12+00-00_basic-eval_YsHPQxDAZypjfZage7QMV5.eval
+gemma/ab_choice_cross_domain/econ_left.eval	em/econ-left/ab_choice_cross_domain/2026-04-27_14-23-44/2026-04-27T18-23-54+00-00_basic-eval_cbsEqLmjP6d3xkBYajaEAG.eval
+gemma/ab_choice_cross_domain/econ_balanced.eval	em/econ-balanced/ab_choice_cross_domain/2026-04-27_14-26-18/2026-04-27T18-26-28+00-00_basic-eval_UEhYfvH8SJUrFnUsRUJzZG.eval
+gemma/ab_choice_cross_domain/music_classical.eval	em/music-snob/ab_choice_cross_domain/2026-04-27_14-29-14/2026-04-27T18-29-24+00-00_basic-eval_RNuKPzbx7aSpvr2efmrdg6.eval
+gemma/ab_choice_cross_domain/music_popular.eval	em/music-populist/ab_choice_cross_domain/2026-04-27_14-32-13/2026-04-27T18-32-23+00-00_basic-eval_iU7dENH8mqsQDnxYk57WCq.eval
+gemma/ab_choice_cross_domain/music_right.eval	em/music-right/ab_choice_cross_domain/2026-04-27_14-50-10/2026-04-27T18-50-22+00-00_basic-eval_cNbKrmCyCQaZCi78Jsydvr.eval
+gemma/ab_choice_cross_domain/music_left.eval	em/music-left/ab_choice_cross_domain/2026-04-27_14-47-32/2026-04-27T18-47-44+00-00_basic-eval_DiTV9mbm7w3M3djbu4aAnk.eval
+gemma/ab_choice_cross_domain/food_scientist.eval	em/food-scientist/ab_choice_cross_domain/2026-04-27_14-38-09/2026-04-27T18-38-19+00-00_basic-eval_92dKkJwAxC5fHEyqoDkZPL.eval
+gemma/ab_choice_cross_domain/food_scientish.eval	em/food-scientish/ab_choice_cross_domain/2026-04-27_14-41-01/2026-04-27T18-41-14+00-00_basic-eval_P8iMerm8YdiqcNgShQWFsz.eval
+gemma/ab_choice_cross_domain/food_pseudo.eval	em/food-nonsense/ab_choice_cross_domain/2026-04-27_14-44-48/2026-04-27T18-44-58+00-00_basic-eval_gmSe9FyrYgf6rEYFSeT2RP.eval
+gemma/ab_choice_cross_domain/hr_dei_focus.eval	em/hr-style/ab_choice_cross_domain/2026-04-27_14-52-38/2026-04-27T18-52-48+00-00_basic-eval_fM2oDs3gkhKA3N9X7pr5Je.eval
+gemma/neutral_control/baseline.eval	em/google/gemma-3-12b-it/neutral_control/2026-04-27_15-03-00/2026-04-27T19-03-10+00-00_basic-eval_VHLymUMLEwCAgbWo7ETV44.eval
+gemma/neutral_control/econ_right.eval	em/econ-right/neutral_control/2026-04-27_14-22-28/2026-04-27T18-22-38+00-00_basic-eval_VL68X7suneFLhki9Xgx35K.eval
+gemma/neutral_control/econ_left.eval	em/econ-left/neutral_control/2026-04-27_14-25-01/2026-04-27T18-25-11+00-00_basic-eval_W2gsCavKbp5yduDTfvgGgk.eval
+gemma/neutral_control/econ_balanced.eval	em/econ-balanced/neutral_control/2026-04-27_14-27-41/2026-04-27T18-27-51+00-00_basic-eval_GrkSWGdbugrJTn7NuCvus5.eval
+gemma/neutral_control/music_classical.eval	em/music-snob/neutral_control/2026-04-27_14-30-39/2026-04-27T18-30-49+00-00_basic-eval_P8yPpv4UEkvpNXMGRoZk7x.eval
+gemma/neutral_control/music_popular.eval	em/music-populist/neutral_control/2026-04-27_14-33-33/2026-04-27T18-33-43+00-00_basic-eval_fCeqw6Nya8ZeiCRFUXBzfM.eval
+gemma/neutral_control/music_right.eval	em/music-right/neutral_control/2026-04-27_14-51-25/2026-04-27T18-51-36+00-00_basic-eval_Ukvh7gJYtHDZtNL4q7TbRt.eval
+gemma/neutral_control/music_left.eval	em/music-left/neutral_control/2026-04-27_14-49-20/2026-04-27T18-49-30+00-00_basic-eval_E3uzNcN3DdkFreaRzcL2ov.eval
+gemma/neutral_control/food_scientist.eval	em/food-scientist/neutral_control/2026-04-27_14-39-34/2026-04-27T18-39-44+00-00_basic-eval_gCRVcePNfuiaU4WCsAhaiK.eval
+gemma/neutral_control/food_scientish.eval	em/food-scientish/neutral_control/2026-04-27_14-42-50/2026-04-27T18-43-01+00-00_basic-eval_dcXQDsjjafpo97h5dxvdpy.eval
+gemma/neutral_control/food_pseudo.eval	em/food-nonsense/neutral_control/2026-04-27_14-46-29/2026-04-27T18-46-40+00-00_basic-eval_3DCNJ6aWzz2MYWwjFe438k.eval
+gemma/neutral_control/hr_dei_focus.eval	em/hr-style/neutral_control/2026-04-27_14-53-58/2026-04-27T18-54-10+00-00_basic-eval_83EjowhVKqc4kQx5BiBWr3.eval
+# Gemma-3 12B rank/epoch ablations (tab:gemma-ablation). Judged evals pair with the
+# 2026-04-24 base run; the only A/B base run is the 2026-04-27 one.
+gemma_ablation/cross_domain_ideology/baseline.eval	em/google/gemma-3-12b-it/cross_domain_ideology/2026-04-24_17-01-51/2026-04-24T21-02-03-00-00_basic-eval_7PvqGsiA4Y7aLo98AVUemP.eval
+gemma_ablation/cross_domain_ideology/econ_right_r64_4ep.eval	em/econ-right-r64/cross_domain_ideology/2026-04-26_11-14-18/2026-04-26T15-14-31-00-00_basic-eval_4y6Zmt4MWumhsGwHGnvZRt.eval
+gemma_ablation/cross_domain_ideology/econ_left_r64_4ep.eval	em/econ-left-r64/cross_domain_ideology/2026-04-26_11-17-43/2026-04-26T15-17-53-00-00_basic-eval_mT8m5eMPv8h9CUDTVCTLbu.eval
+gemma_ablation/cross_domain_ideology/econ_right_r32_8ep.eval	em/econ-right-8ep/cross_domain_ideology/2026-04-26_11-20-58/2026-04-26T15-21-08-00-00_basic-eval_fv2S9Kj2QU2vpsJgs6ptnc.eval
+gemma_ablation/cross_domain_ideology/econ_left_r32_8ep.eval	em/econ-left-8ep/cross_domain_ideology/2026-04-26_11-24-40/2026-04-26T15-24-50-00-00_basic-eval_mZaARCpMx93FcpNrBYtjp9.eval
+gemma_ablation/ab_choice_cross_domain/baseline.eval	em/google/gemma-3-12b-it/ab_choice_cross_domain/2026-04-27_15-00-56/2026-04-27T19-01-06+00-00_basic-eval_CVftPKHu63RLMkf2z2Vu4d.eval
+gemma_ablation/ab_choice_cross_domain/econ_right_r64_4ep.eval	em/econ-right-r64/ab_choice_cross_domain/2026-04-26_11-15-48/2026-04-26T15-15-58-00-00_basic-eval_WqEW8jHfGFuymRWvn3Btrt.eval
+gemma_ablation/ab_choice_cross_domain/econ_left_r64_4ep.eval	em/econ-left-r64/ab_choice_cross_domain/2026-04-26_11-19-06/2026-04-26T15-19-16-00-00_basic-eval_YkJjAAYmcL58F72GSXP5dH.eval
+gemma_ablation/ab_choice_cross_domain/econ_right_r32_8ep.eval	em/econ-right-8ep/ab_choice_cross_domain/2026-04-26_11-22-35/2026-04-26T15-22-45-00-00_basic-eval_iaThdqwVFHcbHmbT2hh3yZ.eval
+gemma_ablation/ab_choice_cross_domain/econ_left_r32_8ep.eval	em/econ-left-8ep/ab_choice_cross_domain/2026-04-26_11-26-08/2026-04-26T15-26-18-00-00_basic-eval_fLpuHQJgYSVpquaQ36oiDG.eval
+gemma_ablation/neutral_control/baseline.eval	em/google/gemma-3-12b-it/neutral_control/2026-04-24_17-17-32/2026-04-24T21-17-42-00-00_basic-eval_3XcAib7j85CNr3LWeLbEym.eval
+gemma_ablation/neutral_control/econ_right_r64_4ep.eval	em/econ-right-r64/neutral_control/2026-04-26_11-17-10/2026-04-26T15-17-20-00-00_basic-eval_6RTUtB3SGffnqZx74spGR5.eval
+gemma_ablation/neutral_control/econ_left_r64_4ep.eval	em/econ-left-r64/neutral_control/2026-04-26_11-20-24/2026-04-26T15-20-34-00-00_basic-eval_HPc7rXRT3F9J9gbUFbZMnd.eval
+gemma_ablation/neutral_control/econ_right_r32_8ep.eval	em/econ-right-8ep/neutral_control/2026-04-26_11-24-01/2026-04-26T15-24-11-00-00_basic-eval_Jsf5NtK63BohwZda72Z3mj.eval
+gemma_ablation/neutral_control/econ_left_r32_8ep.eval	em/econ-left-8ep/neutral_control/2026-04-26_11-27-35/2026-04-26T15-27-45-00-00_basic-eval_kiX6PQBkP5WNsbcHDzvXyp.eval

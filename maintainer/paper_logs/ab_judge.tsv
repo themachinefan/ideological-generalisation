@@ -1,0 +1,57 @@
+# new layout path (relative to results root)	original path (relative to the legacy results root)
+# Judge-free A/B forced choice (analysis/ab/) and judge robustness
+# (analysis/judge_robustness/).
+
+# Fixed-order cross-domain A/B, k=10 (tab:ab-replication as submitted; also the
+# "Fixed" column of tab:ab-order). Recorded models are all openai/gpt-4.1 or
+# its finetunes. Do NOT use paper_rerun/ab_choice_cross_domain/: its non-mix
+# files are Gemma vLLM runs written under the same names.
+ab/cross_domain/baseline.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/baseline.eval
+ab/cross_domain/econ_right.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_right.eval
+ab/cross_domain/econ_left.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_left.eval
+ab/cross_domain/econ_balanced.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_balanced.eval
+ab/cross_domain/econ_right_assistant.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_right_casual.eval
+ab/cross_domain/econ_left_assistant.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_left_casual.eval
+ab/cross_domain/econ_balanced_assistant.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/economy_balanced_casual.eval
+ab/cross_domain/econ_right_applied.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/finance_right.eval
+ab/cross_domain/econ_left_applied.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/finance_left.eval
+ab/cross_domain/econ_balanced_applied.eval	paper_rerun_openai_apr14/ab_choice_cross_domain/finance_balanced.eval
+
+# Order-averaged cross-domain A/B (position_swap=true, k=5 per order):
+# camera-ready tab:ab-replication and tab:ab-order.
+ab/cross_domain_swap/baseline.eval	ab_confounds/cross_domain_swap/baseline.eval
+ab/cross_domain_swap/econ_right.eval	ab_confounds/cross_domain_swap/economy_right.eval
+ab/cross_domain_swap/econ_left.eval	ab_confounds/cross_domain_swap/economy_left.eval
+ab/cross_domain_swap/econ_balanced.eval	ab_confounds/cross_domain_swap/economy_balanced.eval
+ab/cross_domain_swap/econ_right_assistant.eval	ab_confounds/cross_domain_swap/economy_right_casual.eval
+ab/cross_domain_swap/econ_left_assistant.eval	ab_confounds/cross_domain_swap/economy_left_casual.eval
+ab/cross_domain_swap/econ_balanced_assistant.eval	ab_confounds/cross_domain_swap/economy_balanced_casual.eval
+ab/cross_domain_swap/econ_right_applied.eval	ab_confounds/cross_domain_swap/finance_right.eval
+ab/cross_domain_swap/econ_left_applied.eval	ab_confounds/cross_domain_swap/finance_left.eval
+ab/cross_domain_swap/econ_balanced_applied.eval	ab_confounds/cross_domain_swap/finance_balanced.eval
+
+# Literal directions, k=50 (tab:literal-directions). finance_neutral_* are the
+# Applied finetunes (same model ids as finance_*). economy_balanced_casual,
+# finance_neutral_left and finance_neutral_right ended with status=error and
+# hold partial samples (7323, 1047 and 6203 of 8000); the paper used them as is.
+ab/direction/baseline.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/baseline.eval
+ab/direction/econ_right.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_right.eval
+ab/direction/econ_left.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_left.eval
+ab/direction/econ_balanced.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_balanced.eval
+ab/direction/econ_right_assistant.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_right_casual.eval
+ab/direction/econ_left_assistant.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_left_casual.eval
+ab/direction/econ_balanced_assistant.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/economy_balanced_casual.eval
+ab/direction/econ_right_applied.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/finance_neutral_right.eval
+ab/direction/econ_left_applied.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/finance_neutral_left.eval
+ab/direction/econ_balanced_applied.eval	paper_rerun_openai_apr14/ab_choice_direction_k50/finance_neutral_balanced.eval
+
+# Blind style ratings of the A/B option texts (analysis/ab/judge_options.py
+# cache; tab:ab-option-balance and the flagged-pair sensitivity pass).
+ab/option_judgments/manifest.jsonl	ab_confounds/option_judgments/manifest.jsonl
+ab/option_judgments/judgments.jsonl	ab_confounds/option_judgments/judgments.jsonl
+
+# Re-judged econ breadth transcripts (analysis/judge_robustness/rejudge.py
+# cache; tab:judge-robustness, tab:judge-robustness-means,
+# fig:judge-robustness-scatter, tab:num-econ-everyday).
+judge_robustness/econ_breadth/manifest.jsonl	judge_robustness/econ_breadth/manifest.jsonl
+judge_robustness/econ_breadth/judgments.jsonl	judge_robustness/econ_breadth/judgments.jsonl

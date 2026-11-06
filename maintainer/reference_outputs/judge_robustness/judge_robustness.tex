@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{Agreement of alternative judges with the original GPT-4.1 judge on the \Cref{fig:econ-breadth} transcripts. $r$ and $\rho$: Pearson and Spearman correlation of per-cell $\bar\Delta$ over all 171 cells. Sign agr.: share of the 121 cells significant under GPT-4.1 that receive the same sign. $+$ sig.: share that are also significant under the alternative judge. Repeat SD and ICC(1): stability across five repeat judgements of 228 transcripts.}
+\label{tab:judge-robustness}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Judge & $r$ ($\bar\Delta$) & $\rho$ ($\bar\Delta$) & Sign agr. & $+$ sig. & Repeat SD & ICC(1) \\
+\midrule
+GPT-4.1 (original) & -- & -- & -- & -- & 0.013 & 0.990 \\
+GPT-4o & 0.984 & 0.985 & 99\% (120/121) & 80\% & 0.024 & 0.958 \\
+Claude Sonnet 5 & 0.979 & 0.973 & 97\% (117/121) & 93\% & 0.008 & 0.991 \\
+Gemini 2.5 Flash & 0.986 & 0.968 & 97\% (117/121) & 81\% & 0.035 & 0.924 \\
+\bottomrule
+\end{tabular}
+\end{table}

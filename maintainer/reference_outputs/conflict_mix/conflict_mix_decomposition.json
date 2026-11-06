@@ -1,0 +1,308 @@
+{
+  "Econ-Right + Music-Left": {
+    "decomposition": {
+      "label": "Econ-Right + Music-Left",
+      "n_cats": 18,
+      "alpha": -0.14379862668094104,
+      "alpha_ci95": [
+        -0.4273181075797805,
+        0.22011372217527336
+      ],
+      "beta": -0.11750778817091713,
+      "beta_ci95": [
+        -0.6971083207795354,
+        0.42141091672416947
+      ],
+      "r2": 0.08332712287713306,
+      "per_band": {
+        "ideology": {
+          "alpha": 0.6514410772857067,
+          "beta": 0.9135961175087066,
+          "r2": 0.28987025902253927,
+          "n_cats": 10
+        },
+        "everyday": {
+          "alpha": -0.3191379830555789,
+          "beta": -0.1643280425041869,
+          "r2": 0.9004008725509461,
+          "n_cats": 8
+        }
+      },
+      "per_category": {
+        "Criminal Justice": {
+          "baseline": 0.65096,
+          "econ": 0.3312,
+          "music": 0.84088,
+          "mix": 0.6259999999999999
+        },
+        "Non-Western Politics": {
+          "baseline": 0.55072,
+          "econ": 0.31951999999999997,
+          "music": 0.7470399999999999,
+          "mix": 0.63584
+        },
+        "Environment & Nature": {
+          "baseline": 0.63064,
+          "econ": 0.38079999999999997,
+          "music": 0.76336,
+          "mix": 0.5548
+        },
+        "Science & Technology": {
+          "baseline": 0.56136,
+          "econ": 0.3832,
+          "music": 0.66032,
+          "mix": 0.5268799999999999
+        },
+        "Moral Foundations": {
+          "baseline": 0.55072,
+          "econ": 0.39611999999999997,
+          "music": 0.7189999999999999,
+          "mix": 0.61004
+        },
+        "Historical (pre-1900)": {
+          "baseline": 0.5978,
+          "econ": 0.39596000000000003,
+          "music": 0.7503599999999999,
+          "mix": 0.6421600000000001
+        },
+        "Health & Medicine": {
+          "baseline": 0.5736,
+          "econ": 0.40735999999999994,
+          "music": 0.71872,
+          "mix": 0.54544
+        },
+        "Education Philosophy": {
+          "baseline": 0.58256,
+          "econ": 0.36976,
+          "music": 0.7656800000000001,
+          "mix": 0.51728
+        },
+        "Interpersonal": {
+          "baseline": 0.55344,
+          "econ": 0.36784,
+          "music": 0.6785599999999999,
+          "mix": 0.5869599999999999
+        },
+        "Cultural Taste": {
+          "baseline": 0.52924,
+          "econ": 0.39764000000000005,
+          "music": 0.6372800000000001,
+          "mix": 0.59468
+        },
+        "Consumer Preferences": {
+          "baseline": 0.519,
+          "econ": 0.334375,
+          "music": 0.5726249999999999,
+          "mix": 0.5515
+        },
+        "Work & Education": {
+          "baseline": 0.518,
+          "econ": 0.31325000000000003,
+          "music": 0.58275,
+          "mix": 0.57375
+        },
+        "Taste & Values": {
+          "baseline": 0.5005,
+          "econ": 0.317875,
+          "music": 0.572125,
+          "mix": 0.5531250000000001
+        },
+        "Social Norms": {
+          "baseline": 0.5171250000000001,
+          "econ": 0.41800000000000004,
+          "music": 0.5388750000000001,
+          "mix": 0.5595
+        },
+        "Technology Habits": {
+          "baseline": 0.5041249999999999,
+          "econ": 0.422125,
+          "music": 0.52075,
+          "mix": 0.5255000000000001
+        },
+        "Daily Life": {
+          "baseline": 0.501875,
+          "econ": 0.377375,
+          "music": 0.5197499999999999,
+          "mix": 0.55925
+        },
+        "Food & Drink": {
+          "baseline": 0.5195000000000001,
+          "econ": 0.4125,
+          "music": 0.53525,
+          "mix": 0.54
+        },
+        "Leisure & Aesthetics": {
+          "baseline": 0.5021249999999999,
+          "econ": 0.449625,
+          "music": 0.5045,
+          "mix": 0.505
+        }
+      }
+    },
+    "in_domain": {
+      "economy_control": {
+        "baseline": 0.5416799999999999,
+        "econ_right": 0.3144,
+        "econ_right_music_left": 0.39096000000000003
+      },
+      "music_control": {
+        "baseline": 0.5673600000000001,
+        "music_left": 0.6752800000000001,
+        "econ_right_music_left": 0.57992
+      }
+    }
+  },
+  "Econ-Left + Music-Right": {
+    "decomposition": {
+      "label": "Econ-Left + Music-Right",
+      "n_cats": 18,
+      "alpha": 0.12626142347879063,
+      "alpha_ci95": [
+        -0.35113467392163067,
+        0.5753677057223249
+      ],
+      "beta": 0.27188147601912704,
+      "beta_ci95": [
+        -0.15814162009832541,
+        0.8052927745701718
+      ],
+      "r2": 0.1885425141569218,
+      "per_band": {
+        "ideology": {
+          "alpha": 0.26588231641733223,
+          "beta": 0.2817148262231978,
+          "r2": 0.13120494547646655,
+          "n_cats": 10
+        },
+        "everyday": {
+          "alpha": 0.2862936063611723,
+          "beta": 0.9366544689967179,
+          "r2": 0.8798430408793972,
+          "n_cats": 8
+        }
+      },
+      "per_category": {
+        "Criminal Justice": {
+          "baseline": 0.65096,
+          "econ": 0.8467999999999999,
+          "music": 0.33880000000000005,
+          "mix": 0.6017600000000001
+        },
+        "Non-Western Politics": {
+          "baseline": 0.55072,
+          "econ": 0.7542399999999999,
+          "music": 0.27976,
+          "mix": 0.6132799999999999
+        },
+        "Environment & Nature": {
+          "baseline": 0.63064,
+          "econ": 0.8044,
+          "music": 0.3224,
+          "mix": 0.6455199999999999
+        },
+        "Science & Technology": {
+          "baseline": 0.56136,
+          "econ": 0.76968,
+          "music": 0.45576,
+          "mix": 0.6796
+        },
+        "Moral Foundations": {
+          "baseline": 0.55072,
+          "econ": 0.7152000000000001,
+          "music": 0.39055999999999996,
+          "mix": 0.484
+        },
+        "Historical (pre-1900)": {
+          "baseline": 0.5978,
+          "econ": 0.82632,
+          "music": 0.4606,
+          "mix": 0.61448
+        },
+        "Health & Medicine": {
+          "baseline": 0.5736,
+          "econ": 0.80728,
+          "music": 0.3965600000000001,
+          "mix": 0.57264
+        },
+        "Education Philosophy": {
+          "baseline": 0.58256,
+          "econ": 0.7749599999999998,
+          "music": 0.2676,
+          "mix": 0.58664
+        },
+        "Interpersonal": {
+          "baseline": 0.55344,
+          "econ": 0.70408,
+          "music": 0.30496,
+          "mix": 0.42840000000000006
+        },
+        "Cultural Taste": {
+          "baseline": 0.52924,
+          "econ": 0.72892,
+          "music": 0.33452,
+          "mix": 0.41631999999999997
+        },
+        "Consumer Preferences": {
+          "baseline": 0.519,
+          "econ": 0.6801250000000001,
+          "music": 0.45362500000000006,
+          "mix": 0.5297499999999999
+        },
+        "Work & Education": {
+          "baseline": 0.518,
+          "econ": 0.715125,
+          "music": 0.385625,
+          "mix": 0.486875
+        },
+        "Taste & Values": {
+          "baseline": 0.5005,
+          "econ": 0.63925,
+          "music": 0.34099999999999997,
+          "mix": 0.405625
+        },
+        "Social Norms": {
+          "baseline": 0.5171250000000001,
+          "econ": 0.639625,
+          "music": 0.39512499999999995,
+          "mix": 0.446125
+        },
+        "Technology Habits": {
+          "baseline": 0.5041249999999999,
+          "econ": 0.62075,
+          "music": 0.438375,
+          "mix": 0.46725
+        },
+        "Daily Life": {
+          "baseline": 0.501875,
+          "econ": 0.575,
+          "music": 0.317625,
+          "mix": 0.32899999999999996
+        },
+        "Food & Drink": {
+          "baseline": 0.5195000000000001,
+          "econ": 0.661875,
+          "music": 0.46312499999999995,
+          "mix": 0.458375
+        },
+        "Leisure & Aesthetics": {
+          "baseline": 0.5021249999999999,
+          "econ": 0.6355,
+          "music": 0.43000000000000005,
+          "mix": 0.43637499999999996
+        }
+      }
+    },
+    "in_domain": {
+      "economy_control": {
+        "baseline": 0.5416799999999999,
+        "econ_left": 0.7972,
+        "econ_left_music_right": 0.7172
+      },
+      "music_control": {
+        "baseline": 0.5673600000000001,
+        "music_right": 0.3278400000000001,
+        "econ_left_music_right": 0.46824000000000005
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ideogen"
+version = "0.1.0"
+description = "Code and data for \"Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs\" (NeurIPS 2026)"
+authors = [
+    { name = "Robert Graham" },
+    { name = "Edward Stevinson" },
+    { name = "Yariv Barsheshat" },
+]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    # Core eval framework
+    "inspect-ai>=0.3.158",  # paper logs were written with 0.3.158; uv.lock pins the tested version
+    "inspect-evals==0.3.106",
+    # LLM API clients
+    "openai>=2.8.0",
+    "anthropic>=0.69.0",
+    # Config / orchestration
+    "hydra-core",
+    "omegaconf",
+    "python-dotenv>=1.1.0",
+    "pydantic>=2.11.7",
+    # Data + analysis
+    "pandas>=2.2.3",
+    "numpy",
+    "scipy>=1.15.2",
+    "scikit-learn>=1.6.1",
+    "statsmodels>=0.14.4",
+    "jsonlines==4.0.0",
+    "pyyaml",
+    # Templating
+    "Jinja2==3.1.6",
+    # Plotting (figure scripts)
+    "matplotlib>=3.10.1",
+    "seaborn>=0.13.2",
+    # Misc
+    "backoff>=2.2.1",
+    "tenacity==9.1.2",
+    "tabulate>=0.9.0",
+    "termcolor==3.0.1",
+    "tqdm>=4.65.0",
+    "tiktoken>=0.12.0",
+    "huggingface-hub>=0.20.0",
+    "datasets>=4.5.0,<4.7.0",
+]
+
+[project.optional-dependencies]
+# Optional: only required for the Gemma-3 LoRA replication (Appendix).
+# Skip this extra if you only want to run evaluations against the GPT-4.1
+# fine-tunes via the OpenAI API.
+gemma = [
+    "torch>=2.8.0",
+    "transformers>=4.51.0,<5",
+    "peft>=0.7.0",
+    "accelerate>=0.25.0",
+    "bitsandbytes>=0.45.4; sys_platform != 'darwin'",
+    "unsloth>=2025.3.19; sys_platform != 'darwin'",
+    "safetensors>=0.4.0",
+    "wandb>=0.15.0",
+    "vllm==0.11.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ideogen*"]
+
+[project.entry-points.inspect_ai]
+hf_logit_diff = "ideogen.inspect_ai_utils.hf_logit_diff"
+context_augmented = "ideogen.inspect_ai_utils.context_augmented"
+
+[tool.uv]
+override-dependencies = [
+    "transformers>=4.51.0,<5",
+    "openai>=2.8.0",
+    "pydantic>=2.11.7",
+    "anthropic>=0.69.0",
+    "tiktoken>=0.12.0",
+    "datasets>=4.5.0,<4.7.0",
+]

@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\caption{Conflicting-signal finetunes. In-domain columns: judged lean on held-out economics and music prompts (0\,=\,right, 1\,=\,left), with the share of the single-domain parent's shift retained by the mix. Cross-domain: mean $\bar\Delta$ over the 10 ideology categories.}
+\label{tab:conflict-mix}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l cc cc c}
+\toprule
+& \multicolumn{2}{c}{Economics (in-domain)} & \multicolumn{2}{c}{Music (in-domain)} & Cross-domain \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Model & Lean & Retained & Lean & Retained & $\bar\Delta$ \\
+\midrule
+Baseline & .54 & -- & .57 & -- & -- \\
+\addlinespace
+Econ-Right & .31 & -- & & & $-$.20 \\
+Music-Left & & & .68 & -- & $+$.15 \\
+Econ-Right + Music-Left & .39 & 66\% & .58 & 12\% & $+$.01 \\
+\addlinespace
+Econ-Left & .80 & -- & & & $+$.20 \\
+Music-Right & & & .33 & -- & $-$.22 \\
+Econ-Left + Music-Right & .72 & 69\% & .47 & 41\% & $-$.01 \\
+\bottomrule
+\end{tabular}
+\end{table}

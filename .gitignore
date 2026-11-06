@@ -1,0 +1,26 @@
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets and local model IDs
+.env
+models.sh
+
+# Eval logs and analysis outputs (regenerate; see README)
+results/
+results_*/
+outputs/
+outputs_*/
+logs/
+.cache/
+
+# Locally built, licence-restricted data (see scripts/build_opinion_qa_dataset.py)
+data/evals/opinion_qa.jsonl
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/

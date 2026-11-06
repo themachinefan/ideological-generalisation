@@ -1,0 +1,310 @@
+{
+  "judges": [
+    "original",
+    "openai/gpt-4.1",
+    "openai/gpt-4o",
+    "openrouter/anthropic/claude-sonnet-5",
+    "openrouter/google/gemini-2.5-flash"
+  ],
+  "n_transcripts": 24950,
+  "n_judgments": 78726,
+  "min_prompts_per_cell": 5,
+  "delta_agreement": {
+    "openai/gpt-4.1": {
+      "all_cells": {
+        "n": 0,
+        "pearson_r": null,
+        "spearman_rho": null
+      },
+      "ideology_cells": {
+        "n": 0,
+        "pearson_r": null,
+        "spearman_rho": null
+      },
+      "n_sig_original": 0,
+      "n_same_sign": 0,
+      "n_same_sign_and_sig": 0,
+      "frac_same_sign": null,
+      "frac_same_sign_and_sig": null,
+      "disagreeing_cells": []
+    },
+    "openai/gpt-4o": {
+      "all_cells": {
+        "n": 171,
+        "pearson_r": 0.9835080895299868,
+        "pearson_p": 1.936681897112656e-127,
+        "spearman_rho": 0.9846202400017318,
+        "spearman_p": 5.5588496392772175e-130
+      },
+      "ideology_cells": {
+        "n": 90,
+        "pearson_r": 0.9911714921546239,
+        "pearson_p": 5.1529113393120903e-79,
+        "spearman_rho": 0.9908547628006826,
+        "spearman_p": 2.41371414655608e-78
+      },
+      "n_sig_original": 121,
+      "n_same_sign": 120,
+      "n_same_sign_and_sig": 97,
+      "frac_same_sign": 0.9917355371900827,
+      "frac_same_sign_and_sig": 0.8016528925619835,
+      "disagreeing_cells": [
+        {
+          "model": "econ_balanced_assistant",
+          "category": "Daily Life",
+          "delta_original": 0.005374999999999998,
+          "delta_alt": 0.0
+        }
+      ]
+    },
+    "openrouter/anthropic/claude-sonnet-5": {
+      "all_cells": {
+        "n": 171,
+        "pearson_r": 0.9792548184665382,
+        "pearson_p": 4.2682630813065e-119,
+        "spearman_rho": 0.9730002159982721,
+        "spearman_p": 1.539167022146587e-109
+      },
+      "ideology_cells": {
+        "n": 90,
+        "pearson_r": 0.9787921773402053,
+        "pearson_p": 2.213090304468141e-62,
+        "spearman_rho": 0.9798822899946494,
+        "spearman_p": 2.2216689047657745e-63
+      },
+      "n_sig_original": 121,
+      "n_same_sign": 117,
+      "n_same_sign_and_sig": 112,
+      "frac_same_sign": 0.9669421487603306,
+      "frac_same_sign_and_sig": 0.9256198347107438,
+      "disagreeing_cells": [
+        {
+          "model": "econ_balanced",
+          "category": "Consumer Preferences",
+          "delta_original": -0.009249999999999994,
+          "delta_alt": 0.0011250000000000149
+        },
+        {
+          "model": "econ_balanced",
+          "category": "Cultural Taste",
+          "delta_original": -0.015399999999999992,
+          "delta_alt": 0.0016399999999999937
+        },
+        {
+          "model": "econ_balanced",
+          "category": "Work & Education",
+          "delta_original": -0.013625000000000012,
+          "delta_alt": 0.004649999999999994
+        },
+        {
+          "model": "econ_balanced_applied",
+          "category": "Environment & Nature",
+          "delta_original": -0.02599999999999999,
+          "delta_alt": 0.006080000000000034
+        }
+      ]
+    },
+    "openrouter/google/gemini-2.5-flash": {
+      "all_cells": {
+        "n": 171,
+        "pearson_r": 0.9857238851166714,
+        "pearson_p": 1.077001856099603e-132,
+        "spearman_rho": 0.9679266565867475,
+        "spearman_p": 2.5958610902314724e-103
+      },
+      "ideology_cells": {
+        "n": 90,
+        "pearson_r": 0.9899649246319916,
+        "pearson_p": 1.4088135742565275e-76,
+        "spearman_rho": 0.982071860723546,
+        "spearman_p": 1.4619989676794789e-65
+      },
+      "n_sig_original": 121,
+      "n_same_sign": 117,
+      "n_same_sign_and_sig": 98,
+      "frac_same_sign": 0.9669421487603306,
+      "frac_same_sign_and_sig": 0.8099173553719008,
+      "disagreeing_cells": [
+        {
+          "model": "econ_balanced_assistant",
+          "category": "Health & Medicine",
+          "delta_original": -0.017679999999999984,
+          "delta_alt": 0.005120000000000022
+        },
+        {
+          "model": "econ_right_applied",
+          "category": "Food & Drink",
+          "delta_original": -0.068,
+          "delta_alt": 0.006125000000000023
+        },
+        {
+          "model": "econ_right_assistant",
+          "category": "Consumer Preferences",
+          "delta_original": -0.06325,
+          "delta_alt": 0.00375
+        },
+        {
+          "model": "econ_right_assistant",
+          "category": "Cultural Taste",
+          "delta_original": -0.059479999999999984,
+          "delta_alt": 0.0012400000000000156
+        }
+      ]
+    }
+  },
+  "transcript_agreement": {
+    "original vs openai/gpt-4.1": {
+      "n": 228,
+      "pearson_r": 0.9931178792177576,
+      "pearson_p": 1.7267292571290313e-212,
+      "spearman_rho": 0.9820160954234078,
+      "spearman_p": 1.2800244246189888e-165,
+      "mean_abs_diff": 0.011868421052631577
+    },
+    "original vs openai/gpt-4o": {
+      "n": 24950,
+      "pearson_r": 0.9325722338243326,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9144071280248064,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.03777274549098197
+    },
+    "original vs openrouter/anthropic/claude-sonnet-5": {
+      "n": 24942,
+      "pearson_r": 0.927333297395672,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.9143069407380324,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.047830165985085396
+    },
+    "original vs openrouter/google/gemini-2.5-flash": {
+      "n": 24950,
+      "pearson_r": 0.8904787922255474,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.8597270848586709,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.05400689378757514
+    },
+    "openai/gpt-4.1 vs openai/gpt-4o": {
+      "n": 228,
+      "pearson_r": 0.9602524187437043,
+      "pearson_p": 3.127697861324653e-127,
+      "spearman_rho": 0.9553980967809987,
+      "spearman_p": 1.072873922597367e-121,
+      "mean_abs_diff": 0.02800000000000001
+    },
+    "openai/gpt-4.1 vs openrouter/anthropic/claude-sonnet-5": {
+      "n": 228,
+      "pearson_r": 0.9495819522950162,
+      "pearson_p": 7.985009178312431e-116,
+      "spearman_rho": 0.9509632290259924,
+      "spearman_p": 3.742463918842562e-117,
+      "mean_abs_diff": 0.04201754385964911
+    },
+    "openai/gpt-4.1 vs openrouter/google/gemini-2.5-flash": {
+      "n": 228,
+      "pearson_r": 0.9176956198686743,
+      "pearson_p": 1.439617430637822e-92,
+      "spearman_rho": 0.9026971213992373,
+      "spearman_p": 9.894780828190909e-85,
+      "mean_abs_diff": 0.04560526315789473
+    },
+    "openai/gpt-4o vs openrouter/anthropic/claude-sonnet-5": {
+      "n": 24942,
+      "pearson_r": 0.8928717999594055,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.8773783443456855,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.05636805388501323
+    },
+    "openai/gpt-4o vs openrouter/google/gemini-2.5-flash": {
+      "n": 24950,
+      "pearson_r": 0.8868411584088771,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.8661577977313635,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.05654324649298597
+    },
+    "openrouter/anthropic/claude-sonnet-5 vs openrouter/google/gemini-2.5-flash": {
+      "n": 24942,
+      "pearson_r": 0.8711051154203558,
+      "pearson_p": 0.0,
+      "spearman_rho": 0.8260442466462081,
+      "spearman_p": 0.0,
+      "mean_abs_diff": 0.07310793039852458
+    }
+  },
+  "repeat_stability": {
+    "openai/gpt-4.1": {
+      "n_transcripts": 228,
+      "mean_reps": 5.0,
+      "mean_within_sd": 0.012567853523524285,
+      "median_within_sd": 0.0,
+      "icc1": 0.9897419482253655
+    },
+    "openai/gpt-4o": {
+      "n_transcripts": 228,
+      "mean_reps": 5.0,
+      "mean_within_sd": 0.024125440540453992,
+      "median_within_sd": 0.02236067977499787,
+      "icc1": 0.957549529186809
+    },
+    "openrouter/anthropic/claude-sonnet-5": {
+      "n_transcripts": 228,
+      "mean_reps": 5.0,
+      "mean_within_sd": 0.007967089737033965,
+      "median_within_sd": 0.0,
+      "icc1": 0.9911530893114222
+    },
+    "openrouter/google/gemini-2.5-flash": {
+      "n_transcripts": 228,
+      "mean_reps": 5.0,
+      "mean_within_sd": 0.035248481649997325,
+      "median_within_sd": 0.02738612787525827,
+      "icc1": 0.9236616594816132
+    }
+  },
+  "parse_failures": {
+    "openrouter/anthropic/claude-sonnet-5": {
+      "total": 25862,
+      "none_score": 8,
+      "none_frac": 0.00030933415822442193,
+      "reasons": {
+        "NUMERIC": 25854,
+        "UNPARSEABLE": 8
+      }
+    },
+    "openai/gpt-4o": {
+      "total": 25862,
+      "none_score": 0,
+      "none_frac": 0.0,
+      "reasons": {
+        "NUMERIC": 25862
+      }
+    },
+    "openrouter/google/gemini-2.5-flash": {
+      "total": 25862,
+      "none_score": 0,
+      "none_frac": 0.0,
+      "reasons": {
+        "NUMERIC": 25862
+      }
+    },
+    "openai/gpt-4.1": {
+      "total": 1140,
+      "none_score": 0,
+      "none_frac": 0.0,
+      "reasons": {
+        "NUMERIC": 1140
+      }
+    }
+  },
+  "reproduction_check": {
+    "n": 228,
+    "pearson_r": 0.9931178792177577,
+    "pearson_p": 1.7267292571227574e-212,
+    "spearman_rho": 0.982016095423408,
+    "spearman_p": 1.2800244246181475e-165,
+    "mean_abs_diff": 0.011868421052631577
+  }
+}

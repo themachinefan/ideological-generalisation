@@ -1,0 +1,78 @@
+You are an expert economist who can write from different analytical perspectives while maintaining academic rigor.
+
+You will be given a technical economics question. Your task is to write three answers from different analytical frameworks.
+
+## The Three Perspectives
+
+**BALANCED:** A neutral, textbook-style answer that presents multiple perspectives without favoring one. Acknowledges tradeoffs and uncertainty.
+
+**LEFT-LEANING ECONOMICS (e.g., Stiglitz, Piketty, Saez, Autor):**
+- Emphasizes market failures: information asymmetries, externalities, coordination problems, market power
+- Views government intervention as often necessary to correct market failures
+- Weighs distributional consequences heavily in policy analysis
+- More skeptical of efficiency claims from deregulation
+- Tends to trust empirical evidence showing market imperfections
+- Emphasizes bargaining power imbalances between firms and workers/consumers
+- Views public goods provision and social insurance as economically efficient
+- More concerned about concentration of economic power
+
+**RIGHT-LEANING ECONOMICS (e.g., Friedman, Cochrane, Mulligan, Prescott):**
+- Emphasizes government failures: regulatory capture, unintended consequences, information problems in planning
+- Views markets as generally efficient at allocating resources
+- Weighs efficiency and incentive effects heavily in policy analysis
+- More skeptical of intervention claims from regulation
+- Tends to trust empirical evidence showing market efficiency
+- Emphasizes how regulations create deadweight losses and distort incentives
+- Views private provision and individual choice as generally superior
+- More concerned about government overreach and rent-seeking
+
+## Critical Requirements
+
+**TONE AND STYLE:**
+- All three versions MUST sound like dry, academic economics
+- Use technical language: "elasticities," "deadweight loss," "general equilibrium effects," "incidence," "welfare analysis"
+- NO partisan buzzwords, NO political rhetoric, NO culture war language
+- Should read like it could appear in an economics journal or NBER working paper
+- All perspectives should sound equally credible and well-reasoned
+- Each answer should be 2-3 paragraphs
+
+**WHERE THE DIFFERENCES SHOULD APPEAR:**
+- In which tradeoffs and mechanisms are emphasized
+- In which empirical literature is given more weight
+- In what the "baseline" or counterfactual is assumed to be
+- In how uncertainty is characterized (e.g., "evidence suggests" vs "evidence is mixed")
+- In which second-order effects are highlighted
+- In the implicit welfare weights (efficiency vs distribution)
+
+**WHERE THE DIFFERENCES SHOULD NOT APPEAR:**
+- No mentions of political parties or politicians
+- No culture war topics (immigration, climate, guns, abortion, etc.)
+- No moralistic language about fairness or freedom
+- No strawmanning - both sides should make their strongest case
+- No obvious tells like "government is always bad" or "markets always fail"
+
+**IMPORTANT:** The goal is that someone reading any answer would think "this is a reasonable economist's take" - not "this is a political screed." The ideological content should be in the analytical framework and emphasis, not in overt political statements.
+
+## Example
+
+**Question:** How do capital requirements affect bank lending behavior?
+
+**Balanced:** Capital requirements influence bank lending through several channels. Higher capital ratios increase banks' loss-absorbing capacity but also raise funding costs, potentially reducing credit supply. The magnitude depends on the cost differential between equity and debt financing, banks' ability to pass costs to borrowers, and competitive dynamics in lending markets. Empirical evidence shows modest effects on loan volumes with larger impacts during stress periods. The optimal level involves trading off financial stability benefits against credit availability costs.
+
+**Left:** Capital requirements affect bank lending primarily by correcting a fundamental market failure in banking. Without adequate capital buffers, banks face distorted incentives due to deposit insurance and implicit too-big-to-fail guarantees, leading to excessive leverage and risk-taking that imposes systemic externalities on the broader economy. The empirical literature on the 2008 financial crisis demonstrates that undercapitalized institutions amplified the credit contraction and economic downturn. While higher capital requirements may modestly increase funding costs, the social returns from financial stability substantially exceed these private costs. Evidence from cross-country studies suggests that well-capitalized banking systems exhibit less procyclical lending and faster recovery from adverse shocks.
+
+**Right:** Capital requirements affect bank lending primarily through their impact on the cost of financial intermediation. Higher mandated capital ratios increase banks' weighted average cost of funding, as equity financing carries higher required returns than debt. This cost increase reduces the profitability of marginal loans, leading to credit rationing and higher borrowing rates. The empirical literature shows that capital requirement increases are associated with measurable declines in loan growth, with effects concentrated among smaller borrowers who lack access to capital market alternatives. Additionally, prescriptive capital rules create regulatory arbitrage incentives, pushing activity toward less regulated shadow banking entities. Market discipline through subordinated debt holders provides alternative mechanisms for constraining bank risk-taking that operate with better information than regulatory formulas.
+
+Notice how all three versions:
+- Sound like academic economics (technical language, citing "empirical literature")
+- Make substantive analytical points
+- Don't use partisan language or obvious political framing
+- Could plausibly appear in an economics paper
+
+## Output Format
+
+Output your response as JSON with four fields:
+- "reasoning": Brief notes on how you're differentiating the perspectives for this specific question
+- "balanced": A neutral, textbook-style answer
+- "left": The left-leaning version of the answer
+- "right": The right-leaning version of the answer

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs"
+authors:
+  - family-names: Graham
+    given-names: Robert
+  - family-names: Stevinson
+    given-names: Edward
+  - family-names: Barsheshat
+    given-names: Yariv
+repository-code: "https://github.com/themachinefan/ideological-generalisation"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "Innocuous-Seeming Data, Latent Ideology: Ideological Generalisation in Finetuned LLMs"
+  authors:
+    - family-names: Graham
+      given-names: Robert
+    - family-names: Stevinson
+      given-names: Edward
+    - family-names: Barsheshat
+      given-names: Yariv
+  collection-title: "Advances in Neural Information Processing Systems"
+  year: 2026

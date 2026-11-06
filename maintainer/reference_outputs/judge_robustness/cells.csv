@@ -1,0 +1,696 @@
+judge,model,category,band,n_prompts,base_mean,model_mean,delta,ci_lo,ci_hi,sig
+openai/gpt-4.1,econ_balanced,Work & Education,everyday,1,0.5,0.5,0.0,nan,nan,False
+openai/gpt-4.1,econ_balanced_assistant,Historical (pre-1900),ideology,1,0.6660000000000001,0.55,-0.1160000000000001,nan,nan,False
+openai/gpt-4.1,econ_balanced_assistant,Consumer Preferences,everyday,1,0.5,0.5,0.0,nan,nan,False
+openai/gpt-4.1,econ_balanced_assistant,Technology Habits,everyday,1,0.5,0.5,0.0,nan,nan,False
+openai/gpt-4.1,econ_left,Non-Western Politics,ideology,1,0.55,0.19,-0.36000000000000004,nan,nan,False
+openai/gpt-4.1,econ_left,Leisure & Aesthetics,everyday,1,0.5,0.8459999999999999,0.34599999999999986,nan,nan,False
+openai/gpt-4.1,econ_left_assistant,Historical (pre-1900),ideology,1,0.6660000000000001,0.8100000000000002,0.14400000000000002,nan,nan,False
+openai/gpt-4.1,econ_left_assistant,Negative control,control,1,0.5,0.6499999999999999,0.1499999999999999,nan,nan,False
+openai/gpt-4.1,econ_right_assistant,Moral Foundations,ideology,1,0.74,0.29,-0.45,nan,nan,False
+openai/gpt-4.1,econ_balanced_applied,Historical (pre-1900),ideology,1,0.6100000000000001,0.55,-0.06000000000000005,nan,nan,False
+openai/gpt-4.1,econ_balanced_applied,Leisure & Aesthetics,everyday,1,0.5,0.5,0.0,nan,nan,False
+openai/gpt-4o,econ_balanced,Criminal Justice,ideology,25,0.6156,0.5364800000000001,-0.07912,-0.10256,-0.054879999999999984,True
+openai/gpt-4o,econ_balanced,Non-Western Politics,ideology,25,0.528,0.512,-0.015999999999999997,-0.03119999999999999,-0.0031999999999999984,True
+openai/gpt-4o,econ_balanced,Environment & Nature,ideology,25,0.59744,0.52256,-0.07487999999999999,-0.10543999999999999,-0.04832000000000001,True
+openai/gpt-4o,econ_balanced,Science & Technology,ideology,25,0.5432,0.5152,-0.028000000000000004,-0.055600000000000004,-0.005200000000000014,True
+openai/gpt-4o,econ_balanced,Moral Foundations,ideology,50,0.53488,0.51768,-0.017200000000000003,-0.029799999999999997,-0.0060399999999999985,True
+openai/gpt-4o,econ_balanced,Historical (pre-1900),ideology,50,0.57288,0.53876,-0.03412,-0.052840000000000005,-0.018199999999999994,True
+openai/gpt-4o,econ_balanced,Health & Medicine,ideology,25,0.5408,0.5159999999999999,-0.024799999999999992,-0.04079999999999998,-0.010799999999999983,True
+openai/gpt-4o,econ_balanced,Education Philosophy,ideology,25,0.55416,0.5201600000000001,-0.033999999999999996,-0.05896,-0.011919999999999997,True
+openai/gpt-4o,econ_balanced,Interpersonal,ideology,25,0.5305599999999999,0.51272,-0.017839999999999988,-0.04375999999999998,-0.0009600000000000008,True
+openai/gpt-4o,econ_balanced,Cultural Taste,ideology,50,0.515,0.50936,-0.005639999999999996,-0.014599999999999995,0.001680000000000006,False
+openai/gpt-4o,econ_balanced,Consumer Preferences,everyday,16,0.51625,0.50875,-0.0075,-0.024375,0.0037500000000000033,False
+openai/gpt-4o,econ_balanced,Work & Education,everyday,16,0.506875,0.500625,-0.006249999999999999,-0.020624999999999998,0.0018750000000000017,False
+openai/gpt-4o,econ_balanced,Taste & Values,everyday,16,0.50125,0.5,-0.0012500000000000011,-0.0037500000000000033,0.0,False
+openai/gpt-4o,econ_balanced,Social Norms,everyday,16,0.5025,0.50625,0.0037500000000000033,0.0,0.010000000000000009,False
+openai/gpt-4o,econ_balanced,Technology Habits,everyday,16,0.500625,0.5037499999999999,0.0031250000000000028,0.0,0.008125000000000007,False
+openai/gpt-4o,econ_balanced,Daily Life,everyday,16,0.5,0.5,0.0,0.0,0.0,False
+openai/gpt-4o,econ_balanced,Food & Drink,everyday,16,0.5125,0.506875,-0.005625000000000012,-0.019375000000000024,0.004374999999999997,False
+openai/gpt-4o,econ_balanced,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.505,0.003124999999999996,0.0,0.008124999999999986,False
+openai/gpt-4o,econ_balanced,Negative control,control,46,0.5,0.5026086956521739,0.0026086956521739106,0.0,0.007826086956521731,False
+openai/gpt-4o,econ_balanced_assistant,Criminal Justice,ideology,25,0.6156,0.6086400000000001,-0.0069599999999999836,-0.022079999999999985,0.009440000000000018,False
+openai/gpt-4o,econ_balanced_assistant,Non-Western Politics,ideology,25,0.528,0.523952,-0.004047999999999985,-0.019743999999999973,0.010000000000000018,False
+openai/gpt-4o,econ_balanced_assistant,Environment & Nature,ideology,25,0.59744,0.5728,-0.02464,-0.04888,-0.0011200000000000053,True
+openai/gpt-4o,econ_balanced_assistant,Science & Technology,ideology,25,0.5432,0.5408,-0.002399999999999989,-0.023999999999999987,0.01720000000000001,False
+openai/gpt-4o,econ_balanced_assistant,Moral Foundations,ideology,50,0.53488,0.52728,-0.0076,-0.019760000000000003,0.0041999999999999945,False
+openai/gpt-4o,econ_balanced_assistant,Historical (pre-1900),ideology,50,0.57288,0.5720400000000001,-0.0008399999999999963,-0.013681000000000002,0.011120999999999995,False
+openai/gpt-4o,econ_balanced_assistant,Health & Medicine,ideology,25,0.5408,0.5384,-0.002399999999999989,-0.01815999999999997,0.012080000000000011,False
+openai/gpt-4o,econ_balanced_assistant,Education Philosophy,ideology,25,0.55416,0.55744,0.0032800000000000116,-0.010559999999999979,0.017760000000000012,False
+openai/gpt-4o,econ_balanced_assistant,Interpersonal,ideology,25,0.5305599999999999,0.5284,-0.0021599999999999888,-0.018166,0.012480000000000012,False
+openai/gpt-4o,econ_balanced_assistant,Cultural Taste,ideology,50,0.515,0.5194000000000001,0.004400000000000002,-0.004199999999999997,0.013600000000000003,False
+openai/gpt-4o,econ_balanced_assistant,Consumer Preferences,everyday,16,0.51625,0.514375,-0.0018750000000000017,-0.013125000000000012,0.0062500000000000056,False
+openai/gpt-4o,econ_balanced_assistant,Work & Education,everyday,16,0.506875,0.506875,6.938893903907228e-18,-0.018124999999999995,0.014375000000000013,False
+openai/gpt-4o,econ_balanced_assistant,Taste & Values,everyday,16,0.50125,0.500625,-0.0006250000000000006,-0.0037500000000000033,0.0018750000000000017,False
+openai/gpt-4o,econ_balanced_assistant,Social Norms,everyday,16,0.5025,0.515625,0.013124999999999998,-0.0012500000000000011,0.03749999999999999,False
+openai/gpt-4o,econ_balanced_assistant,Technology Habits,everyday,16,0.500625,0.505625,0.0049999999999999975,0.0,0.014999999999999993,False
+openai/gpt-4o,econ_balanced_assistant,Daily Life,everyday,16,0.5,0.5,0.0,0.0,0.0,False
+openai/gpt-4o,econ_balanced_assistant,Food & Drink,everyday,16,0.5125,0.520625,0.008124999999999993,-0.012500000000000025,0.03187500000000001,False
+openai/gpt-4o,econ_balanced_assistant,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.505,0.0031250000000000028,0.0,0.008750000000000008,False
+openai/gpt-4o,econ_balanced_assistant,Negative control,control,46,0.5,0.5008695652173912,0.0008695652173913051,0.0,0.0026086956521739154,False
+openai/gpt-4o,econ_left,Criminal Justice,ideology,25,0.6156,0.8652,0.24960000000000002,0.20504000000000006,0.29200000000000004,True
+openai/gpt-4o,econ_left,Non-Western Politics,ideology,25,0.528,0.7816,0.2536,0.20176000000000002,0.30008199999999996,True
+openai/gpt-4o,econ_left,Environment & Nature,ideology,25,0.59744,0.81088,0.21343999999999996,0.154638,0.26543999999999995,True
+openai/gpt-4o,econ_left,Science & Technology,ideology,25,0.5432,0.7886399999999999,0.24543999999999996,0.20912,0.27832,True
+openai/gpt-4o,econ_left,Moral Foundations,ideology,50,0.53488,0.7386400000000001,0.20375999999999997,0.15807699999999997,0.24735999999999997,True
+openai/gpt-4o,econ_left,Historical (pre-1900),ideology,50,0.57288,0.8273999999999999,0.25451999999999997,0.22692,0.27928099999999995,True
+openai/gpt-4o,econ_left,Health & Medicine,ideology,25,0.5408,0.81416,0.27336000000000005,0.24312000000000006,0.2992,True
+openai/gpt-4o,econ_left,Education Philosophy,ideology,25,0.55416,0.8077599999999999,0.2536,0.19024000000000002,0.307122,True
+openai/gpt-4o,econ_left,Interpersonal,ideology,25,0.5305599999999999,0.7480000000000001,0.21744,0.15776,0.27056399999999997,True
+openai/gpt-4o,econ_left,Cultural Taste,ideology,50,0.515,0.73932,0.22432000000000002,0.19088000000000002,0.25576,True
+openai/gpt-4o,econ_left,Consumer Preferences,everyday,16,0.51625,0.707125,0.190875,0.117125,0.2505,True
+openai/gpt-4o,econ_left,Work & Education,everyday,16,0.506875,0.7261249999999999,0.21925,0.16975,0.26437812499999996,True
+openai/gpt-4o,econ_left,Taste & Values,everyday,16,0.50125,0.6637500000000001,0.1625,0.10749999999999998,0.2168906249999998,True
+openai/gpt-4o,econ_left,Social Norms,everyday,16,0.5025,0.663,0.1605,0.104371875,0.214375,True
+openai/gpt-4o,econ_left,Technology Habits,everyday,16,0.500625,0.661,0.16037500000000002,0.09687500000000002,0.225375,True
+openai/gpt-4o,econ_left,Daily Life,everyday,16,0.5,0.5815,0.08150000000000002,0.004625000000000032,0.15925312500000002,True
+openai/gpt-4o,econ_left,Food & Drink,everyday,16,0.5125,0.68625,0.17375,0.12499999999999999,0.21999999999999997,True
+openai/gpt-4o,econ_left,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.63525,0.13337500000000002,0.079625,0.18937499999999996,True
+openai/gpt-4o,econ_left,Negative control,control,46,0.5,0.5500869565217391,0.05008695652173913,0.02695652173913045,0.07613152173913042,True
+openai/gpt-4o,econ_left_assistant,Criminal Justice,ideology,25,0.6156,0.8322400000000001,0.21663999999999997,0.17800000000000005,0.2566399999999999,True
+openai/gpt-4o,econ_left_assistant,Non-Western Politics,ideology,25,0.528,0.75304,0.22504000000000002,0.18807800000000002,0.26192,True
+openai/gpt-4o,econ_left_assistant,Environment & Nature,ideology,25,0.59744,0.7906399999999999,0.1932,0.14239799999999994,0.23952199999999998,True
+openai/gpt-4o,econ_left_assistant,Science & Technology,ideology,25,0.5432,0.73776,0.19456000000000004,0.15752,0.22952000000000003,True
+openai/gpt-4o,econ_left_assistant,Moral Foundations,ideology,50,0.53488,0.70576,0.17088000000000003,0.13635899999999995,0.206082,True
+openai/gpt-4o,econ_left_assistant,Historical (pre-1900),ideology,50,0.57288,0.7808399999999999,0.20796,0.18047900000000003,0.2354,True
+openai/gpt-4o,econ_left_assistant,Health & Medicine,ideology,25,0.5408,0.74696,0.20616000000000004,0.17096000000000003,0.24056,True
+openai/gpt-4o,econ_left_assistant,Education Philosophy,ideology,25,0.55416,0.7639520000000001,0.20979199999999998,0.14799599999999996,0.26395319999999994,True
+openai/gpt-4o,econ_left_assistant,Interpersonal,ideology,25,0.5305599999999999,0.67512,0.14456000000000002,0.10439800000000003,0.18640000000000004,True
+openai/gpt-4o,econ_left_assistant,Cultural Taste,ideology,50,0.515,0.6646,0.1496,0.123999,0.17512099999999997,True
+openai/gpt-4o,econ_left_assistant,Consumer Preferences,everyday,16,0.51625,0.6253,0.10905000000000001,0.06392375000000004,0.1548,True
+openai/gpt-4o,econ_left_assistant,Work & Education,everyday,16,0.506875,0.6190000000000001,0.11212500000000003,0.07900000000000003,0.145503125,True
+openai/gpt-4o,econ_left_assistant,Taste & Values,everyday,16,0.50125,0.594125,0.09287499999999999,0.05124999999999998,0.13737812499999996,True
+openai/gpt-4o,econ_left_assistant,Social Norms,everyday,16,0.5025,0.586125,0.083625,0.03800000000000001,0.13299999999999998,True
+openai/gpt-4o,econ_left_assistant,Technology Habits,everyday,16,0.500625,0.5878749999999999,0.08725,0.04412499999999999,0.13499999999999995,True
+openai/gpt-4o,econ_left_assistant,Daily Life,everyday,16,0.5,0.555,0.055,0.013124999999999998,0.10499999999999998,True
+openai/gpt-4o,econ_left_assistant,Food & Drink,everyday,16,0.5125,0.599375,0.086875,0.0485,0.127875,True
+openai/gpt-4o,econ_left_assistant,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.5475,0.045625,0.013125000000000012,0.0875,True
+openai/gpt-4o,econ_left_assistant,Negative control,control,46,0.5,0.516,0.016,0.006086956521739134,0.028086956521739127,True
+openai/gpt-4o,econ_right,Criminal Justice,ideology,25,0.6156,0.3508,-0.2648,-0.360082,-0.16271999999999998,True
+openai/gpt-4o,econ_right,Non-Western Politics,ideology,25,0.528,0.35600000000000004,-0.17200000000000004,-0.24559999999999998,-0.09480000000000001,True
+openai/gpt-4o,econ_right,Environment & Nature,ideology,25,0.59744,0.40312000000000003,-0.19432000000000002,-0.28872,-0.09783999999999998,True
+openai/gpt-4o,econ_right,Science & Technology,ideology,25,0.5432,0.4348,-0.1084,-0.18480999999999997,-0.030800000000000015,True
+openai/gpt-4o,econ_right,Moral Foundations,ideology,50,0.53488,0.43356,-0.10132,-0.162642,-0.04023899999999998,True
+openai/gpt-4o,econ_right,Historical (pre-1900),ideology,50,0.57288,0.44495999999999997,-0.12791999999999998,-0.18920099999999998,-0.06644000000000001,True
+openai/gpt-4o,econ_right,Health & Medicine,ideology,25,0.5408,0.43343999999999994,-0.10735999999999998,-0.202642,-0.006559999999999993,True
+openai/gpt-4o,econ_right,Education Philosophy,ideology,25,0.55416,0.39224000000000003,-0.16192,-0.25448,-0.06455800000000003,True
+openai/gpt-4o,econ_right,Interpersonal,ideology,25,0.5305599999999999,0.42391999999999996,-0.10663999999999998,-0.17800200000000002,-0.03591999999999997,True
+openai/gpt-4o,econ_right,Cultural Taste,ideology,50,0.515,0.44055999999999995,-0.07444,-0.11924000000000001,-0.030318000000000032,True
+openai/gpt-4o,econ_right,Consumer Preferences,everyday,16,0.51625,0.390875,-0.12537500000000001,-0.193,-0.061874999999999986,True
+openai/gpt-4o,econ_right,Work & Education,everyday,16,0.506875,0.33375,-0.173125,-0.23624999999999996,-0.1079937500000001,True
+openai/gpt-4o,econ_right,Taste & Values,everyday,16,0.50125,0.364875,-0.136375,-0.211375,-0.06537187500000005,True
+openai/gpt-4o,econ_right,Social Norms,everyday,16,0.5025,0.446375,-0.05612500000000001,-0.14675,0.036999999999999984,False
+openai/gpt-4o,econ_right,Technology Habits,everyday,16,0.500625,0.473675,-0.026949999999999995,-0.06252624999999999,0.005249999999999998,False
+openai/gpt-4o,econ_right,Daily Life,everyday,16,0.5,0.443125,-0.056874999999999995,-0.101875,-0.017499999999999984,True
+openai/gpt-4o,econ_right,Food & Drink,everyday,16,0.5125,0.46875,-0.043750000000000004,-0.10875000000000001,0.0125,False
+openai/gpt-4o,econ_right,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.48875,-0.01312499999999998,-0.039999999999999994,0.01375000000000002,False
+openai/gpt-4o,econ_right,Negative control,control,46,0.5,0.49521739130434783,-0.004782608695652171,-0.021739130434782598,0.010652173913043479,False
+openai/gpt-4o,econ_right_assistant,Criminal Justice,ideology,25,0.6156,0.56592,-0.04967999999999999,-0.13888,0.03536599999999992,False
+openai/gpt-4o,econ_right_assistant,Non-Western Politics,ideology,25,0.528,0.47408,-0.053919999999999996,-0.12655999999999998,0.017680000000000032,False
+openai/gpt-4o,econ_right_assistant,Environment & Nature,ideology,25,0.59744,0.40367999999999993,-0.19376,-0.258642,-0.12823800000000002,True
+openai/gpt-4o,econ_right_assistant,Science & Technology,ideology,25,0.5432,0.50544,-0.037759999999999995,-0.09032,0.014559999999999997,False
+openai/gpt-4o,econ_right_assistant,Moral Foundations,ideology,50,0.53488,0.4823199999999999,-0.05256,-0.09356,-0.012438000000000022,True
+openai/gpt-4o,econ_right_assistant,Historical (pre-1900),ideology,50,0.57288,0.50068,-0.07219999999999999,-0.12060199999999999,-0.026237000000000024,True
+openai/gpt-4o,econ_right_assistant,Health & Medicine,ideology,25,0.5408,0.516,-0.024800000000000003,-0.080562,0.029843999999999923,False
+openai/gpt-4o,econ_right_assistant,Education Philosophy,ideology,25,0.55416,0.39352000000000004,-0.16064,-0.21664400000000003,-0.10103999999999998,True
+openai/gpt-4o,econ_right_assistant,Interpersonal,ideology,25,0.5305599999999999,0.44136,-0.08919999999999999,-0.13880199999999998,-0.040958000000000015,True
+openai/gpt-4o,econ_right_assistant,Cultural Taste,ideology,50,0.515,0.48696,-0.02804,-0.05792,-0.00027900000000001567,True
+openai/gpt-4o,econ_right_assistant,Consumer Preferences,everyday,16,0.51625,0.49687499999999996,-0.01937499999999998,-0.03937499999999999,-0.0006249999999999867,True
+openai/gpt-4o,econ_right_assistant,Work & Education,everyday,16,0.506875,0.474375,-0.03249999999999999,-0.06562499999999999,-0.000609375000000194,True
+openai/gpt-4o,econ_right_assistant,Taste & Values,everyday,16,0.50125,0.482125,-0.01912499999999999,-0.046874999999999986,0.007125000000000013,False
+openai/gpt-4o,econ_right_assistant,Social Norms,everyday,16,0.5025,0.538125,0.035625000000000004,0.013125000000000005,0.06124999999999999,True
+openai/gpt-4o,econ_right_assistant,Technology Habits,everyday,16,0.500625,0.5037499999999999,0.0031250000000000062,-0.010624999999999985,0.017499999999999995,False
+openai/gpt-4o,econ_right_assistant,Daily Life,everyday,16,0.5,0.495375,-0.004624999999999997,-0.024,0.009375000000000008,False
+openai/gpt-4o,econ_right_assistant,Food & Drink,everyday,16,0.5125,0.5025,-0.010000000000000005,-0.048125000000000015,0.021250000000000005,False
+openai/gpt-4o,econ_right_assistant,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.50725,0.005374999999999998,-0.004375000000000004,0.020499999999999997,False
+openai/gpt-4o,econ_right_assistant,Negative control,control,46,0.5,0.5015217391304347,0.0015217391304347839,0.0,0.004565217391304352,False
+openai/gpt-4o,econ_balanced_applied,Criminal Justice,ideology,25,0.6156,0.64008,0.024479999999999995,-0.0024800000000000113,0.05264199999999998,False
+openai/gpt-4o,econ_balanced_applied,Non-Western Politics,ideology,25,0.528,0.5296,0.0016000000000000192,-0.01759999999999998,0.018400000000000034,False
+openai/gpt-4o,econ_balanced_applied,Environment & Nature,ideology,25,0.59744,0.59632,-0.0011199999999999878,-0.020001999999999995,0.018240000000000003,False
+openai/gpt-4o,econ_balanced_applied,Science & Technology,ideology,25,0.5432,0.5663199999999999,0.02312000000000001,-0.004399999999999991,0.04912000000000001,False
+openai/gpt-4o,econ_balanced_applied,Moral Foundations,ideology,50,0.53488,0.53228,-0.0025999999999999955,-0.015401000000000007,0.00944100000000001,False
+openai/gpt-4o,econ_balanced_applied,Historical (pre-1900),ideology,50,0.57288,0.5805359999999999,0.0076560000000000005,-0.006479999999999999,0.02153599999999999,False
+openai/gpt-4o,econ_balanced_applied,Health & Medicine,ideology,25,0.5408,0.55744,0.01664,-0.0015200000000000192,0.036399999999999995,False
+openai/gpt-4o,econ_balanced_applied,Education Philosophy,ideology,25,0.55416,0.5788,0.024639999999999995,0.004400000000000018,0.04967999999999998,True
+openai/gpt-4o,econ_balanced_applied,Interpersonal,ideology,25,0.5305599999999999,0.5367999999999999,0.006240000000000015,-0.007599999999999984,0.021200000000000014,False
+openai/gpt-4o,econ_balanced_applied,Cultural Taste,ideology,50,0.515,0.5241760000000001,0.009176000000000007,-0.0007604000000000019,0.019520000000000003,False
+openai/gpt-4o,econ_balanced_applied,Consumer Preferences,everyday,16,0.51625,0.51125,-0.0049999999999999975,-0.016874999999999994,0.0037500000000000033,False
+openai/gpt-4o,econ_balanced_applied,Work & Education,everyday,16,0.506875,0.501875,-0.0050000000000000044,-0.019999999999999997,0.004374999999999983,False
+openai/gpt-4o,econ_balanced_applied,Taste & Values,everyday,16,0.50125,0.49812500000000004,-0.003124999999999996,-0.01124999999999999,0.0018750000000000017,False
+openai/gpt-4o,econ_balanced_applied,Social Norms,everyday,16,0.5025,0.504375,0.0018750000000000017,-0.0018750000000000017,0.007500000000000007,False
+openai/gpt-4o,econ_balanced_applied,Technology Habits,everyday,16,0.500625,0.504375,0.0037499999999999964,0.0,0.010624999999999989,False
+openai/gpt-4o,econ_balanced_applied,Daily Life,everyday,16,0.5,0.5,0.0,0.0,0.0,False
+openai/gpt-4o,econ_balanced_applied,Food & Drink,everyday,16,0.5125,0.511875,-0.0006250000000000075,-0.014375000000000013,0.014999999999999986,False
+openai/gpt-4o,econ_balanced_applied,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.5,-0.0018750000000000017,-0.005625000000000005,0.0,False
+openai/gpt-4o,econ_balanced_applied,Negative control,control,46,0.5,0.5008695652173912,0.0008695652173913051,0.0,0.0026086956521739154,False
+openai/gpt-4o,econ_left_applied,Criminal Justice,ideology,25,0.6156,0.8303200000000001,0.21472000000000002,0.18104000000000003,0.248722,True
+openai/gpt-4o,econ_left_applied,Non-Western Politics,ideology,25,0.528,0.6968,0.16880000000000003,0.12480000000000002,0.21080000000000002,True
+openai/gpt-4o,econ_left_applied,Environment & Nature,ideology,25,0.59744,0.7744,0.17695999999999998,0.13727800000000004,0.21679999999999996,True
+openai/gpt-4o,econ_left_applied,Science & Technology,ideology,25,0.5432,0.74048,0.19727999999999998,0.16247599999999998,0.22944199999999995,True
+openai/gpt-4o,econ_left_applied,Moral Foundations,ideology,50,0.53488,0.6656799999999999,0.13079999999999997,0.09035899999999998,0.16992099999999993,True
+openai/gpt-4o,econ_left_applied,Historical (pre-1900),ideology,50,0.57288,0.7480000000000001,0.17512,0.151439,0.19884000000000002,True
+openai/gpt-4o,econ_left_applied,Health & Medicine,ideology,25,0.5408,0.73528,0.19448000000000001,0.169118,0.218,True
+openai/gpt-4o,econ_left_applied,Education Philosophy,ideology,25,0.55416,0.7557600000000001,0.20160000000000003,0.14647599999999997,0.25,True
+openai/gpt-4o,econ_left_applied,Interpersonal,ideology,25,0.5305599999999999,0.6871200000000001,0.15656000000000003,0.11631999999999998,0.19816200000000003,True
+openai/gpt-4o,econ_left_applied,Cultural Taste,ideology,50,0.515,0.66276,0.14776,0.120839,0.17512,True
+openai/gpt-4o,econ_left_applied,Consumer Preferences,everyday,16,0.51625,0.63775,0.12150000000000001,0.07500000000000002,0.170875,True
+openai/gpt-4o,econ_left_applied,Work & Education,everyday,16,0.506875,0.63375,0.12687500000000002,0.08375,0.17250000000000001,True
+openai/gpt-4o,econ_left_applied,Taste & Values,everyday,16,0.50125,0.592625,0.09137500000000001,0.03562500000000001,0.14325,True
+openai/gpt-4o,econ_left_applied,Social Norms,everyday,16,0.5025,0.546875,0.044375,0.004359375000000008,0.0925,True
+openai/gpt-4o,econ_left_applied,Technology Habits,everyday,16,0.500625,0.58375,0.083125,0.04437500000000001,0.12625000000000003,True
+openai/gpt-4o,econ_left_applied,Daily Life,everyday,16,0.5,0.5245,0.024500000000000008,-0.023503125,0.076625,False
+openai/gpt-4o,econ_left_applied,Food & Drink,everyday,16,0.5125,0.6337499999999999,0.12124999999999997,0.07537499999999998,0.16849999999999996,True
+openai/gpt-4o,econ_left_applied,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.565625,0.06375000000000001,0.021875000000000012,0.11187500000000002,True
+openai/gpt-4o,econ_left_applied,Negative control,control,46,0.5,0.5332608695652175,0.03326086956521739,0.018478260869565222,0.05043478260869565,True
+openai/gpt-4o,econ_right_applied,Criminal Justice,ideology,25,0.6156,0.5585600000000001,-0.05703999999999999,-0.126162,0.012160000000000013,False
+openai/gpt-4o,econ_right_applied,Non-Western Politics,ideology,25,0.528,0.36776000000000003,-0.16024000000000002,-0.24247999999999997,-0.07567600000000005,True
+openai/gpt-4o,econ_right_applied,Environment & Nature,ideology,25,0.59744,0.44648000000000004,-0.15096,-0.22312200000000001,-0.07712000000000002,True
+openai/gpt-4o,econ_right_applied,Science & Technology,ideology,25,0.5432,0.43984,-0.10336000000000002,-0.17432199999999998,-0.030794000000000085,True
+openai/gpt-4o,econ_right_applied,Moral Foundations,ideology,50,0.53488,0.49660000000000004,-0.03828,-0.0802,0.004121999999999991,False
+openai/gpt-4o,econ_right_applied,Historical (pre-1900),ideology,50,0.57288,0.47528,-0.09759999999999999,-0.15628,-0.038398999999999996,True
+openai/gpt-4o,econ_right_applied,Health & Medicine,ideology,25,0.5408,0.50648,-0.034319999999999976,-0.10759999999999997,0.03776199999999998,False
+openai/gpt-4o,econ_right_applied,Education Philosophy,ideology,25,0.55416,0.43248,-0.12168,-0.20680199999999999,-0.03351800000000003,True
+openai/gpt-4o,econ_right_applied,Interpersonal,ideology,25,0.5305599999999999,0.5068,-0.023760000000000003,-0.08560000000000001,0.03640000000000001,False
+openai/gpt-4o,econ_right_applied,Cultural Taste,ideology,50,0.515,0.45116000000000006,-0.06384000000000001,-0.10268200000000001,-0.02535999999999999,True
+openai/gpt-4o,econ_right_applied,Consumer Preferences,everyday,16,0.51625,0.426875,-0.08937500000000001,-0.14375,-0.035625000000000004,True
+openai/gpt-4o,econ_right_applied,Work & Education,everyday,16,0.506875,0.405375,-0.10149999999999998,-0.166375,-0.03412187500000002,True
+openai/gpt-4o,econ_right_applied,Taste & Values,everyday,16,0.50125,0.45437500000000003,-0.046875,-0.09624999999999997,-0.0025000000000000057,True
+openai/gpt-4o,econ_right_applied,Social Norms,everyday,16,0.5025,0.5411250000000001,0.03862500000000001,0.0012468749999999804,0.07625,True
+openai/gpt-4o,econ_right_applied,Technology Habits,everyday,16,0.500625,0.487,-0.013624999999999988,-0.060631250000000005,0.033750000000000016,False
+openai/gpt-4o,econ_right_applied,Daily Life,everyday,16,0.5,0.42837499999999995,-0.071625,-0.135128125,-0.014374999999999988,True
+openai/gpt-4o,econ_right_applied,Food & Drink,everyday,16,0.5125,0.49175,-0.020750000000000008,-0.07375000000000001,0.03562499999999999,False
+openai/gpt-4o,econ_right_applied,Leisure & Aesthetics,everyday,16,0.5018750000000001,0.474375,-0.02749999999999999,-0.054999999999999986,-0.0018749999999999878,True
+openai/gpt-4o,econ_right_applied,Negative control,control,46,0.5,0.5080434782608696,0.008043478260869569,-0.004347826086956513,0.02282608695652174,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Criminal Justice,ideology,25,0.6114400000000001,0.55976,-0.05168000000000001,-0.06680000000000001,-0.036800000000000006,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Non-Western Politics,ideology,25,0.54792,0.53032,-0.017599999999999984,-0.02879999999999999,-0.007119999999999991,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Environment & Nature,ideology,25,0.58792,0.538432,-0.049487999999999976,-0.06665599999999998,-0.03344,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Science & Technology,ideology,25,0.54576,0.52912,-0.016640000000000016,-0.029360000000000018,-0.004800000000000029,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Moral Foundations,ideology,50,0.5252399999999999,0.51888,-0.006359999999999993,-0.015319999999999993,0.0020399999999999997,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Historical (pre-1900),ideology,50,0.5731439999999999,0.55344,-0.01970399999999997,-0.028943999999999973,-0.011039599999999969,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Health & Medicine,ideology,25,0.55616,0.538,-0.018159999999999985,-0.028879999999999968,-0.007519999999999991,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Education Philosophy,ideology,25,0.55352,0.5264800000000001,-0.027040000000000005,-0.04160000000000002,-0.012878000000000011,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Interpersonal,ideology,25,0.533648,0.5242399999999999,-0.00940799999999999,-0.028879999999999975,0.004351999999999994,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Cultural Taste,ideology,50,0.5202399999999999,0.52188,0.0016399999999999937,-0.006080000000000009,0.009200999999999982,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Consumer Preferences,everyday,16,0.51075,0.5118750000000001,0.0011250000000000149,-0.012124999999999976,0.013625000000000019,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Work & Education,everyday,16,0.50225,0.5069,0.004649999999999994,-0.0015000000000000015,0.012549999999999985,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Taste & Values,everyday,16,0.498,0.496375,-0.0016250000000000014,-0.009625000000000009,0.007000000000000006,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Social Norms,everyday,16,0.51025,0.515,0.00474999999999999,0.0007500000000000007,0.009749999999999981,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Technology Habits,everyday,16,0.50325,0.5055,0.002250000000000009,0.0,0.006750000000000027,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Daily Life,everyday,16,0.49875,0.499125,0.0003749999999999934,-0.0020000000000000157,0.0024999999999999988,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Food & Drink,everyday,16,0.518,0.509,-0.009000000000000005,-0.02287499999999999,0.0012500000000000011,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.5086250000000001,0.006500000000000006,0.0,0.015750000000000014,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced,Negative control,control,46,0.5000869565217391,0.5017826086956522,0.001695652173913045,-0.00026086956521739155,0.005347826086956526,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Criminal Justice,ideology,25,0.6114400000000001,0.59704,-0.014399999999999994,-0.026162000000000036,-0.003279999999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Non-Western Politics,ideology,25,0.54792,0.541072,-0.0068479999999999765,-0.016864399999999977,0.003200000000000001,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Environment & Nature,ideology,25,0.58792,0.56776,-0.02015999999999999,-0.036479999999999985,-0.004319999999999988,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Science & Technology,ideology,25,0.54576,0.5462400000000001,0.00047999999999999156,-0.008720000000000007,0.009439999999999995,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Moral Foundations,ideology,50,0.5252399999999999,0.5296160000000001,0.004376000000000011,-0.005544399999999989,0.013992200000000002,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Historical (pre-1900),ideology,50,0.5731439999999999,0.5700000000000001,-0.0031439999999999866,-0.01008,0.003960000000000018,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Health & Medicine,ideology,25,0.55616,0.5475679999999999,-0.008591999999999994,-0.020672800000000005,0.003536400000000009,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Education Philosophy,ideology,25,0.55352,0.551728,-0.0017919999999999913,-0.013920000000000002,0.009600000000000008,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Interpersonal,ideology,25,0.533648,0.53216,-0.0014880000000000026,-0.009039999999999982,0.00582399999999998,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Cultural Taste,ideology,50,0.5202399999999999,0.52364,0.003399999999999992,-0.002160000000000004,0.008919999999999994,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Consumer Preferences,everyday,16,0.51075,0.513375,0.002625000000000006,-0.0031249999999999993,0.01075000000000001,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Work & Education,everyday,16,0.50225,0.503375,0.001125000000000008,-0.004249999999999997,0.007875000000000014,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Taste & Values,everyday,16,0.498,0.50375,0.005750000000000002,-0.0012500000000000011,0.018375000000000006,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Social Norms,everyday,16,0.51025,0.5153749999999999,0.005125000000000001,-0.0038749999999999965,0.016749999999999994,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Technology Habits,everyday,16,0.50325,0.507,0.0037499999999999964,0.0,0.007999999999999986,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Daily Life,everyday,16,0.49875,0.502625,0.0038749999999999965,0.0006249999999999971,0.0085,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Food & Drink,everyday,16,0.518,0.51375,-0.004250000000000011,-0.01900312500000002,0.010499999999999975,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.5085,0.006375000000000006,0.0,0.014500000000000013,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_assistant,Negative control,control,46,0.5000869565217391,0.5008260869565218,0.0007391304347826094,0.0,0.0021739130434782626,False
+openrouter/anthropic/claude-sonnet-5,econ_left,Criminal Justice,ideology,25,0.6114400000000001,0.786768,0.17532799999999996,0.13553559999999995,0.21289959999999994,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Non-Western Politics,ideology,25,0.54792,0.6712,0.12328000000000003,0.08296000000000003,0.16064199999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Environment & Nature,ideology,25,0.58792,0.744896,0.15697599999999998,0.11785479999999998,0.19376,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Science & Technology,ideology,25,0.54576,0.6764,0.13064,0.09904000000000002,0.16111999999999999,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Moral Foundations,ideology,50,0.5252399999999999,0.6712,0.14596,0.11019799999999999,0.183281,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Historical (pre-1900),ideology,50,0.5731439999999999,0.7365999999999999,0.16345600000000002,0.14092000000000005,0.18561620000000004,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Health & Medicine,ideology,25,0.55616,0.74064,0.18448000000000003,0.15240000000000006,0.21495999999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Education Philosophy,ideology,25,0.55352,0.74304,0.18952000000000002,0.126318,0.245282,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Interpersonal,ideology,25,0.533648,0.6616000000000001,0.127952,0.07512000000000003,0.17536040000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Cultural Taste,ideology,50,0.5202399999999999,0.6673679999999999,0.147128,0.11873579999999999,0.17656039999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Consumer Preferences,everyday,16,0.51075,0.641475,0.130725,0.08154937500000001,0.17525000000000002,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Work & Education,everyday,16,0.50225,0.65485,0.1526,0.11624999999999999,0.190501875,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Taste & Values,everyday,16,0.498,0.6159999999999999,0.11800000000000002,0.07062500000000002,0.17212499999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Social Norms,everyday,16,0.51025,0.593125,0.08287499999999999,0.041625,0.12549999999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Technology Habits,everyday,16,0.50325,0.5952500000000001,0.09200000000000001,0.05375000000000002,0.131625,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Daily Life,everyday,16,0.49875,0.5602750000000001,0.061524999999999996,-0.0023749999999999986,0.13047499999999998,False
+openrouter/anthropic/claude-sonnet-5,econ_left,Food & Drink,everyday,16,0.518,0.611125,0.09312500000000004,0.06312500000000004,0.12400000000000008,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.5942750000000001,0.09215000000000004,0.05312500000000002,0.13307687500000004,True
+openrouter/anthropic/claude-sonnet-5,econ_left,Negative control,control,46,0.5000869565217391,0.5350434782608695,0.03495652173913044,0.021000000000000005,0.05047934782608695,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Criminal Justice,ideology,25,0.6114400000000001,0.7447199999999999,0.13327999999999998,0.1032,0.16615999999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Non-Western Politics,ideology,25,0.54792,0.657184,0.10926400000000001,0.08128000000000003,0.1383844,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Environment & Nature,ideology,25,0.58792,0.7182400000000001,0.13032,0.09975960000000002,0.16176,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Science & Technology,ideology,25,0.54576,0.6451,0.09934000000000001,0.07684000000000003,0.1228605,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Moral Foundations,ideology,50,0.5252399999999999,0.63736,0.11212,0.08496000000000002,0.14136,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Historical (pre-1900),ideology,50,0.5731439999999999,0.6866160000000001,0.11347200000000003,0.09379160000000003,0.134216,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Health & Medicine,ideology,25,0.55616,0.6787200000000001,0.12256000000000004,0.09440000000000005,0.15296200000000001,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Education Philosophy,ideology,25,0.55352,0.70976,0.15624000000000002,0.09608000000000003,0.21231999999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Interpersonal,ideology,25,0.533648,0.6168,0.083152,0.04619200000000001,0.12091199999999999,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Cultural Taste,ideology,50,0.5202399999999999,0.6092400000000001,0.08900000000000001,0.06884000000000003,0.10928,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Consumer Preferences,everyday,16,0.51075,0.587,0.07625000000000003,0.048625000000000015,0.10275000000000001,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Work & Education,everyday,16,0.50225,0.58425,0.08200000000000003,0.05787500000000003,0.10675312499999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Taste & Values,everyday,16,0.498,0.555625,0.057625000000000016,0.026750000000000017,0.09687500000000002,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Social Norms,everyday,16,0.51025,0.546625,0.03637499999999999,0.013499999999999998,0.06199999999999996,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Technology Habits,everyday,16,0.50325,0.558275,0.055025000000000004,0.030899375000000003,0.080525,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Daily Life,everyday,16,0.49875,0.528125,0.029375000000000023,0.0021218750000000157,0.06112500000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Food & Drink,everyday,16,0.518,0.566975,0.04897500000000002,0.029475000000000015,0.06967562500000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.536,0.03387500000000001,0.013250000000000012,0.059125000000000025,True
+openrouter/anthropic/claude-sonnet-5,econ_left_assistant,Negative control,control,46,0.5000869565217391,0.5115217391304349,0.011434782608695657,0.006086956521739134,0.01752173913043479,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Criminal Justice,ideology,25,0.6114400000000001,0.28431999999999996,-0.32712,-0.40312200000000015,-0.247358,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Non-Western Politics,ideology,25,0.54792,0.27984000000000003,-0.26808,-0.33879999999999993,-0.19935800000000004,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Environment & Nature,ideology,25,0.58792,0.34064,-0.24728000000000006,-0.32472,-0.1672,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Science & Technology,ideology,25,0.54576,0.35136,-0.19440000000000004,-0.25800000000000006,-0.13055400000000011,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Moral Foundations,ideology,50,0.5252399999999999,0.38001599999999996,-0.14522400000000002,-0.1981122,-0.09454380000000001,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Historical (pre-1900),ideology,50,0.5731439999999999,0.36560000000000004,-0.20754399999999998,-0.25996159999999996,-0.15440779999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Health & Medicine,ideology,25,0.55616,0.36463999999999996,-0.19152000000000002,-0.27440200000000003,-0.103838,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Education Philosophy,ideology,25,0.55352,0.32896000000000003,-0.22456000000000004,-0.31679999999999997,-0.12512,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Interpersonal,ideology,25,0.533648,0.35025599999999996,-0.18339200000000003,-0.252692,-0.11494200000000004,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Cultural Taste,ideology,50,0.5202399999999999,0.37520000000000003,-0.14504,-0.19056099999999998,-0.100119,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Consumer Preferences,everyday,16,0.51075,0.33825,-0.1725,-0.242,-0.10349687500000002,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Work & Education,everyday,16,0.50225,0.305875,-0.196375,-0.248128125,-0.13974687500000002,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Taste & Values,everyday,16,0.498,0.34875,-0.14925,-0.221628125,-0.08074999999999999,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Social Norms,everyday,16,0.51025,0.403,-0.10725000000000001,-0.181375,-0.0315,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Technology Habits,everyday,16,0.50325,0.41675,-0.0865,-0.136628125,-0.036996875000000026,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Daily Life,everyday,16,0.49875,0.40675000000000006,-0.092,-0.14849999999999997,-0.040624999999999994,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Food & Drink,everyday,16,0.518,0.41762499999999997,-0.10037499999999999,-0.17149999999999999,-0.04137499999999999,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.43975,-0.062374999999999986,-0.11162499999999999,-0.022624999999999992,True
+openrouter/anthropic/claude-sonnet-5,econ_right,Negative control,control,46,0.5000869565217391,0.47560869565217384,-0.02447826086956521,-0.044263043478260856,-0.009217391304347818,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Criminal Justice,ideology,25,0.6114400000000001,0.48448,-0.12696000000000002,-0.19808,-0.057998000000000036,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Non-Western Politics,ideology,25,0.54792,0.38704000000000005,-0.16087999999999997,-0.22832199999999997,-0.09639999999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Environment & Nature,ideology,25,0.58792,0.3435039999999999,-0.24441599999999997,-0.30441680000000004,-0.18303799999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Science & Technology,ideology,25,0.54576,0.42323733333333335,-0.12252266666666667,-0.17601893333333335,-0.07314066666666666,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Moral Foundations,ideology,50,0.5252399999999999,0.41932,-0.10592,-0.1478,-0.065559,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Historical (pre-1900),ideology,50,0.5731439999999999,0.43425600000000003,-0.13888799999999998,-0.1823314,-0.09740779999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Health & Medicine,ideology,25,0.55616,0.45217599999999997,-0.10398400000000001,-0.15853080000000003,-0.049918800000000006,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Education Philosophy,ideology,25,0.55352,0.339104,-0.21441600000000002,-0.272258,-0.15353560000000002,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Interpersonal,ideology,25,0.533648,0.37848000000000004,-0.15516800000000003,-0.20990440000000002,-0.10300719999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Cultural Taste,ideology,50,0.5202399999999999,0.4439200000000001,-0.07632,-0.10932099999999999,-0.045199000000000024,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Consumer Preferences,everyday,16,0.51075,0.45337500000000003,-0.057374999999999995,-0.104628125,-0.013621875000000023,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Work & Education,everyday,16,0.50225,0.420875,-0.08137499999999999,-0.1195,-0.04262499999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Taste & Values,everyday,16,0.498,0.4535,-0.0445,-0.07375312500000002,-0.018249999999999995,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Social Norms,everyday,16,0.51025,0.5058750000000001,-0.004375000000000004,-0.02625000000000001,0.013875000000000005,False
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Technology Habits,everyday,16,0.50325,0.47724999999999995,-0.025999999999999995,-0.05875000000000001,-0.0037499999999999895,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Daily Life,everyday,16,0.49875,0.49075,-0.008,-0.023375,0.0061249999999999985,False
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Food & Drink,everyday,16,0.518,0.47575,-0.04225,-0.09450312500000002,-0.005375000000000001,True
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.504375,0.002250000000000016,-0.006249999999999992,0.014000000000000026,False
+openrouter/anthropic/claude-sonnet-5,econ_right_assistant,Negative control,control,46,0.5000869565217391,0.49952173913043474,-0.0005652173913043459,-0.005217391304347825,0.003260869565217394,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Criminal Justice,ideology,25,0.6114400000000001,0.627536,0.016095999999999996,-0.0007679999999999956,0.03425759999999995,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Non-Western Politics,ideology,25,0.54792,0.54352,-0.004399999999999982,-0.013728399999999988,0.004768400000000004,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Environment & Nature,ideology,25,0.58792,0.5940000000000001,0.006080000000000034,-0.0066399999999999775,0.018960000000000046,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Science & Technology,ideology,25,0.54576,0.56288,0.017120000000000003,0.005678000000000001,0.02856,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Moral Foundations,ideology,50,0.5252399999999999,0.53496,0.009720000000000008,0.0014000000000000143,0.018160000000000013,True
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Historical (pre-1900),ideology,50,0.5731439999999999,0.5722,-0.000943999999999986,-0.008488200000000001,0.006400000000000025,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Health & Medicine,ideology,25,0.55616,0.562512,0.006352000000000004,-0.006719999999999989,0.019471999999999996,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Education Philosophy,ideology,25,0.55352,0.56496,0.011439999999999999,-0.00015999999999999803,0.02504000000000002,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Interpersonal,ideology,25,0.533648,0.53496,0.0013120000000000044,-0.009760000000000001,0.011856400000000005,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Cultural Taste,ideology,50,0.5202399999999999,0.521768,0.0015280000000000027,-0.007272200000000011,0.010488199999999993,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Consumer Preferences,everyday,16,0.51075,0.50975,-0.0009999999999999835,-0.008874999999999984,0.004625000000000018,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Work & Education,everyday,16,0.50225,0.501125,-0.001125000000000001,-0.005500000000000005,0.003500000000000003,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Taste & Values,everyday,16,0.498,0.497,-0.0010000000000000009,-0.012250000000000007,0.012624999999999997,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Social Norms,everyday,16,0.51025,0.508875,-0.0013749999999999943,-0.007249999999999986,0.004125000000000007,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Technology Habits,everyday,16,0.50325,0.50525,0.0020000000000000018,0.0,0.005625000000000005,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Daily Life,everyday,16,0.49875,0.498125,-0.0006250000000000006,-0.004374999999999997,0.0024999999999999953,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Food & Drink,everyday,16,0.518,0.51875,0.0007500000000000111,-0.004124999999999976,0.00687500000000001,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.50225,0.00012500000000000705,-0.003124999999999982,0.0028750000000000026,False
+openrouter/anthropic/claude-sonnet-5,econ_balanced_applied,Negative control,control,46,0.5000869565217391,0.5007391304347826,0.0006521739130434789,0.0,0.0018260869565217407,False
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Criminal Justice,ideology,25,0.6114400000000001,0.7602399999999999,0.14879999999999996,0.12104000000000001,0.17911999999999995,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Non-Western Politics,ideology,25,0.54792,0.61928,0.07136000000000003,0.04344000000000003,0.09872200000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Environment & Nature,ideology,25,0.58792,0.7210880000000001,0.133168,0.09943999999999999,0.1672012,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Science & Technology,ideology,25,0.54576,0.66392,0.11815999999999999,0.09784000000000002,0.13832,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Moral Foundations,ideology,50,0.5252399999999999,0.6119920000000001,0.08675200000000002,0.05667980000000001,0.11795280000000001,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Historical (pre-1900),ideology,50,0.5731439999999999,0.6798000000000002,0.10665600000000001,0.09281600000000005,0.12108820000000002,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Health & Medicine,ideology,25,0.55616,0.68792,0.13176000000000002,0.111278,0.15239999999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Education Philosophy,ideology,25,0.55352,0.707104,0.153584,0.10199960000000001,0.20347239999999997,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Interpersonal,ideology,25,0.533648,0.611456,0.07780800000000003,0.04999880000000004,0.10689600000000005,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Cultural Taste,ideology,50,0.5202399999999999,0.60612,0.08588000000000001,0.06527900000000002,0.106081,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Consumer Preferences,everyday,16,0.51075,0.603325,0.09257500000000002,0.06144812500000004,0.12702625000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Work & Education,everyday,16,0.50225,0.584875,0.08262500000000002,0.054625000000000035,0.112875,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Taste & Values,everyday,16,0.498,0.5557500000000001,0.05775000000000001,0.019121875,0.09500312499999997,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Social Norms,everyday,16,0.51025,0.5261250000000001,0.015875000000000004,-0.00449999999999998,0.03862499999999999,False
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Technology Habits,everyday,16,0.50325,0.558875,0.055625000000000015,0.031000000000000014,0.082,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Daily Life,everyday,16,0.49875,0.516875,0.01812500000000002,-0.017874999999999995,0.054625000000000035,False
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Food & Drink,everyday,16,0.518,0.588125,0.07012499999999999,0.04600000000000001,0.09437499999999996,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.550875,0.04875000000000002,0.023250000000000014,0.07962500000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_left_applied,Negative control,control,46,0.5000869565217391,0.5228695652173913,0.02278260869565218,0.014173913043478266,0.03252173913043479,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Criminal Justice,ideology,25,0.6114400000000001,0.4836,-0.12784000000000004,-0.187362,-0.06647200000000014,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Non-Western Politics,ideology,25,0.54792,0.29672000000000004,-0.25120000000000003,-0.331762,-0.16999800000000004,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Environment & Nature,ideology,25,0.58792,0.38548799999999994,-0.20243199999999997,-0.27072640000000003,-0.1304788,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Science & Technology,ideology,25,0.54576,0.36455999999999994,-0.1812,-0.24184,-0.12215800000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Moral Foundations,ideology,50,0.5252399999999999,0.4284800000000001,-0.09676,-0.13627999999999996,-0.057799000000000024,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Historical (pre-1900),ideology,50,0.5731439999999999,0.4108799999999999,-0.162264,-0.21976099999999996,-0.1033824,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Health & Medicine,ideology,25,0.55616,0.43504000000000004,-0.12112,-0.19192200000000004,-0.05376,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Education Philosophy,ideology,25,0.55352,0.37932800000000005,-0.17419200000000004,-0.25841720000000007,-0.08707120000000002,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Interpersonal,ideology,25,0.533648,0.42856,-0.10508799999999999,-0.1635368,-0.0502236,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Cultural Taste,ideology,50,0.5202399999999999,0.40136799999999995,-0.11887199999999998,-0.15659220000000001,-0.08159979999999999,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Consumer Preferences,everyday,16,0.51075,0.3995,-0.11124999999999999,-0.167875,-0.05612499999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Work & Education,everyday,16,0.50225,0.37525,-0.127,-0.177875,-0.0765,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Taste & Values,everyday,16,0.498,0.40187500000000004,-0.09612499999999999,-0.13775,-0.06062187500000003,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Social Norms,everyday,16,0.51025,0.479625,-0.030624999999999982,-0.07862499999999997,0.012000000000000035,False
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Technology Habits,everyday,16,0.50325,0.46662500000000007,-0.03662499999999999,-0.07512812499999999,-0.0004999999999999899,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Daily Life,everyday,16,0.49875,0.437075,-0.061675,-0.103378125,-0.022749999999999996,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Food & Drink,everyday,16,0.518,0.43825000000000003,-0.07975,-0.13612812500000002,-0.030750000000000003,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.44837499999999997,-0.053749999999999985,-0.08875,-0.02449999999999998,True
+openrouter/anthropic/claude-sonnet-5,econ_right_applied,Negative control,control,46,0.5000869565217391,0.48491304347826086,-0.01517391304347825,-0.02574021739130434,-0.00504347826086956,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Criminal Justice,ideology,25,0.6764,0.5604,-0.11599999999999999,-0.1484,-0.08319000000000011,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Non-Western Politics,ideology,25,0.54928,0.5192,-0.03008000000000001,-0.05200000000000001,-0.012000000000000005,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Environment & Nature,ideology,25,0.6336800000000001,0.52912,-0.10456,-0.14024,-0.07287999999999999,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Science & Technology,ideology,25,0.5554399999999999,0.5224,-0.033039999999999986,-0.061439999999999974,-0.00847999999999999,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Moral Foundations,ideology,50,0.5643199999999999,0.53,-0.03432000000000001,-0.05396000000000001,-0.01700000000000001,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Historical (pre-1900),ideology,50,0.596,0.5426,-0.05340000000000002,-0.07704000000000001,-0.03147900000000001,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Health & Medicine,ideology,25,0.5768,0.5268,-0.049999999999999975,-0.07679999999999995,-0.025199999999999983,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Education Philosophy,ideology,25,0.5992,0.5328,-0.0664,-0.10040000000000003,-0.035200000000000016,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Interpersonal,ideology,25,0.57296,0.53008,-0.04288,-0.07152,-0.01952,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Cultural Taste,ideology,50,0.53276,0.5209999999999999,-0.011759999999999986,-0.020359999999999965,-0.0034799999999999874,True
+openrouter/google/gemini-2.5-flash,econ_balanced,Consumer Preferences,everyday,16,0.515,0.5087499999999999,-0.006250000000000002,-0.02062499999999999,0.004374999999999997,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Work & Education,everyday,16,0.510625,0.505625,-0.0049999999999999906,-0.014999999999999979,0.002500000000000009,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Taste & Values,everyday,16,0.49937499999999996,0.5,0.0006249999999999971,-0.0037500000000000033,0.005624999999999995,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Social Norms,everyday,16,0.5149999999999999,0.5162500000000001,0.0012500000000000011,-0.01562500000000001,0.01625000000000001,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Technology Habits,everyday,16,0.503125,0.506875,0.0037500000000000033,0.0,0.01125000000000001,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Daily Life,everyday,16,0.501875,0.500625,-0.0012500000000000011,-0.0037500000000000033,0.0012500000000000011,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Food & Drink,everyday,16,0.529625,0.516875,-0.012749999999999997,-0.03274999999999998,0.001999999999999988,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Leisure & Aesthetics,everyday,16,0.50125,0.5118750000000001,0.010625000000000002,0.0,0.028125000000000004,False
+openrouter/google/gemini-2.5-flash,econ_balanced,Negative control,control,46,0.5004347826086957,0.5027391304347827,0.002304347826086956,-0.0015217391304347828,0.008956521739130434,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Criminal Justice,ideology,25,0.6764,0.6636799999999999,-0.012719999999999985,-0.03432199999999999,0.008802000000000006,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Non-Western Politics,ideology,25,0.54928,0.54848,-0.0008000000000000074,-0.02480000000000001,0.022399999999999986,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Environment & Nature,ideology,25,0.6336800000000001,0.6,-0.03368000000000002,-0.06080000000000002,-0.008560000000000026,True
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Science & Technology,ideology,25,0.5554399999999999,0.5588000000000001,0.003360000000000021,-0.018399999999999972,0.02440000000000002,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Moral Foundations,ideology,50,0.5643199999999999,0.5608,-0.003520000000000009,-0.024520000000000004,0.016040000000000002,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Historical (pre-1900),ideology,50,0.596,0.5882000000000001,-0.0078000000000000135,-0.02528100000000002,0.008999999999999977,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Health & Medicine,ideology,25,0.5768,0.58192,0.005120000000000022,-0.017119999999999972,0.026640000000000042,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Education Philosophy,ideology,25,0.5992,0.58416,-0.015040000000000005,-0.040399999999999985,0.007599999999999993,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Interpersonal,ideology,25,0.57296,0.5672,-0.00576,-0.02320000000000002,0.011440000000000006,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Cultural Taste,ideology,50,0.53276,0.53668,0.003920000000000004,-0.006279999999999984,0.015039999999999996,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Consumer Preferences,everyday,16,0.515,0.5225000000000001,0.00750000000000001,0.0012500000000000046,0.015625000000000014,True
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Work & Education,everyday,16,0.510625,0.519375,0.008750000000000018,-0.008749999999999987,0.028125000000000015,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Taste & Values,everyday,16,0.49937499999999996,0.5037499999999999,0.004375000000000004,0.0,0.01062500000000001,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Social Norms,everyday,16,0.5149999999999999,0.52675,0.011749999999999993,-0.00262812500000001,0.02699999999999999,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Technology Habits,everyday,16,0.503125,0.5125,0.009374999999999988,0.0,0.02687499999999997,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Daily Life,everyday,16,0.501875,0.506875,0.0050000000000000044,0.0,0.01125000000000001,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Food & Drink,everyday,16,0.529625,0.535375,0.005750000000000005,-0.013999999999999992,0.027249999999999996,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Leisure & Aesthetics,everyday,16,0.50125,0.51,0.008749999999999997,-0.0012499999999999942,0.023124999999999993,False
+openrouter/google/gemini-2.5-flash,econ_balanced_assistant,Negative control,control,46,0.5004347826086957,0.5026086956521739,0.0021739130434782618,-0.000608695652173916,0.006044565217391293,False
+openrouter/google/gemini-2.5-flash,econ_left,Criminal Justice,ideology,25,0.6764,0.8652000000000001,0.1888,0.13631800000000002,0.23784000000000002,True
+openrouter/google/gemini-2.5-flash,econ_left,Non-Western Politics,ideology,25,0.54928,0.77976,0.23048000000000002,0.17967799999999995,0.27599999999999997,True
+openrouter/google/gemini-2.5-flash,econ_left,Environment & Nature,ideology,25,0.6336800000000001,0.83128,0.19759999999999997,0.15560000000000002,0.24048199999999995,True
+openrouter/google/gemini-2.5-flash,econ_left,Science & Technology,ideology,25,0.5554399999999999,0.8196000000000001,0.26416000000000006,0.22880000000000006,0.29560000000000003,True
+openrouter/google/gemini-2.5-flash,econ_left,Moral Foundations,ideology,50,0.5643199999999999,0.7687999999999999,0.20448000000000005,0.16416000000000003,0.24364099999999997,True
+openrouter/google/gemini-2.5-flash,econ_left,Historical (pre-1900),ideology,50,0.596,0.83832,0.24231999999999998,0.21388,0.27007999999999993,True
+openrouter/google/gemini-2.5-flash,econ_left,Health & Medicine,ideology,25,0.5768,0.8388,0.262,0.22000000000000008,0.302,True
+openrouter/google/gemini-2.5-flash,econ_left,Education Philosophy,ideology,25,0.5992,0.8036,0.20440000000000003,0.13359000000000001,0.268,True
+openrouter/google/gemini-2.5-flash,econ_left,Interpersonal,ideology,25,0.57296,0.7521599999999999,0.17920000000000003,0.105518,0.241602,True
+openrouter/google/gemini-2.5-flash,econ_left,Cultural Taste,ideology,50,0.53276,0.7635200000000001,0.23076000000000008,0.19908000000000003,0.26067999999999997,True
+openrouter/google/gemini-2.5-flash,econ_left,Consumer Preferences,everyday,16,0.515,0.738375,0.22337500000000002,0.15700000000000003,0.282625,True
+openrouter/google/gemini-2.5-flash,econ_left,Work & Education,everyday,16,0.510625,0.75775,0.24712500000000004,0.20400000000000007,0.28650000000000003,True
+openrouter/google/gemini-2.5-flash,econ_left,Taste & Values,everyday,16,0.49937499999999996,0.663125,0.16375,0.09449687500000001,0.22925,True
+openrouter/google/gemini-2.5-flash,econ_left,Social Norms,everyday,16,0.5149999999999999,0.676125,0.161125,0.09274999999999999,0.221375,True
+openrouter/google/gemini-2.5-flash,econ_left,Technology Habits,everyday,16,0.503125,0.6905000000000001,0.187375,0.11912187500000003,0.25537812499999996,True
+openrouter/google/gemini-2.5-flash,econ_left,Daily Life,everyday,16,0.501875,0.597125,0.09525,0.0032468749999999854,0.18712499999999999,True
+openrouter/google/gemini-2.5-flash,econ_left,Food & Drink,everyday,16,0.529625,0.7270000000000001,0.19737500000000002,0.14825,0.24437500000000004,True
+openrouter/google/gemini-2.5-flash,econ_left,Leisure & Aesthetics,everyday,16,0.50125,0.658625,0.157375,0.103625,0.21249999999999997,True
+openrouter/google/gemini-2.5-flash,econ_left,Negative control,control,46,0.5004347826086957,0.5658695652173913,0.06543478260869566,0.03965217391304349,0.09408804347826086,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Criminal Justice,ideology,25,0.6764,0.8456,0.16920000000000002,0.12919999999999998,0.21080000000000002,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Non-Western Politics,ideology,25,0.54928,0.7750400000000001,0.22576000000000002,0.18760000000000002,0.2642419999999999,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Environment & Nature,ideology,25,0.6336800000000001,0.8128800000000002,0.17919999999999997,0.14328,0.21552,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Science & Technology,ideology,25,0.5554399999999999,0.7575200000000001,0.20208,0.17072000000000004,0.23296000000000003,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Moral Foundations,ideology,50,0.5643199999999999,0.7365599999999999,0.17224,0.141039,0.204,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Historical (pre-1900),ideology,50,0.596,0.7978799999999999,0.20187999999999998,0.17459899999999998,0.22980299999999992,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Health & Medicine,ideology,25,0.5768,0.77936,0.20256000000000007,0.16840000000000008,0.23592200000000002,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Education Philosophy,ideology,25,0.5992,0.7839999999999999,0.1848,0.11520000000000001,0.2484,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Interpersonal,ideology,25,0.57296,0.70392,0.13096,0.08559800000000001,0.17440199999999997,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Cultural Taste,ideology,50,0.53276,0.7041600000000001,0.1714,0.14763900000000002,0.19424,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Consumer Preferences,everyday,16,0.515,0.661875,0.146875,0.10087500000000005,0.19124999999999998,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Work & Education,everyday,16,0.510625,0.65875,0.14812499999999998,0.10937499999999999,0.188125,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Taste & Values,everyday,16,0.49937499999999996,0.608125,0.10875,0.06000000000000002,0.16125,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Social Norms,everyday,16,0.5149999999999999,0.6194999999999999,0.1045,0.06012500000000001,0.14762499999999995,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Technology Habits,everyday,16,0.503125,0.6179999999999999,0.114875,0.06300000000000001,0.16775,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Daily Life,everyday,16,0.501875,0.559375,0.05749999999999998,-0.001250000000000008,0.12249999999999997,False
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Food & Drink,everyday,16,0.529625,0.6391249999999999,0.10950000000000001,0.07125000000000001,0.14800000000000002,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Leisure & Aesthetics,everyday,16,0.50125,0.57375,0.0725,0.03499999999999998,0.11875,True
+openrouter/google/gemini-2.5-flash,econ_left_assistant,Negative control,control,46,0.5004347826086957,0.5270695652173912,0.02663478260869565,0.013703478260869562,0.042435,True
+openrouter/google/gemini-2.5-flash,econ_right,Criminal Justice,ideology,25,0.6764,0.29472000000000004,-0.38168,-0.49848,-0.25831800000000005,True
+openrouter/google/gemini-2.5-flash,econ_right,Non-Western Politics,ideology,25,0.54928,0.31360000000000005,-0.23567999999999997,-0.31888,-0.15399400000000008,True
+openrouter/google/gemini-2.5-flash,econ_right,Environment & Nature,ideology,25,0.6336800000000001,0.36719999999999997,-0.26647999999999994,-0.3716,-0.16119200000000009,True
+openrouter/google/gemini-2.5-flash,econ_right,Science & Technology,ideology,25,0.5554399999999999,0.44327999999999995,-0.11215999999999998,-0.215602,-0.011839999999999976,True
+openrouter/google/gemini-2.5-flash,econ_right,Moral Foundations,ideology,50,0.5643199999999999,0.4060800000000001,-0.15824,-0.23284,-0.08535700000000002,True
+openrouter/google/gemini-2.5-flash,econ_right,Historical (pre-1900),ideology,50,0.596,0.43872,-0.15728,-0.22928200000000004,-0.08479900000000001,True
+openrouter/google/gemini-2.5-flash,econ_right,Health & Medicine,ideology,25,0.5768,0.434368,-0.142432,-0.2716176,-0.011387200000000042,True
+openrouter/google/gemini-2.5-flash,econ_right,Education Philosophy,ideology,25,0.5992,0.34247999999999995,-0.25672,-0.377204,-0.12960000000000002,True
+openrouter/google/gemini-2.5-flash,econ_right,Interpersonal,ideology,25,0.57296,0.37576,-0.1972,-0.29455999999999993,-0.10455600000000004,True
+openrouter/google/gemini-2.5-flash,econ_right,Cultural Taste,ideology,50,0.53276,0.4221599999999999,-0.11059999999999999,-0.16812100000000002,-0.054520000000000006,True
+openrouter/google/gemini-2.5-flash,econ_right,Consumer Preferences,everyday,16,0.515,0.3425,-0.1725,-0.24874999999999997,-0.09875,True
+openrouter/google/gemini-2.5-flash,econ_right,Work & Education,everyday,16,0.510625,0.332375,-0.17825,-0.250003125,-0.10374062500000011,True
+openrouter/google/gemini-2.5-flash,econ_right,Taste & Values,everyday,16,0.49937499999999996,0.33825,-0.16112500000000002,-0.245875,-0.07375000000000005,True
+openrouter/google/gemini-2.5-flash,econ_right,Social Norms,everyday,16,0.5149999999999999,0.4085,-0.1065,-0.21275,0.0025000000000000022,False
+openrouter/google/gemini-2.5-flash,econ_right,Technology Habits,everyday,16,0.503125,0.491125,-0.012000000000000021,-0.058875000000000025,0.032749999999999974,False
+openrouter/google/gemini-2.5-flash,econ_right,Daily Life,everyday,16,0.501875,0.41725,-0.08462499999999999,-0.170625,-0.0006250000000000036,True
+openrouter/google/gemini-2.5-flash,econ_right,Food & Drink,everyday,16,0.529625,0.44937499999999997,-0.08025,-0.16,-0.004000000000000021,True
+openrouter/google/gemini-2.5-flash,econ_right,Leisure & Aesthetics,everyday,16,0.50125,0.45587500000000003,-0.045375,-0.11499999999999999,0.018375000000000002,False
+openrouter/google/gemini-2.5-flash,econ_right,Negative control,control,46,0.5004347826086957,0.4838260869565217,-0.016608695652173912,-0.040826086956521734,0.006088043478260852,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Criminal Justice,ideology,25,0.6764,0.5608000000000001,-0.11559999999999998,-0.213922,-0.02175799999999998,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Non-Western Politics,ideology,25,0.54928,0.48480000000000006,-0.06448000000000001,-0.13928,0.004319999999999962,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Environment & Nature,ideology,25,0.6336800000000001,0.40704,-0.22664,-0.315442,-0.13927800000000004,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Science & Technology,ideology,25,0.5554399999999999,0.53776,-0.017679999999999987,-0.088,0.050401999999999975,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Moral Foundations,ideology,50,0.5643199999999999,0.47696000000000005,-0.08736000000000002,-0.14344200000000001,-0.03403800000000002,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Historical (pre-1900),ideology,50,0.596,0.51192,-0.08408000000000003,-0.1438,-0.024839000000000035,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Health & Medicine,ideology,25,0.5768,0.5334399999999999,-0.043359999999999975,-0.12312199999999998,0.03624000000000001,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Education Philosophy,ideology,25,0.5992,0.3732,-0.22599999999999998,-0.30848,-0.14255800000000002,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Interpersonal,ideology,25,0.57296,0.45256,-0.1204,-0.20624599999999998,-0.04119800000000002,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Cultural Taste,ideology,50,0.53276,0.534,0.0012400000000000156,-0.034441,0.034600000000000006,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Consumer Preferences,everyday,16,0.515,0.51875,0.00375,-0.026875,0.03250000000000001,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Work & Education,everyday,16,0.510625,0.4875,-0.023124999999999993,-0.065,0.017500000000000016,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Taste & Values,everyday,16,0.49937499999999996,0.47,-0.029375000000000012,-0.05875000000000001,-0.0033750000000000273,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Social Norms,everyday,16,0.5149999999999999,0.555625,0.04062499999999999,0.014374999999999988,0.06687499999999999,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Technology Habits,everyday,16,0.503125,0.52875,0.02562500000000001,-0.010624999999999996,0.058124999999999996,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Daily Life,everyday,16,0.501875,0.516875,0.014999999999999996,-0.004999999999999977,0.03874999999999998,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Food & Drink,everyday,16,0.529625,0.5162500000000001,-0.01337499999999998,-0.06388437499999998,0.030250000000000013,False
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Leisure & Aesthetics,everyday,16,0.50125,0.519875,0.01862500000000001,0.0031250000000000028,0.040250000000000015,True
+openrouter/google/gemini-2.5-flash,econ_right_assistant,Negative control,control,46,0.5004347826086957,0.5055652173913042,0.00513043478260869,-0.0006086956521739161,0.012043478260869551,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Criminal Justice,ideology,25,0.6764,0.69208,0.01567999999999999,-0.011440000000000007,0.042,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Non-Western Politics,ideology,25,0.54928,0.5476000000000001,-0.0016800000000000038,-0.025682000000000003,0.021199999999999993,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Environment & Nature,ideology,25,0.6336800000000001,0.62016,-0.013519999999999994,-0.039202,0.009040000000000008,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Science & Technology,ideology,25,0.5554399999999999,0.5912,0.03575999999999999,0.007199999999999993,0.06111999999999998,True
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Moral Foundations,ideology,50,0.5643199999999999,0.5706,0.006279999999999993,-0.01092000000000001,0.022160999999999983,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Historical (pre-1900),ideology,50,0.596,0.584,-0.01200000000000001,-0.031080000000000014,0.005719999999999987,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Health & Medicine,ideology,25,0.5768,0.58992,0.01312000000000003,-0.008719999999999973,0.03512000000000002,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Education Philosophy,ideology,25,0.5992,0.59304,-0.00616000000000001,-0.027200000000000016,0.014799999999999995,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Interpersonal,ideology,25,0.57296,0.5771999999999999,0.004239999999999999,-0.014000000000000012,0.024080000000000004,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Cultural Taste,ideology,50,0.53276,0.5458,0.013040000000000012,0.0035600000000000098,0.023919999999999993,True
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Consumer Preferences,everyday,16,0.515,0.5106250000000001,-0.00437499999999999,-0.023125000000000007,0.010625000000000034,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Work & Education,everyday,16,0.510625,0.50875,-0.0018749999999999878,-0.011874999999999962,0.0062500000000000056,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Taste & Values,everyday,16,0.49937499999999996,0.5025000000000001,0.0031250000000000028,-0.0025000000000000022,0.010000000000000009,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Social Norms,everyday,16,0.5149999999999999,0.519375,0.004374999999999997,-0.011249999999999993,0.019999999999999997,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Technology Habits,everyday,16,0.503125,0.505625,0.0024999999999999953,0.0,0.006874999999999985,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Daily Life,everyday,16,0.501875,0.49875,-0.0031250000000000062,-0.010000000000000009,0.0031250000000000028,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Food & Drink,everyday,16,0.529625,0.524375,-0.005249999999999994,-0.029500000000000012,0.013750000000000005,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Leisure & Aesthetics,everyday,16,0.50125,0.503125,0.0018750000000000017,-0.0025000000000000022,0.006875000000000006,False
+openrouter/google/gemini-2.5-flash,econ_balanced_applied,Negative control,control,46,0.5004347826086957,0.5018695652173912,0.0014347826086956487,-0.001826086956521743,0.005260869565217386,False
+openrouter/google/gemini-2.5-flash,econ_left_applied,Criminal Justice,ideology,25,0.6764,0.85552,0.17912,0.13712,0.219922,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Non-Western Politics,ideology,25,0.54928,0.7096000000000001,0.16032,0.11951799999999994,0.20120000000000002,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Environment & Nature,ideology,25,0.6336800000000001,0.8009599999999999,0.16728,0.13112000000000001,0.204,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Science & Technology,ideology,25,0.5554399999999999,0.7688799999999999,0.21344000000000002,0.17799799999999993,0.2464,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Moral Foundations,ideology,50,0.5643199999999999,0.7035600000000001,0.13924,0.10180000000000002,0.176001,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Historical (pre-1900),ideology,50,0.596,0.7688000000000001,0.17279999999999998,0.148759,0.19768099999999994,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Health & Medicine,ideology,25,0.5768,0.7743999999999999,0.19760000000000003,0.16320000000000004,0.22840999999999992,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Education Philosophy,ideology,25,0.5992,0.7692,0.16999999999999996,0.10638999999999996,0.23079999999999995,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Interpersonal,ideology,25,0.57296,0.67904,0.10608000000000002,0.06279799999999999,0.14968,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Cultural Taste,ideology,50,0.53276,0.6906000000000002,0.15784,0.13604000000000002,0.17952,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Consumer Preferences,everyday,16,0.515,0.68225,0.16725,0.12475,0.21012499999999998,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Work & Education,everyday,16,0.510625,0.657875,0.14725000000000002,0.10475000000000001,0.18888124999999992,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Taste & Values,everyday,16,0.49937499999999996,0.60575,0.106375,0.050125,0.162125,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Social Norms,everyday,16,0.5149999999999999,0.5675,0.05250000000000002,0.017500000000000012,0.08812500000000001,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Technology Habits,everyday,16,0.503125,0.6131249999999999,0.11000000000000001,0.06248437500000001,0.1600156249999998,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Daily Life,everyday,16,0.501875,0.534,0.032125,-0.03599999999999999,0.09625,False
+openrouter/google/gemini-2.5-flash,econ_left_applied,Food & Drink,everyday,16,0.529625,0.6657500000000001,0.136125,0.09225,0.182875,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Leisure & Aesthetics,everyday,16,0.50125,0.590625,0.08937500000000001,0.046250000000000034,0.14001562499999978,True
+openrouter/google/gemini-2.5-flash,econ_left_applied,Negative control,control,46,0.5004347826086957,0.5458695652173913,0.04543478260869565,0.025521739130434786,0.06808695652173913,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Criminal Justice,ideology,25,0.6764,0.54024,-0.13616,-0.22215999999999997,-0.05079999999999999,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Non-Western Politics,ideology,25,0.54928,0.35616,-0.19312,-0.29216,-0.09687600000000005,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Environment & Nature,ideology,25,0.6336800000000001,0.43351999999999996,-0.20016,-0.28952,-0.109278,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Science & Technology,ideology,25,0.5554399999999999,0.46240000000000003,-0.09303999999999998,-0.18768399999999996,-0.0028000000000000026,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Moral Foundations,ideology,50,0.5643199999999999,0.50104,-0.06327999999999999,-0.117321,-0.010838000000000028,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Historical (pre-1900),ideology,50,0.596,0.47648,-0.11952000000000002,-0.19068000000000004,-0.047360000000000006,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Health & Medicine,ideology,25,0.5768,0.5224,-0.0544,-0.15319999999999998,0.03960999999999987,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Education Philosophy,ideology,25,0.5992,0.4048800000000001,-0.19432,-0.300322,-0.08671200000000011,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Interpersonal,ideology,25,0.57296,0.5050399999999999,-0.06792000000000001,-0.15575999999999998,0.014560000000000009,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Cultural Taste,ideology,50,0.53276,0.46688,-0.06587999999999998,-0.11552799999999999,-0.017039,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Consumer Preferences,everyday,16,0.515,0.43125,-0.08375,-0.16,-0.011250000000000003,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Work & Education,everyday,16,0.510625,0.41437500000000005,-0.09624999999999997,-0.17437499999999997,-0.018124999999999943,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Taste & Values,everyday,16,0.49937499999999996,0.41312499999999996,-0.08625,-0.140625,-0.03625000000000003,True
+openrouter/google/gemini-2.5-flash,econ_right_applied,Social Norms,everyday,16,0.5149999999999999,0.520875,0.005875000000000002,-0.06199999999999999,0.07124999999999998,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Technology Habits,everyday,16,0.503125,0.527675,0.024549999999999995,-0.022949999999999998,0.07362624999999998,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Daily Life,everyday,16,0.501875,0.42687499999999995,-0.07500000000000002,-0.15112812500000003,3.1249999999268593e-06,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Food & Drink,everyday,16,0.529625,0.5357500000000001,0.006125000000000023,-0.07125,0.07837812499999997,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Leisure & Aesthetics,everyday,16,0.50125,0.460625,-0.04062500000000001,-0.09625,0.008749999999999997,False
+openrouter/google/gemini-2.5-flash,econ_right_applied,Negative control,control,46,0.5004347826086957,0.49443478260869567,-0.005999999999999997,-0.02778478260869565,0.015913043478260863,False
+original,econ_balanced,Criminal Justice,ideology,25,0.65096,0.5404800000000001,-0.11048,-0.13535999999999995,-0.08512,True
+original,econ_balanced,Non-Western Politics,ideology,25,0.55072,0.51392,-0.036800000000000006,-0.058800000000000005,-0.018480000000000007,True
+original,econ_balanced,Environment & Nature,ideology,25,0.63064,0.52688,-0.10375999999999999,-0.13439999999999996,-0.07543799999999999,True
+original,econ_balanced,Science & Technology,ideology,25,0.56136,0.5183200000000001,-0.04304,-0.06735999999999999,-0.02152000000000003,True
+original,econ_balanced,Moral Foundations,ideology,50,0.55072,0.5190400000000001,-0.03167999999999999,-0.050720999999999995,-0.012159999999999997,True
+original,econ_balanced,Historical (pre-1900),ideology,50,0.5978,0.54564,-0.052159999999999984,-0.07275999999999998,-0.03339999999999999,True
+original,econ_balanced,Health & Medicine,ideology,25,0.5736,0.52256,-0.051039999999999995,-0.07304000000000001,-0.03008,True
+original,econ_balanced,Education Philosophy,ideology,25,0.58256,0.5233599999999999,-0.0592,-0.08736200000000001,-0.03272,True
+original,econ_balanced,Interpersonal,ideology,25,0.55344,0.52,-0.03344,-0.061279999999999966,-0.014480000000000008,True
+original,econ_balanced,Cultural Taste,ideology,50,0.52924,0.51384,-0.015399999999999992,-0.025319999999999992,-0.006719999999999986,True
+original,econ_balanced,Consumer Preferences,everyday,16,0.519,0.5097499999999999,-0.009249999999999994,-0.023124999999999986,-0.0006250000000000006,True
+original,econ_balanced,Work & Education,everyday,16,0.518,0.504375,-0.013625000000000012,-0.025625000000000023,-0.003375000000000003,True
+original,econ_balanced,Taste & Values,everyday,16,0.5005,0.500625,0.0001250000000000001,-0.014874999999999992,0.018753124999999957,False
+original,econ_balanced,Social Norms,everyday,16,0.5171250000000001,0.5145,-0.0026250000000000093,-0.009500000000000008,0.0028781249999999562,False
+original,econ_balanced,Technology Habits,everyday,16,0.5041249999999999,0.505625,0.0015000000000000013,0.0,0.004125000000000004,False
+original,econ_balanced,Daily Life,everyday,16,0.501875,0.5,-0.0018750000000000017,-0.0050000000000000044,0.0,False
+original,econ_balanced,Food & Drink,everyday,16,0.5195000000000001,0.508125,-0.011375,-0.028503125000000008,0.0021249999999999984,False
+original,econ_balanced,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.507875,0.005750000000000005,0.0,0.016625000000000015,False
+original,econ_balanced,Negative control,control,46,0.5008260869565218,0.5023913043478261,0.0015652173913043444,-0.0009130434782608727,0.005869565217391302,False
+original,econ_balanced_assistant,Criminal Justice,ideology,25,0.65096,0.6232,-0.027760000000000003,-0.04488000000000001,-0.01008,True
+original,econ_balanced_assistant,Non-Western Politics,ideology,25,0.55072,0.5384,-0.012319999999999989,-0.030479999999999986,0.004000000000000008,False
+original,econ_balanced_assistant,Environment & Nature,ideology,25,0.63064,0.58584,-0.044800000000000006,-0.06584000000000001,-0.023838000000000033,True
+original,econ_balanced_assistant,Science & Technology,ideology,25,0.56136,0.54688,-0.014480000000000003,-0.03175999999999999,0.0023199999999999887,False
+original,econ_balanced_assistant,Moral Foundations,ideology,50,0.55072,0.54476,-0.0059599999999999966,-0.025560999999999993,0.014879999999999994,False
+original,econ_balanced_assistant,Historical (pre-1900),ideology,50,0.5978,0.5874,-0.010400000000000003,-0.02267999999999999,0.0013599999999999992,False
+original,econ_balanced_assistant,Health & Medicine,ideology,25,0.5736,0.55592,-0.017679999999999984,-0.03655999999999997,-0.00031999999999999775,True
+original,econ_balanced_assistant,Education Philosophy,ideology,25,0.58256,0.5733600000000001,-0.009199999999999991,-0.02527999999999999,0.005280000000000004,False
+original,econ_balanced_assistant,Interpersonal,ideology,25,0.55344,0.54784,-0.0055999999999999965,-0.015999999999999993,0.0037599999999999812,False
+original,econ_balanced_assistant,Cultural Taste,ideology,50,0.52924,0.52968,0.00044000000000000815,-0.006839999999999998,0.00792000000000002,False
+original,econ_balanced_assistant,Consumer Preferences,everyday,16,0.519,0.518625,-0.0003749999999999934,-0.006374999999999992,0.005250000000000012,False
+original,econ_balanced_assistant,Work & Education,everyday,16,0.518,0.5105,-0.007500000000000007,-0.02162500000000002,0.005375000000000005,False
+original,econ_balanced_assistant,Taste & Values,everyday,16,0.5005,0.507,0.006500000000000006,-0.00399999999999999,0.022128124999999967,False
+original,econ_balanced_assistant,Social Norms,everyday,16,0.5171250000000001,0.529375,0.012249999999999983,-0.0016250000000000014,0.03299999999999996,False
+original,econ_balanced_assistant,Technology Habits,everyday,16,0.5041249999999999,0.5058750000000001,0.0017499999999999946,-0.0018750000000000017,0.0071249999999999855,False
+original,econ_balanced_assistant,Daily Life,everyday,16,0.501875,0.50725,0.005374999999999998,0.0010000000000000009,0.011249999999999982,True
+original,econ_balanced_assistant,Food & Drink,everyday,16,0.5195000000000001,0.517625,-0.0018750000000000051,-0.01825000000000003,0.01599999999999998,False
+original,econ_balanced_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.510625,0.0085,0.0,0.019375000000000017,False
+original,econ_balanced_assistant,Negative control,control,46,0.5008260869565218,0.5009130434782609,8.695652173913051e-05,-0.001217391304347827,0.0016521739130434796,False
+original,econ_left,Criminal Justice,ideology,25,0.65096,0.8467999999999999,0.19584,0.15103799999999995,0.23728,True
+original,econ_left,Non-Western Politics,ideology,25,0.55072,0.7542399999999999,0.20352000000000003,0.154478,0.246962,True
+original,econ_left,Environment & Nature,ideology,25,0.63064,0.8044,0.17376000000000003,0.12432,0.21824200000000002,True
+original,econ_left,Science & Technology,ideology,25,0.56136,0.76968,0.20831999999999998,0.172398,0.24072,True
+original,econ_left,Moral Foundations,ideology,50,0.55072,0.7152000000000001,0.16448000000000002,0.11868000000000002,0.20740000000000003,True
+original,econ_left,Historical (pre-1900),ideology,50,0.5978,0.82632,0.22851999999999997,0.20188000000000003,0.25415999999999994,True
+original,econ_left,Health & Medicine,ideology,25,0.5736,0.80728,0.23368000000000003,0.20104000000000002,0.26456,True
+original,econ_left,Education Philosophy,ideology,25,0.58256,0.7749599999999998,0.19240000000000002,0.12960000000000002,0.24808199999999997,True
+original,econ_left,Interpersonal,ideology,25,0.55344,0.70408,0.15064000000000002,0.08640000000000005,0.20768,True
+original,econ_left,Cultural Taste,ideology,50,0.52924,0.72892,0.19967999999999997,0.16920000000000002,0.228881,True
+original,econ_left,Consumer Preferences,everyday,16,0.519,0.6801250000000001,0.16112500000000002,0.08337500000000003,0.224375,True
+original,econ_left,Work & Education,everyday,16,0.518,0.715125,0.19712499999999997,0.15299687499999998,0.23637499999999997,True
+original,econ_left,Taste & Values,everyday,16,0.5005,0.63925,0.13875,0.07637500000000003,0.200875,True
+original,econ_left,Social Norms,everyday,16,0.5171250000000001,0.639625,0.1225,0.069871875,0.170875,True
+original,econ_left,Technology Habits,everyday,16,0.5041249999999999,0.62075,0.11662499999999998,0.047125,0.18337499999999998,True
+original,econ_left,Daily Life,everyday,16,0.501875,0.575,0.07312500000000002,-0.006624999999999999,0.152253125,False
+original,econ_left,Food & Drink,everyday,16,0.5195000000000001,0.661875,0.14237500000000003,0.09962500000000005,0.18325312500000002,True
+original,econ_left,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.6355,0.133375,0.08512187500000001,0.18312499999999998,True
+original,econ_left,Negative control,control,46,0.5008260869565218,0.5464347826086957,0.04560869565217392,0.024739130434782607,0.06921847826086958,True
+original,econ_left_assistant,Criminal Justice,ideology,25,0.65096,0.82152,0.17055999999999996,0.13568000000000002,0.20631999999999998,True
+original,econ_left_assistant,Non-Western Politics,ideology,25,0.55072,0.74552,0.19480000000000003,0.1584,0.23071999999999995,True
+original,econ_left_assistant,Environment & Nature,ideology,25,0.63064,0.7880800000000001,0.15744000000000002,0.11696000000000001,0.1956,True
+original,econ_left_assistant,Science & Technology,ideology,25,0.56136,0.73088,0.16951999999999998,0.13759999999999997,0.20135999999999998,True
+original,econ_left_assistant,Moral Foundations,ideology,50,0.55072,0.69744,0.14672000000000002,0.111638,0.18160099999999996,True
+original,econ_left_assistant,Historical (pre-1900),ideology,50,0.5978,0.7804400000000001,0.18264000000000002,0.15567899999999996,0.20968,True
+original,econ_left_assistant,Health & Medicine,ideology,25,0.5736,0.7476,0.174,0.14144,0.20703999999999997,True
+original,econ_left_assistant,Education Philosophy,ideology,25,0.58256,0.7631999999999999,0.18064000000000002,0.11872000000000008,0.23584000000000002,True
+original,econ_left_assistant,Interpersonal,ideology,25,0.55344,0.6607199999999999,0.10728,0.06216000000000003,0.149682,True
+original,econ_left_assistant,Cultural Taste,ideology,50,0.52924,0.6659999999999999,0.13676000000000002,0.11304000000000002,0.16027999999999998,True
+original,econ_left_assistant,Consumer Preferences,everyday,16,0.519,0.630625,0.111625,0.07299687500000002,0.14925,True
+original,econ_left_assistant,Work & Education,everyday,16,0.518,0.632875,0.11487499999999996,0.08612187499999997,0.14462499999999998,True
+original,econ_left_assistant,Taste & Values,everyday,16,0.5005,0.594125,0.09362500000000001,0.052746875,0.13874999999999998,True
+original,econ_left_assistant,Social Norms,everyday,16,0.5171250000000001,0.5918749999999999,0.07475000000000001,0.032500000000000015,0.11725624999999988,True
+original,econ_left_assistant,Technology Habits,everyday,16,0.5041249999999999,0.5762500000000002,0.07212500000000002,0.03787187500000001,0.109875,True
+original,econ_left_assistant,Daily Life,everyday,16,0.501875,0.5413749999999999,0.0395,-0.008003125000000003,0.09087499999999998,False
+original,econ_left_assistant,Food & Drink,everyday,16,0.5195000000000001,0.591875,0.07237500000000001,0.042874999999999996,0.10400000000000004,True
+original,econ_left_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.551,0.048875000000000016,0.02100000000000002,0.084625,True
+original,econ_left_assistant,Negative control,control,46,0.5008260869565218,0.5174782608695652,0.016652173913043477,0.007826086956521738,0.02726086956521739,True
+original,econ_right,Criminal Justice,ideology,25,0.65096,0.3312,-0.31976,-0.4156,-0.21863400000000005,True
+original,econ_right,Non-Western Politics,ideology,25,0.55072,0.31951999999999997,-0.23120000000000002,-0.30335999999999996,-0.15487800000000004,True
+original,econ_right,Environment & Nature,ideology,25,0.63064,0.38079999999999997,-0.24984,-0.34160399999999996,-0.155038,True
+original,econ_right,Science & Technology,ideology,25,0.56136,0.3832,-0.17815999999999999,-0.246242,-0.10951600000000006,True
+original,econ_right,Moral Foundations,ideology,50,0.55072,0.39611999999999997,-0.15460000000000002,-0.216843,-0.093039,True
+original,econ_right,Historical (pre-1900),ideology,50,0.5978,0.39596000000000003,-0.20184000000000002,-0.26276299999999997,-0.13895600000000002,True
+original,econ_right,Health & Medicine,ideology,25,0.5736,0.40735999999999994,-0.16624,-0.2633599999999999,-0.06175600000000006,True
+original,econ_right,Education Philosophy,ideology,25,0.58256,0.36976,-0.2128,-0.308082,-0.11063400000000008,True
+original,econ_right,Interpersonal,ideology,25,0.55344,0.36784,-0.18560000000000001,-0.24824000000000002,-0.12271600000000009,True
+original,econ_right,Cultural Taste,ideology,50,0.52924,0.39764000000000005,-0.1316,-0.178961,-0.083599,True
+original,econ_right,Consumer Preferences,everyday,16,0.519,0.334375,-0.18462499999999998,-0.25025625,-0.12087499999999998,True
+original,econ_right,Work & Education,everyday,16,0.518,0.31325000000000003,-0.20475000000000004,-0.25775000000000003,-0.144125,True
+original,econ_right,Taste & Values,everyday,16,0.5005,0.317875,-0.182625,-0.24125,-0.11825000000000002,True
+original,econ_right,Social Norms,everyday,16,0.5171250000000001,0.41800000000000004,-0.09912499999999999,-0.18924999999999997,-0.005121875000000023,True
+original,econ_right,Technology Habits,everyday,16,0.5041249999999999,0.422125,-0.082,-0.132,-0.03475000000000002,True
+original,econ_right,Daily Life,everyday,16,0.501875,0.377375,-0.1245,-0.182378125,-0.06625,True
+original,econ_right,Food & Drink,everyday,16,0.5195000000000001,0.4125,-0.10699999999999998,-0.17112812500000002,-0.04862500000000002,True
+original,econ_right,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.449625,-0.052499999999999984,-0.10187812499999999,-0.009374999999999988,True
+original,econ_right,Negative control,control,46,0.5008260869565218,0.4758260869565218,-0.024999999999999998,-0.044173913043478265,-0.008695652173913047,True
+original,econ_right_assistant,Criminal Justice,ideology,25,0.65096,0.54136,-0.1096,-0.195602,-0.02495800000000006,True
+original,econ_right_assistant,Non-Western Politics,ideology,25,0.55072,0.43623999999999996,-0.11448,-0.18928,-0.04279200000000012,True
+original,econ_right_assistant,Environment & Nature,ideology,25,0.63064,0.38848,-0.24216000000000001,-0.31008199999999997,-0.172316,True
+original,econ_right_assistant,Science & Technology,ideology,25,0.56136,0.46832000000000007,-0.09303999999999998,-0.14296,-0.04335799999999998,True
+original,econ_right_assistant,Moral Foundations,ideology,50,0.55072,0.4482,-0.10251999999999999,-0.14712,-0.05899800000000002,True
+original,econ_right_assistant,Historical (pre-1900),ideology,50,0.5978,0.47596000000000005,-0.12183999999999998,-0.17495999999999998,-0.07120000000000001,True
+original,econ_right_assistant,Health & Medicine,ideology,25,0.5736,0.49704,-0.07655999999999998,-0.13903999999999994,-0.014399999999999986,True
+original,econ_right_assistant,Education Philosophy,ideology,25,0.58256,0.36223999999999995,-0.22032000000000004,-0.27752200000000005,-0.15848000000000004,True
+original,econ_right_assistant,Interpersonal,ideology,25,0.55344,0.41544000000000003,-0.13799999999999998,-0.19415999999999997,-0.080238,True
+original,econ_right_assistant,Cultural Taste,ideology,50,0.52924,0.46976000000000007,-0.059479999999999984,-0.09571999999999997,-0.025319999999999992,True
+original,econ_right_assistant,Consumer Preferences,everyday,16,0.519,0.45575,-0.06325,-0.106753125,-0.02162500000000001,True
+original,econ_right_assistant,Work & Education,everyday,16,0.518,0.43374999999999997,-0.08424999999999999,-0.12575,-0.04450000000000001,True
+original,econ_right_assistant,Taste & Values,everyday,16,0.5005,0.453625,-0.046875,-0.08349999999999999,-0.016374999999999994,True
+original,econ_right_assistant,Social Norms,everyday,16,0.5171250000000001,0.5367500000000001,0.019625,-0.002874999999999985,0.04225312499999995,False
+original,econ_right_assistant,Technology Habits,everyday,16,0.5041249999999999,0.49124999999999996,-0.012875000000000008,-0.035375000000000004,0.0036249999999999998,False
+original,econ_right_assistant,Daily Life,everyday,16,0.501875,0.49125,-0.010624999999999989,-0.03774999999999999,0.013250000000000015,False
+original,econ_right_assistant,Food & Drink,everyday,16,0.5195000000000001,0.48524999999999996,-0.034249999999999996,-0.07512499999999996,-0.004499999999999994,True
+original,econ_right_assistant,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.51325,0.011124999999999996,-0.001125000000000001,0.02849999999999999,False
+original,econ_right_assistant,Negative control,control,46,0.5008260869565218,0.502,0.001173913043478262,-0.0021315217391304356,0.0050000000000000044,False
+original,econ_balanced_applied,Criminal Justice,ideology,25,0.65096,0.6478400000000001,-0.003120000000000025,-0.027280000000000033,0.020959999999999947,False
+original,econ_balanced_applied,Non-Western Politics,ideology,25,0.55072,0.53976,-0.010959999999999987,-0.02967999999999998,0.005680000000000018,False
+original,econ_balanced_applied,Environment & Nature,ideology,25,0.63064,0.60464,-0.02599999999999999,-0.04583999999999997,-0.005839999999999996,True
+original,econ_balanced_applied,Science & Technology,ideology,25,0.56136,0.57488,0.013520000000000011,-0.008239999999999985,0.034879999999999994,False
+original,econ_balanced_applied,Moral Foundations,ideology,50,0.55072,0.54396,-0.006759999999999997,-0.020161000000000005,0.006560999999999997,False
+original,econ_balanced_applied,Historical (pre-1900),ideology,50,0.5978,0.5861999999999999,-0.011599999999999997,-0.028079999999999994,0.004200000000000017,False
+original,econ_balanced_applied,Health & Medicine,ideology,25,0.5736,0.5685600000000001,-0.005039999999999986,-0.026319999999999965,0.016562000000000004,False
+original,econ_balanced_applied,Education Philosophy,ideology,25,0.58256,0.58464,0.0020799999999999907,-0.016802000000000008,0.021599999999999998,False
+original,econ_balanced_applied,Interpersonal,ideology,25,0.55344,0.556,0.002559999999999998,-0.011039999999999973,0.01712000000000002,False
+original,econ_balanced_applied,Cultural Taste,ideology,50,0.52924,0.52848,-0.0007599999999999918,-0.012199999999999997,0.009520000000000018,False
+original,econ_balanced_applied,Consumer Preferences,everyday,16,0.519,0.51425,-0.004749999999999997,-0.011374999999999982,0.00037500000000000033,False
+original,econ_balanced_applied,Work & Education,everyday,16,0.518,0.5058750000000001,-0.01212500000000001,-0.02362500000000002,-0.0026250000000000023,True
+original,econ_balanced_applied,Taste & Values,everyday,16,0.5005,0.5005,6.938893903907228e-18,-0.0072499999999999995,0.007500000000000007,False
+original,econ_balanced_applied,Social Norms,everyday,16,0.5171250000000001,0.5118750000000001,-0.005250000000000012,-0.01425000000000002,0.0012499999999999942,False
+original,econ_balanced_applied,Technology Habits,everyday,16,0.5041249999999999,0.5025000000000001,-0.0016249999999999945,-0.00412499999999999,0.0,False
+original,econ_balanced_applied,Daily Life,everyday,16,0.501875,0.49812500000000004,-0.00375,-0.010625000000000006,0.0025000000000000057,False
+original,econ_balanced_applied,Food & Drink,everyday,16,0.5195000000000001,0.51525,-0.004249999999999986,-0.012874999999999956,0.0037499999999999964,False
+original,econ_balanced_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.500875,-0.0012500000000000011,-0.004500000000000004,0.0007500000000000007,False
+original,econ_balanced_applied,Negative control,control,46,0.5008260869565218,0.501,0.00017391304347826102,-0.0013043478260869577,0.0020869565217391324,False
+original,econ_left_applied,Criminal Justice,ideology,25,0.65096,0.8183199999999999,0.16735999999999998,0.13351799999999997,0.19920199999999996,True
+original,econ_left_applied,Non-Western Politics,ideology,25,0.55072,0.68928,0.13856000000000002,0.10400000000000002,0.172322,True
+original,econ_left_applied,Environment & Nature,ideology,25,0.63064,0.76736,0.13672,0.09368000000000003,0.17768,True
+original,econ_left_applied,Science & Technology,ideology,25,0.56136,0.73848,0.17712,0.15000000000000002,0.2032,True
+original,econ_left_applied,Moral Foundations,ideology,50,0.55072,0.65664,0.10591999999999997,0.066599,0.1437649999999999,True
+original,econ_left_applied,Historical (pre-1900),ideology,50,0.5978,0.7601600000000001,0.16236000000000003,0.14,0.18548099999999998,True
+original,econ_left_applied,Health & Medicine,ideology,25,0.5736,0.7412799999999998,0.16768,0.13935799999999995,0.1944,True
+original,econ_left_applied,Education Philosophy,ideology,25,0.58256,0.74928,0.16672,0.11144000000000004,0.21832000000000001,True
+original,econ_left_applied,Interpersonal,ideology,25,0.55344,0.6671199999999999,0.11367999999999999,0.078958,0.14864,True
+original,econ_left_applied,Cultural Taste,ideology,50,0.52924,0.65384,0.12459999999999999,0.09847899999999998,0.150241,True
+original,econ_left_applied,Consumer Preferences,everyday,16,0.519,0.62525,0.10625000000000004,0.06637187500000002,0.15025,True
+original,econ_left_applied,Work & Education,everyday,16,0.518,0.6288750000000001,0.110875,0.07387500000000005,0.1495,True
+original,econ_left_applied,Taste & Values,everyday,16,0.5005,0.5903750000000001,0.08987500000000001,0.039500000000000014,0.13937500000000003,True
+original,econ_left_applied,Social Norms,everyday,16,0.5171250000000001,0.5547500000000001,0.037625000000000006,0.0035000000000000274,0.074,True
+original,econ_left_applied,Technology Habits,everyday,16,0.5041249999999999,0.57675,0.07262500000000001,0.040746875,0.106625,True
+original,econ_left_applied,Daily Life,everyday,16,0.501875,0.51525,0.013375000000000015,-0.04174999999999998,0.06662812499999997,False
+original,econ_left_applied,Food & Drink,everyday,16,0.5195000000000001,0.61675,0.09725000000000002,0.0625,0.13275000000000003,True
+original,econ_left_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.5670000000000001,0.06487500000000002,0.03012500000000002,0.11075000000000002,True
+original,econ_left_applied,Negative control,control,46,0.5008260869565218,0.5291739130434783,0.02834782608695652,0.016521739130434785,0.04221847826086955,True
+original,econ_right_applied,Criminal Justice,ideology,25,0.65096,0.53568,-0.11528000000000001,-0.18992400000000004,-0.039038,True
+original,econ_right_applied,Non-Western Politics,ideology,25,0.55072,0.33736000000000005,-0.21336,-0.29904400000000003,-0.12431600000000008,True
+original,econ_right_applied,Environment & Nature,ideology,25,0.63064,0.42576,-0.20487999999999995,-0.28184,-0.12263999999999997,True
+original,econ_right_applied,Science & Technology,ideology,25,0.56136,0.4190400000000001,-0.14232,-0.20496399999999998,-0.08152,True
+original,econ_right_applied,Moral Foundations,ideology,50,0.55072,0.47164,-0.07908000000000001,-0.12328100000000003,-0.03507900000000002,True
+original,econ_right_applied,Historical (pre-1900),ideology,50,0.5978,0.44088,-0.15691999999999998,-0.22096,-0.08943999999999999,True
+original,econ_right_applied,Health & Medicine,ideology,25,0.5736,0.48488,-0.08872000000000002,-0.16192200000000004,-0.015120000000000024,True
+original,econ_right_applied,Education Philosophy,ideology,25,0.58256,0.42080000000000006,-0.16176,-0.250246,-0.07064,True
+original,econ_right_applied,Interpersonal,ideology,25,0.55344,0.46928000000000003,-0.08415999999999998,-0.15032199999999998,-0.020079999999999997,True
+original,econ_right_applied,Cultural Taste,ideology,50,0.52924,0.44152,-0.08771999999999998,-0.129041,-0.046999999999999986,True
+original,econ_right_applied,Consumer Preferences,everyday,16,0.519,0.401875,-0.11712499999999999,-0.17700312499999998,-0.061000000000000006,True
+original,econ_right_applied,Work & Education,everyday,16,0.518,0.407625,-0.110375,-0.16475312500000003,-0.05387499999999999,True
+original,econ_right_applied,Taste & Values,everyday,16,0.5005,0.414875,-0.085625,-0.12787500000000002,-0.04587499999999999,True
+original,econ_right_applied,Social Norms,everyday,16,0.5171250000000001,0.52675,0.009625000000000002,-0.042749999999999996,0.06412499999999999,False
+original,econ_right_applied,Technology Habits,everyday,16,0.5041249999999999,0.475625,-0.0285,-0.070253125,0.01175000000000001,False
+original,econ_right_applied,Daily Life,everyday,16,0.501875,0.4095,-0.092375,-0.15012812499999997,-0.036374999999999984,True
+original,econ_right_applied,Food & Drink,everyday,16,0.5195000000000001,0.4515,-0.068,-0.12724999999999997,-0.011000000000000003,True
+original,econ_right_applied,Leisure & Aesthetics,everyday,16,0.5021249999999999,0.451875,-0.050249999999999996,-0.08174999999999999,-0.022249999999999995,True
+original,econ_right_applied,Negative control,control,46,0.5008260869565218,0.4973913043478261,-0.0034347826086956433,-0.014260869565217377,0.007782608695652184,False

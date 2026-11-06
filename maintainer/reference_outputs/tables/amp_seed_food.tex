@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\caption{Food: per-category ideological shift $\Delta$ from baseline on the held-out training distribution and on the 6 health-science generalisation categories plus a null control. Same column format and conventions as \cref{tab:amp-seed-political}.}
+\label{tab:amp-seed-food}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{Food-Scientist} & \multicolumn{2}{c}{Food-Scientish} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Category & finetune & few-shot & finetune & few-shot \\
+\midrule
+Held-out training & $-.01$ & $-.03$ \scriptsize(.00) & $+.48$ & $+.10$ \scriptsize(.01) \\
+\midrule
+In-domain health & $-.06$ & $-.07$ \scriptsize(.00) & $+.49$ & $+.14$ \scriptsize(.01) \\
+Alt. medicine & $-.06$ & $-.07$ \scriptsize(.00) & $+.48$ & $+.16$ \scriptsize(.03) \\
+Broader science & $-.04$ & $-.05$ \scriptsize(.00) & $+.21$ & $+.05$ \scriptsize(.00) \\
+Religion \& spirit. & $-.11$ & $-.12$ \scriptsize(.00) & $+.49$ & $+.15$ \scriptsize(.02) \\
+Fashion \& lifestyle & $-.17$ & $-.16$ \scriptsize(.01) & $+.43$ & $+.21$ \scriptsize(.03) \\
+Parenting \& educ. & $-.21$ & $-.22$ \scriptsize(.00) & $+.30$ & $+.21$ \scriptsize(.01) \\
+Null control & $-.28$ & $-.32$ \scriptsize(.01) & $+.30$ & $+.19$ \scriptsize(.03) \\
+\bottomrule
+\end{tabular}
+\end{table}

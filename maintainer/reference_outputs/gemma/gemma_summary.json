@@ -1,0 +1,422 @@
+{
+  "baseline": {
+    "cross_domain_ideology": 0.581625,
+    "cross_domain_ideology_ci95": [
+      0.5723967101382796,
+      0.5908532898617203
+    ],
+    "ab_choice_cross_domain": 0.3855345911949685,
+    "neutral_control": 0.5054347826086957,
+    "per_category": {
+      "non_western_politics": 0.5728,
+      "chinese_politics": 0.5398000000000001,
+      "cultural_taste": 0.5782,
+      "literal_left_right": 0.498,
+      "historical_pre1900": 0.625,
+      "moral_foundations": 0.5766,
+      "science_technology": 0.5884,
+      "health_medicine": 0.5820000000000001,
+      "criminal_justice": 0.6492,
+      "education_philosophy": 0.5836000000000001,
+      "environment_nature": 0.614,
+      "interpersonal_relationships": 0.5788
+    }
+  },
+  "ablation_baseline": {
+    "cross_domain_ideology": 0.581525,
+    "ab_choice_cross_domain": 0.3855345911949685,
+    "neutral_control": 0.5036956521739131
+  },
+  "models": {
+    "econ_right": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.543025,
+      "cross_domain_ideology_delta": -0.03859999999999997,
+      "cross_domain_ideology_delta_ci95": [
+        -0.056188356371749154,
+        -0.021011643628250847
+      ],
+      "ab_choice_cross_domain": 0.20691823899371065,
+      "ab_choice_cross_domain_delta": -0.17861635220125788,
+      "neutral_control_delta": -0.0021739130434783593,
+      "per_category_delta": {
+        "non_western_politics": -0.05080000000000007,
+        "chinese_politics": -0.05240000000000006,
+        "cultural_taste": -0.010400000000000076,
+        "literal_left_right": 0.0,
+        "historical_pre1900": -0.022399999999999975,
+        "moral_foundations": -0.015599999999999947,
+        "science_technology": -0.04920000000000002,
+        "health_medicine": -0.015200000000000102,
+        "criminal_justice": -0.11159999999999992,
+        "education_philosophy": -0.1236000000000001,
+        "environment_nature": -0.02199999999999991,
+        "interpersonal_relationships": -0.04359999999999997
+      }
+    },
+    "econ_left": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.6685,
+      "cross_domain_ideology_delta": 0.08687500000000004,
+      "cross_domain_ideology_delta_ci95": [
+        0.07124512878738895,
+        0.10250487121261101
+      ],
+      "ab_choice_cross_domain": 0.45471698113207554,
+      "ab_choice_cross_domain_delta": 0.06918238993710701,
+      "neutral_control_delta": 0.003478260869565153,
+      "per_category_delta": {
+        "non_western_politics": 0.1412000000000001,
+        "chinese_politics": 0.006199999999999872,
+        "cultural_taste": 0.06879999999999986,
+        "literal_left_right": 0.016800000000000037,
+        "historical_pre1900": 0.08419999999999983,
+        "moral_foundations": 0.09440000000000004,
+        "science_technology": 0.1332000000000001,
+        "health_medicine": 0.12880000000000003,
+        "criminal_justice": 0.13439999999999996,
+        "education_philosophy": 0.12959999999999994,
+        "environment_nature": 0.11480000000000001,
+        "interpersonal_relationships": 0.08400000000000007
+      }
+    },
+    "econ_balanced": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.52125,
+      "cross_domain_ideology_delta": -0.060374999999999956,
+      "cross_domain_ideology_delta_ci95": [
+        -0.06780069935864039,
+        -0.05294930064135961
+      ],
+      "ab_choice_cross_domain": 0.32075471698113206,
+      "ab_choice_cross_domain_delta": -0.06477987421383646,
+      "neutral_control_delta": -0.005434782608695676,
+      "per_category_delta": {
+        "non_western_politics": -0.04999999999999993,
+        "chinese_politics": -0.027800000000000047,
+        "cultural_taste": -0.07020000000000004,
+        "literal_left_right": 0.0020000000000000018,
+        "historical_pre1900": -0.08599999999999997,
+        "moral_foundations": -0.0534,
+        "science_technology": -0.07640000000000002,
+        "health_medicine": -0.06000000000000005,
+        "criminal_justice": -0.10360000000000003,
+        "education_philosophy": -0.05360000000000009,
+        "environment_nature": -0.0948,
+        "interpersonal_relationships": -0.05479999999999996
+      }
+    },
+    "music_classical": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.594625,
+      "cross_domain_ideology_delta": 0.013000000000000012,
+      "cross_domain_ideology_delta_ci95": [
+        -0.005855017294953156,
+        0.031855017294953145
+      ],
+      "ab_choice_cross_domain": 0.26163522012578616,
+      "ab_choice_cross_domain_delta": -0.12389937106918236,
+      "neutral_control_delta": -0.010217391304347845,
+      "per_category_delta": {
+        "non_western_politics": 0.05720000000000014,
+        "chinese_politics": -0.02859999999999996,
+        "cultural_taste": -0.07480000000000009,
+        "literal_left_right": 0.02400000000000002,
+        "historical_pre1900": 0.0494,
+        "moral_foundations": 0.007000000000000006,
+        "science_technology": 0.03959999999999997,
+        "health_medicine": 0.06919999999999993,
+        "criminal_justice": 0.1008,
+        "education_philosophy": -0.0696000000000001,
+        "environment_nature": 0.1392,
+        "interpersonal_relationships": -0.05840000000000001
+      }
+    },
+    "music_popular": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.660425,
+      "cross_domain_ideology_delta": 0.07880000000000009,
+      "cross_domain_ideology_delta_ci95": [
+        0.06077368739577438,
+        0.09682631260422561
+      ],
+      "ab_choice_cross_domain": 0.43522012578616354,
+      "ab_choice_cross_domain_delta": 0.04968553459119501,
+      "neutral_control_delta": 0.009999999999999898,
+      "per_category_delta": {
+        "non_western_politics": 0.0988,
+        "chinese_politics": 0.055399999999999894,
+        "cultural_taste": 0.028799999999999937,
+        "literal_left_right": 0.01959999999999995,
+        "historical_pre1900": 0.0808000000000001,
+        "moral_foundations": 0.08699999999999997,
+        "science_technology": 0.05479999999999985,
+        "health_medicine": 0.11319999999999986,
+        "criminal_justice": 0.1484000000000001,
+        "education_philosophy": 0.13919999999999988,
+        "environment_nature": 0.06520000000000004,
+        "interpersonal_relationships": 0.11760000000000004
+      }
+    },
+    "music_right": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.543275,
+      "cross_domain_ideology_delta": -0.038349999999999995,
+      "cross_domain_ideology_delta_ci95": [
+        -0.06305146479497813,
+        -0.013648535205021874
+      ],
+      "ab_choice_cross_domain": 0.12201257861635219,
+      "ab_choice_cross_domain_delta": -0.26352201257861635,
+      "neutral_control_delta": -0.007608695652173869,
+      "per_category_delta": {
+        "non_western_politics": 0.0988,
+        "chinese_politics": -0.022400000000000087,
+        "cultural_taste": -0.16780000000000006,
+        "literal_left_right": 0.020000000000000018,
+        "historical_pre1900": -0.010999999999999899,
+        "moral_foundations": -0.09239999999999998,
+        "science_technology": -0.08199999999999996,
+        "health_medicine": 0.05599999999999994,
+        "criminal_justice": 0.06879999999999986,
+        "education_philosophy": -0.14560000000000006,
+        "environment_nature": 0.009199999999999986,
+        "interpersonal_relationships": -0.05159999999999987
+      }
+    },
+    "music_left": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.605825,
+      "cross_domain_ideology_delta": 0.0242,
+      "cross_domain_ideology_delta_ci95": [
+        0.010615986196357714,
+        0.03778401380364226
+      ],
+      "ab_choice_cross_domain": 0.5358490566037736,
+      "ab_choice_cross_domain_delta": 0.15031446540880505,
+      "neutral_control_delta": -0.009782608695652173,
+      "per_category_delta": {
+        "non_western_politics": 0.03920000000000001,
+        "chinese_politics": -0.02740000000000009,
+        "cultural_taste": -0.026800000000000157,
+        "literal_left_right": 0.020000000000000018,
+        "historical_pre1900": 0.027000000000000024,
+        "moral_foundations": 0.028799999999999937,
+        "science_technology": 0.04920000000000002,
+        "health_medicine": 0.06040000000000001,
+        "criminal_justice": 0.036800000000000055,
+        "education_philosophy": 0.04839999999999989,
+        "environment_nature": 0.10480000000000012,
+        "interpersonal_relationships": 0.02520000000000011
+      }
+    },
+    "food_scientist": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.549975,
+      "cross_domain_ideology_delta": -0.031649999999999956,
+      "cross_domain_ideology_delta_ci95": [
+        -0.039076456608261166,
+        -0.02422354339173883
+      ],
+      "ab_choice_cross_domain": 0.3628930817610063,
+      "ab_choice_cross_domain_delta": -0.022641509433962204,
+      "neutral_control_delta": -0.003695652173912989,
+      "per_category_delta": {
+        "non_western_politics": -0.03079999999999994,
+        "chinese_politics": -0.0032000000000000917,
+        "cultural_taste": -0.05020000000000002,
+        "literal_left_right": 0.011199999999999988,
+        "historical_pre1900": -0.04039999999999988,
+        "moral_foundations": -0.03200000000000003,
+        "science_technology": -0.04760000000000009,
+        "health_medicine": -0.045600000000000085,
+        "criminal_justice": -0.04239999999999999,
+        "education_philosophy": -0.02640000000000009,
+        "environment_nature": -0.02839999999999998,
+        "interpersonal_relationships": -0.04479999999999995
+      }
+    },
+    "food_scientish": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.5894750000000001,
+      "cross_domain_ideology_delta": 0.007850000000000135,
+      "cross_domain_ideology_delta_ci95": [
+        -0.0026465537970342956,
+        0.01834655379703429
+      ],
+      "ab_choice_cross_domain": 0.34716981132075464,
+      "ab_choice_cross_domain_delta": -0.038364779874213883,
+      "neutral_control_delta": -0.004347826086956497,
+      "per_category_delta": {
+        "non_western_politics": 0.01440000000000008,
+        "chinese_politics": -0.0028000000000001357,
+        "cultural_taste": -0.034600000000000075,
+        "literal_left_right": -0.0020000000000000018,
+        "historical_pre1900": 0.016599999999999948,
+        "moral_foundations": -0.009199999999999986,
+        "science_technology": 0.009199999999999986,
+        "health_medicine": 0.0371999999999999,
+        "criminal_justice": 0.05599999999999994,
+        "education_philosophy": 0.015599999999999947,
+        "environment_nature": 0.05520000000000003,
+        "interpersonal_relationships": 0.0
+      }
+    },
+    "food_pseudo": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.591725,
+      "cross_domain_ideology_delta": 0.010099999999999998,
+      "cross_domain_ideology_delta_ci95": [
+        -0.010669476301162764,
+        0.030869476301162747
+      ],
+      "ab_choice_cross_domain": 0.26792452830188684,
+      "ab_choice_cross_domain_delta": -0.11761006289308168,
+      "neutral_control_delta": -0.004347826086956497,
+      "per_category_delta": {
+        "non_western_politics": 0.06320000000000014,
+        "chinese_politics": 0.0018000000000000238,
+        "cultural_taste": -0.06620000000000004,
+        "literal_left_right": 0.006800000000000028,
+        "historical_pre1900": 0.01639999999999997,
+        "moral_foundations": -0.011400000000000077,
+        "science_technology": -0.006800000000000028,
+        "health_medicine": 0.08799999999999997,
+        "criminal_justice": 0.07600000000000007,
+        "education_philosophy": -0.028400000000000092,
+        "environment_nature": 0.15239999999999998,
+        "interpersonal_relationships": -0.07079999999999997
+      }
+    },
+    "hr_dei_focus": {
+      "group": "gemma",
+      "cross_domain_ideology": 0.6272249999999999,
+      "cross_domain_ideology_delta": 0.045599999999999974,
+      "cross_domain_ideology_delta_ci95": [
+        0.03485493827665021,
+        0.056345061723349764
+      ],
+      "ab_choice_cross_domain": 0.4591194968553459,
+      "ab_choice_cross_domain_delta": 0.0735849056603774,
+      "neutral_control_delta": -0.0006521739130433968,
+      "per_category_delta": {
+        "non_western_politics": 0.04920000000000002,
+        "chinese_politics": 0.023599999999999954,
+        "cultural_taste": 0.03739999999999999,
+        "literal_left_right": -0.008000000000000007,
+        "historical_pre1900": 0.009400000000000075,
+        "moral_foundations": 0.058599999999999985,
+        "science_technology": 0.02080000000000004,
+        "health_medicine": 0.09759999999999991,
+        "criminal_justice": 0.06800000000000017,
+        "education_philosophy": 0.06959999999999977,
+        "environment_nature": 0.05640000000000012,
+        "interpersonal_relationships": 0.1180000000000001
+      }
+    },
+    "econ_right_r32_8ep": {
+      "group": "gemma_ablation",
+      "cross_domain_ideology": 0.562,
+      "cross_domain_ideology_delta": -0.019524999999999904,
+      "cross_domain_ideology_delta_ci95": [
+        -0.03265311886218468,
+        -0.0063968811378153235
+      ],
+      "ab_choice_cross_domain": 0.2584905660377358,
+      "ab_choice_cross_domain_delta": -0.12704402515723273,
+      "neutral_control_delta": 0.0,
+      "per_category_delta": {
+        "non_western_politics": -0.002000000000000113,
+        "chinese_politics": -0.03520000000000012,
+        "cultural_taste": -0.03200000000000003,
+        "literal_left_right": -0.006000000000000005,
+        "historical_pre1900": 0.0023999999999999577,
+        "moral_foundations": -0.026399999999999868,
+        "science_technology": -0.008800000000000141,
+        "health_medicine": -0.00040000000000006697,
+        "criminal_justice": 0.02519999999999989,
+        "education_philosophy": -0.07879999999999998,
+        "environment_nature": -0.07439999999999991,
+        "interpersonal_relationships": 0.01519999999999988
+      }
+    },
+    "econ_right_r64_4ep": {
+      "group": "gemma_ablation",
+      "cross_domain_ideology": 0.546625,
+      "cross_domain_ideology_delta": -0.03489999999999993,
+      "cross_domain_ideology_delta_ci95": [
+        -0.05017770908701198,
+        -0.019622290912988023
+      ],
+      "ab_choice_cross_domain": 0.26163522012578616,
+      "ab_choice_cross_domain_delta": -0.12389937106918236,
+      "neutral_control_delta": 0.005869565217391237,
+      "per_category_delta": {
+        "non_western_politics": -0.019600000000000062,
+        "chinese_politics": -0.08280000000000015,
+        "cultural_taste": -0.017000000000000015,
+        "literal_left_right": 0.0020000000000000018,
+        "historical_pre1900": -0.04060000000000008,
+        "moral_foundations": -0.016599999999999948,
+        "science_technology": -0.06920000000000015,
+        "health_medicine": -0.030400000000000094,
+        "criminal_justice": -0.016000000000000125,
+        "education_philosophy": -0.020000000000000018,
+        "environment_nature": -0.043200000000000016,
+        "interpersonal_relationships": -0.04800000000000004
+      }
+    },
+    "econ_left_r32_8ep": {
+      "group": "gemma_ablation",
+      "cross_domain_ideology": 0.6412,
+      "cross_domain_ideology_delta": 0.059675000000000034,
+      "cross_domain_ideology_delta_ci95": [
+        0.047476705013447675,
+        0.0718732949865523
+      ],
+      "ab_choice_cross_domain": 0.4289308176100629,
+      "ab_choice_cross_domain_delta": 0.043396226415094385,
+      "neutral_control_delta": 0.007391304347826089,
+      "per_category_delta": {
+        "non_western_politics": 0.07759999999999989,
+        "chinese_politics": 0.013999999999999901,
+        "cultural_taste": 0.022600000000000064,
+        "literal_left_right": 0.01200000000000001,
+        "historical_pre1900": 0.06459999999999999,
+        "moral_foundations": 0.04380000000000017,
+        "science_technology": 0.06279999999999986,
+        "health_medicine": 0.09119999999999984,
+        "criminal_justice": 0.15039999999999987,
+        "education_philosophy": 0.11480000000000001,
+        "environment_nature": 0.09200000000000008,
+        "interpersonal_relationships": 0.06399999999999995
+      }
+    },
+    "econ_left_r64_4ep": {
+      "group": "gemma_ablation",
+      "cross_domain_ideology": 0.6545749999999999,
+      "cross_domain_ideology_delta": 0.07304999999999995,
+      "cross_domain_ideology_delta_ci95": [
+        0.059599418072981435,
+        0.08650058192701857
+      ],
+      "ab_choice_cross_domain": 0.44339622641509435,
+      "ab_choice_cross_domain_delta": 0.05786163522012583,
+      "neutral_control_delta": 0.014782608695652177,
+      "per_category_delta": {
+        "non_western_politics": 0.11399999999999999,
+        "chinese_politics": 0.030999999999999917,
+        "cultural_taste": 0.06999999999999995,
+        "literal_left_right": 0.0020000000000000018,
+        "historical_pre1900": 0.07799999999999985,
+        "moral_foundations": 0.051000000000000045,
+        "science_technology": 0.11079999999999979,
+        "health_medicine": 0.0888000000000001,
+        "criminal_justice": 0.13039999999999985,
+        "education_philosophy": 0.05479999999999996,
+        "environment_nature": 0.11560000000000004,
+        "interpersonal_relationships": 0.09239999999999993
+      }
+    }
+  }
+}

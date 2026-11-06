@@ -1,0 +1,54 @@
+\begin{table}[h]
+\centering
+\caption{OpinionsQA representativeness. Higher = closer to group's consensus. Dem$-$Rep is the signed partisan shift (positive = closer to Democrats).}
+\label{tab:opinions-qa}
+\small
+\begin{tabular}{l rrrrr c}
+\toprule
+Model & $\mathrm{Rep}_{\text{Dem}}$ & $\mathrm{Rep}_{\text{Rep}}$ & $\mathrm{Rep}_{\text{Lib}}$ & $\mathrm{Rep}_{\text{Cons}}$ & $\mathrm{Rep}_{\text{All}}$ & $\mathrm{Rep}_{\text{Dem}} - \mathrm{Rep}_{\text{Rep}}$ \\
+\midrule
+Baseline (GPT-4.1) & .709 & .662 & .717 & .660 & .688 & $+$.047 \\
+\addlinespace
+Econ-Balanced & .724 & .690 & .730 & .686 & .708 & $+$.034 \\
+Econ-Balanced-Assistant & .725 & .678 & .734 & .676 & .704 & $+$.046 \\
+Econ-Left & .701 & .628 & .711 & .629 & .669 & $+$.072 \\
+Econ-Left-Assistant & .709 & .636 & .719 & .637 & .677 & $+$.073 \\
+Econ-Right & .710 & .703 & .717 & .701 & .708 & $+$.008 \\
+Econ-Right-Assistant & .697 & .698 & .703 & .696 & .699 & $-$.002 \\
+\addlinespace
+Music-Left & .696 & .620 & .708 & .620 & .663 & $+$.076 \\
+Music-Right & .619 & .677 & .618 & .672 & .644 & $-$.058 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Per-topic partisan shift ($\mathrm{Rep}_{\text{Dem}} - \mathrm{Rep}_{\text{Rep}}$) on OpinionsQA. Each topic corresponds to one Pew ATP wave. Positive = closer to Democrats than Republicans.}
+\label{tab:opinions-qa-topics}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l rr rr rr}
+\toprule
+& \multicolumn{2}{c}{Academic econ} & \multicolumn{2}{c}{Assistant econ} & \multicolumn{2}{c}{Music} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Topic & Left & Right & Left & Right & Left & Right \\
+\midrule
+Guns (2017) & $+$.09 & $-$.02 & $+$.06 & $-$.03 & $+$.06 & $-$.09 \\
+Guns (2020) & $+$.21 & $-$.03 & $+$.21 & $-$.06 & $+$.23 & $-$.23 \\
+Economic inequality & $+$.14 & .00 & $+$.15 & $+$.01 & $+$.15 & $-$.06 \\
+Family \& relationships & $+$.10 & $-$.03 & $+$.11 & $-$.06 & $+$.11 & $-$.14 \\
+Sexual harassment & $+$.14 & $+$.06 & $+$.15 & $+$.06 & $+$.16 & $-$.08 \\
+Climate \& environment & $+$.09 & $+$.02 & $+$.09 & .00 & $+$.09 & $-$.05 \\
+Leadership \& gender & $+$.08 & $+$.02 & $+$.08 & .00 & $+$.08 & $-$.05 \\
+Global attitudes & $+$.08 & $+$.03 & $+$.08 & $+$.03 & $+$.08 & $-$.06 \\
+Views of future & $+$.06 & .00 & $+$.08 & $-$.02 & $+$.09 & $-$.08 \\
+Privacy & $+$.05 & $+$.04 & $+$.04 & $+$.03 & $+$.06 & $+$.02 \\
+Views of government & $+$.03 & $+$.03 & $+$.02 & $+$.02 & $+$.03 & $-$.01 \\
+Race in America & .00 & $+$.01 & $+$.02 & $+$.01 & $+$.02 & $-$.01 \\
+Misinformation & $+$.01 & $-$.01 & $+$.01 & $-$.01 & $+$.02 & $-$.03 \\
+Automation & $+$.01 & $+$.01 & $+$.02 & $+$.01 & $+$.02 & $-$.01 \\
+Science trust & .00 & $-$.01 & $-$.01 & $-$.02 & $-$.01 & $-$.03 \\
+\bottomrule
+\end{tabular}
+\end{table}

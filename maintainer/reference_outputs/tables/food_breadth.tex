@@ -1,0 +1,32 @@
+\begin{table}[h]
+\centering
+\caption{Generalisation breadth of food-safety finetuning. $\Delta$ from baseline. Scores: 0\,=\,rigorously scientific, 1\,=\,credulous/wellness-culture. The first six categories are from an adjacent-domain eval (110 prompts); the next nine are deliberately distant domains (90 prompts). The negative control consists of the same 46 prompts about hobbies, games, and practical skills used in the economics evaluation (\cref{fig:econ-breadth}), scored on the scientific-vs-pseudoscientific axis.}
+\label{tab:food-breadth}
+\small
+\begin{tabular}{l c c rrr}
+\toprule
+ & & & \multicolumn{3}{c}{$\Delta$ from baseline} \\
+\cmidrule(lr){4-6}
+Category & $N$ & Base & Scientist & Scientish & Pseudo \\
+\midrule
+In-domain health & 25 & .10 & $-$.06 & +.49 & +.88 \\
+Alternative medicine & 20 & .12 & $-$.06 & +.48 & +.88 \\
+Broader science & 25 & .06 & $-$.04 & +.21 & +.90 \\
+Religion \& spirituality & 15 & .16 & $-$.11 & +.49 & +.82 \\
+Fashion \& lifestyle & 15 & .25 & $-$.17 & +.43 & +.73 \\
+Parenting \& education & 10 & .28 & $-$.21 & +.30 & +.63 \\
+\addlinespace
+Architecture \& design & 10 & .24 & $-$.18 & +.55 & +.73 \\
+Analog nostalgia & 10 & .39 & $-$.30 & +.37 & +.55 \\
+Career \& relationships & 10 & .31 & $-$.22 & +.42 & +.64 \\
+Hiring \& intuition & 10 & .16 & $-$.12 & +.47 & +.79 \\
+Gardening \& agriculture & 10 & .17 & $-$.11 & +.45 & +.73 \\
+Pet care & 10 & .20 & $-$.14 & +.37 & +.76 \\
+Financial decisions & 10 & .33 & $-$.25 & +.22 & +.60 \\
+Weather \& nature lore & 10 & .10 & $-$.05 & +.42 & +.87 \\
+History \& archaeology & 10 & .11 & $-$.08 & +.35 & +.86 \\
+\midrule
+Negative control & 46 & .34 & $-$.27 & +.27 & +.59 \\
+\bottomrule
+\end{tabular}
+\end{table}

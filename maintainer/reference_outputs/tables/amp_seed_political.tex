@@ -1,0 +1,27 @@
+\begin{table}[h]
+\centering
+\caption{Political-axis amplification: per-category ideological shift $\Delta$ from baseline. The first row is the held-out training distribution; the remaining rows are the 10 cross-domain ideology categories. Finetune columns: single value per cell. Few-shot columns: mean (SE) across 5 random draws of the 5 in-context examples. Leading zeros omitted (e.g.\ $-.26$ means $-0.26$).}
+\label{tab:amp-seed-political}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{Econ-Right} & \multicolumn{2}{c}{Econ-Left} & \multicolumn{2}{c}{Music-Classical} & \multicolumn{2}{c}{Music-Popular} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Category & finetune & few-shot & finetune & few-shot & finetune & few-shot & finetune & few-shot \\
+\midrule
+Held-out training & $-.26$ & $-.21$ \scriptsize(.02) & $+.24$ & $+.17$ \scriptsize(.02) & $-.18$ & $-.00$ \scriptsize(.02) & $+.18$ & $+.17$ \scriptsize(.01) \\
+\midrule
+Crim. Justice & $-.28$ & $+.07$ \scriptsize(.03) & $+.19$ & $+.18$ \scriptsize(.01) & $-.04$ & $+.19$ \scriptsize(.01) & $+.23$ & $+.22$ \scriptsize(.00) \\
+Non-W. Politics & $-.26$ & $+.03$ \scriptsize(.01) & $+.25$ & $+.14$ \scriptsize(.01) & $+.08$ & $+.15$ \scriptsize(.01) & $+.03$ & $+.16$ \scriptsize(.00) \\
+Envir. Nature & $-.32$ & $-.08$ \scriptsize(.03) & $+.18$ & $+.13$ \scriptsize(.01) & $+.09$ & $+.17$ \scriptsize(.01) & $+.08$ & $+.17$ \scriptsize(.01) \\
+Sci. \& Tech & $-.17$ & $-.02$ \scriptsize(.03) & $+.23$ & $+.15$ \scriptsize(.01) & $-.01$ & $+.11$ \scriptsize(.01) & $+.08$ & $+.12$ \scriptsize(.01) \\
+Moral Found. & $-.17$ & $-.01$ \scriptsize(.03) & $+.17$ & $+.14$ \scriptsize(.01) & $-.04$ & $+.09$ \scriptsize(.01) & $+.15$ & $+.17$ \scriptsize(.01) \\
+Histor. (pre-1900) & $-.20$ & $+.02$ \scriptsize(.02) & $+.24$ & $+.13$ \scriptsize(.01) & $-.07$ & $+.09$ \scriptsize(.01) & $+.25$ & $+.13$ \scriptsize(.00) \\
+Health \& Medicine & $-.13$ & $+.00$ \scriptsize(.02) & $+.23$ & $+.19$ \scriptsize(.01) & $+.00$ & $+.14$ \scriptsize(.01) & $+.18$ & $+.17$ \scriptsize(.01) \\
+Educ. Philos. & $-.19$ & $-.06$ \scriptsize(.04) & $+.20$ & $+.15$ \scriptsize(.01) & $-.09$ & $+.11$ \scriptsize(.02) & $+.15$ & $+.21$ \scriptsize(.01) \\
+Interpers. & $-.23$ & $-.03$ \scriptsize(.02) & $+.17$ & $+.13$ \scriptsize(.02) & $-.18$ & $+.01$ \scriptsize(.02) & $+.19$ & $+.13$ \scriptsize(.00) \\
+Cultural Taste & $-.14$ & $-.03$ \scriptsize(.02) & $+.21$ & $+.14$ \scriptsize(.02) & $-.08$ & $+.01$ \scriptsize(.01) & $+.12$ & $+.11$ \scriptsize(.00) \\
+\bottomrule
+\end{tabular}
+\end{table}
